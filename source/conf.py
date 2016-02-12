@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# CraftBook documentation build configuration file, created by
-# sphinx-quickstart on Wed Jun 03 16:23:08 2015.
+# CraftBook Documentation documentation build configuration file, created by
+# sphinx-quickstart on Fri Jan 02 16:41:17 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -14,7 +14,6 @@
 
 import sys
 import os
-import shlex
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,16 +30,14 @@ import shlex
 # ones.
 extensions = [
     'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
     'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
-# source_suffix = ['.rst', '.md']
+# The suffix of source filenames.
 source_suffix = '.rst'
 
 # The encoding of source files.
@@ -51,8 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CraftBook'
-copyright = u'2015, Me4502'
-author = u'Me4502'
+copyright = u'2015, CraftBook Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -104,23 +100,29 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
-# If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
-
 
 # -- Options for HTML output ----------------------------------------------
 
+def detect_html_theme():
+    join = os.path.join
+    theme_dir = "_themes"
+    conf_dir = os.path.dirname(os.path.realpath(__file__))
+    themes_dir = join(conf_dir, theme_dir)
+    if os.path.exists(join(themes_dir, "ehsphinx", "ehsphinx", "theme.conf")):
+        return [theme_dir + "/ehsphinx"], "ehsphinx"
+    elif os.path.exists(join(themes_dir, "ehsphinx", "theme.conf")):
+        return [theme_dir], "ehsphinx"
+    else:
+        return [theme_dir], "default"
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+html_theme_path, html_theme = detect_html_theme()
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #html_theme_options = {}
-
-# Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -204,7 +206,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CraftBookdoc'
+htmlhelp_basename = 'CraftBookDocumentationdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -226,8 +228,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CraftBook.tex', u'CraftBook Documentation',
-   u'Me4502', 'manual'),
+  ('index', 'CraftBookDocumentation.tex', u'CraftBook Documentation Documentation',
+   u'CraftBook Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -256,8 +258,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'craftbook', u'CraftBook Documentation',
-     [author], 1)
+    ('index', 'CraftBookdocumentation', u'CraftBook Documentation Documentation',
+     [u'CraftBook Team'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -270,8 +272,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'CraftBook', u'CraftBook Documentation',
-   author, 'CraftBook', 'One line description of project.',
+  ('index', 'CraftBookDocumentation', u'CraftBook Documentation Documentation',
+   u'CraftBook Team', 'CraftBookDocumentation', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -288,5 +290,75 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 
+# -- Options for Epub output ----------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = u'CraftBook Documentation'
+epub_author = u'CraftBook Team'
+epub_publisher = u'CraftBook Team'
+epub_copyright = u'2015, CraftBook Team'
+
+# The basename for the epub file. It defaults to the project name.
+#epub_basename = u'CraftBook Documentation'
+
+# The HTML theme for the epub output. Since the default themes are not optimized
+# for small screen space, using the same theme for HTML and epub output is
+# usually not wise. This defaults to 'epub', a theme designed to save visual
+# space.
+#epub_theme = 'epub'
+
+# The language of the text. It defaults to the language option
+# or 'en' if the language is not set.
+#epub_language = ''
+
+# The scheme of the identifier. Typical schemes are ISBN or URL.
+#epub_scheme = ''
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#epub_identifier = ''
+
+# A unique identification for the text.
+#epub_uid = ''
+
+# A tuple containing the cover image and cover page html template filenames.
+#epub_cover = ()
+
+# A sequence of (type, uri, title) tuples for the guide element of content.opf.
+#epub_guide = ()
+
+# HTML files that should be inserted before the pages created by sphinx.
+# The format is a list of tuples containing the path and title.
+#epub_pre_files = []
+
+# HTML files shat should be inserted after the pages created by sphinx.
+# The format is a list of tuples containing the path and title.
+#epub_post_files = []
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
+# The depth of the table of contents in toc.ncx.
+#epub_tocdepth = 3
+
+# Allow duplicate toc entries.
+#epub_tocdup = True
+
+# Choose between 'default' and 'includehidden'.
+#epub_tocscope = 'default'
+
+# Fix unsupported image types using the PIL.
+#epub_fix_images = False
+
+# Scale large images.
+#epub_max_image_width = 0
+
+# How to display URL addresses: 'footnote', 'no', or 'inline'.
+#epub_show_urls = 'inline'
+
+# If false, no index is generated.
+#epub_use_index = True
+
+
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {}
