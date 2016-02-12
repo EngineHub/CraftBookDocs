@@ -1,4 +1,3 @@
 [submodule "source/_themes/ehsphinx"]
 	path = source/_themes/ehsphinx
 	url = https://github.com/EngineHub/SphinxTheme.git
-	branch = master
