@@ -1,24 +1,27 @@
-=====
-Gates
-=====
+====
+Gate
+====
+
 
 =============
 Configuration
 =============
 
-============== ===================================================== ======= ======================================================================
-Node           Comment                                               Type    Default                                                                
-============== ===================================================== ======= ======================================================================
-allowed-blocks A list of blocks that can be used.                    Set     [FENCE, GLASS_PANE, NETHER_BRICK_FENCE, STAINED_GLASS_PANE, IRON_BARS] 
-search-radius  The maximum area around the sign the gate can search. Integer 5                                                                      
-============== ===================================================== ======= ======================================================================
+============== ==================================================================== ======= ======================================================================
+Node           Comment                                                              Type    Default                                                                
+============== ==================================================================== ======= ======================================================================
+allowed-blocks A list of blocks that can be used.                                   Set     [IRON_BARS, STAINED_GLASS_PANE, FENCE, NETHER_BRICK_FENCE, GLASS_PANE] 
+allow-redstone Whether to allow redstone to be used to trigger this mechanic or not Boolean true                                                                   
+search-radius  The maximum area around the sign the gate can search.                Integer 5                                                                      
+============== ==================================================================== ======= ======================================================================
 
 ===========
 Permissions
 ===========
 
-======================= ============================================== ============
-Node                    Description                                    Default Role 
-======================= ============================================== ============
-craftbook.bridge.create Allows the user to create the Bridge mechanic. user         
-======================= ============================================== ============
+===================== ============================================ ============
+Node                  Description                                  Default Role 
+===================== ============================================ ============
+craftbook.gate.create Allows the user to create the Gate mechanic. user         
+craftbook.gate.use    Allows the user to use the Gate mechanic.    user         
+===================== ============================================ ============
