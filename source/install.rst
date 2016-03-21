@@ -8,7 +8,8 @@ Requirements
 CraftBook requires a version of the Minecraft server that supports the `SpongeAPI <http://www.spongepowered.org/>`_, which includes SpongeForge, and SpongeVanilla. The official Minecraft server is not supported.
 
 .. note::
-    Legacy versions of CraftBook are available that support the `Spigot API <http://spigotmc.org/>`_, they can be found `here <http://ci.md-5.net/job/CraftBook/>`_.
+
+     Legacy versions of CraftBook are available that support the `Spigot API <http://spigotmc.org/>`_, they can be found `here <http://ci.md-5.net/job/CraftBook/>`_.
 
 Installation
 ============
