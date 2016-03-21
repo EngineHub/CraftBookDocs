@@ -9,20 +9,18 @@ They can be toggled using two different methods:
 
 
 
-=============
 Configuration
 =============
 
 ============== ====================================================================================== ======= ================================
 Node           Comment                                                                                Type    Default                          
 ============== ====================================================================================== ======= ================================
-allowed-blocks A list of blocks that can be used.                                                     Set     [COBBLESTONE, PLANKS, BOOKSHELF] 
+allowed-blocks A list of blocks that can be used.                                                     Set     [BOOKSHELF, COBBLESTONE, PLANKS] 
 allow-redstone Whether to allow redstone to be used to trigger this mechanic or not                   Boolean true                             
 maximum-length The maximum length the bridge can be.                                                  Integer 16                               
 maximum-width  The maximum width each side of the bridge can be. The overall max width is this*2 + 1. Integer 5                                
 ============== ====================================================================================== ======= ================================
 
-===========
 Permissions
 ===========
 

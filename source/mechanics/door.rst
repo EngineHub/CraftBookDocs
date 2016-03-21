@@ -9,7 +9,6 @@ They can be toggled using two different methods:
 
 
 
-=============
 Configuration
 =============
 
@@ -22,7 +21,6 @@ maximum-length The maximum length the door can be.                              
 maximum-width  The maximum width each side of the door can be. The overall max width is this*2 + 1. Integer 5                     
 ============== ==================================================================================== ======= =====================
 
-===========
 Permissions
 ===========
 

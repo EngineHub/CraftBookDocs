@@ -3,7 +3,6 @@ Elevator
 ========
 
 
-=============
 Configuration
 =============
 
@@ -13,7 +12,6 @@ Node             Comment                                                        
 allow-jump-lifts Allow lifts that the user can control by jumping, or sneaking. Boolean true    
 ================ ============================================================== ======= =======
 
-===========
 Permissions
 ===========
 
