@@ -12,7 +12,7 @@ else
 fi
 
 # If we're on the master branch, do deploys
-if [[ $TRAVIS_PULL_REQUEST = false && $TRAVIS_BRANCH = building ]]; then
+if [[ $TRAVIS_PULL_REQUEST = false && $TRAVIS_BRANCH = master ]]; then
 
     # build the docs
     sphinx-build -b html source dist/
