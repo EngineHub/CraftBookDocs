@@ -1,0 +1,8 @@
+language: python
+sudo: false
+python:
+- '3.4'
+install: "./etc/install.sh"
+script: "./etc/build.sh"
+notifications:
+  email: false

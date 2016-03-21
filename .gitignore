@@ -149,3 +149,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+/errors
+
+*.DS_Store
