@@ -30,7 +30,6 @@ Documentation
     install
     config
     permissions
-    commands
     mechanics/index
     faq
     support

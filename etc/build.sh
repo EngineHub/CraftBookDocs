@@ -22,8 +22,14 @@ if [[ $TRAVIS_PULL_REQUEST = false && $TRAVIS_BRANCH = building ]]; then
 
     # Deploy
     cd dist
-
-    #TODO - Setup deployent sk style.
+    git config --global user.name "Me4502"
+    git config --global user.email "mnmiller1@hotmail.com"
+    git init
+    git remote add origin https://Me4502:${GH_TOKEN}@github.com/EngineHub/CraftBookDocs >/dev/null
+    git checkout --orphan gh-pages
+    git add .
+    git commit -q -m "Deploy $(date)" &> /dev/null
+    git push -q -f origin gh-pages &> /dev/null
 fi
 
 exit 0

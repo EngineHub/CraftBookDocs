@@ -7,3 +7,11 @@ CraftBook is built up of many features called 'Mechanics'. Each of these feature
 .. toctree::
     :maxdepth: 3
     :titlesonly:
+
+    bridge
+    door
+    elevator
+    gate
+    glowstone
+    ics
+    minecart/emptydecay
