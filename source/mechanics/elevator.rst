@@ -2,7 +2,6 @@
 Elevator
 ========
 
-
 Configuration
 =============
 
@@ -12,6 +11,7 @@ Node             Comment                                                        
 allow-jump-lifts Allow lifts that the user can control by jumping, or sneaking. Boolean true    
 ================ ============================================================== ======= =======
 
+
 Permissions
 ===========
 
@@ -20,3 +20,4 @@ Node                      Description                         Default Role
 ========================= =================================== ============
 craftbook.elevator.create Allows the user to create Elevators user         
 ========================= =================================== ============
+
