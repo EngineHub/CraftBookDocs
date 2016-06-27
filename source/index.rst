@@ -26,6 +26,7 @@ Documentation
 .. toctree::
     :maxdepth: 3
     :titlesonly:
+    :includehidden:
 
     install
     config
