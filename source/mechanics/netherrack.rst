@@ -10,6 +10,7 @@ Uses
 ====
 
 This mechanic can be used in a fair few situations, such as:
+
 * An incinerator
 * A hidden floor trap
 
