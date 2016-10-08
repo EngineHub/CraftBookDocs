@@ -1,7 +1,7 @@
 language: python
 sudo: false
 python:
-- '3.4'
+- '2.7'
 install: "./etc/install.sh"
 script: "./etc/build.sh"
 notifications:
