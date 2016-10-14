@@ -14,11 +14,12 @@ You can add new lines, remove lines, or replace the entire file altogether. Each
 Configuration
 =============
 
-=============== ================================================================= ======= =======
-Node            Comment                                                           Type    Default 
-=============== ================================================================= ======= =======
-read-with-block Whether to allow the player to read a book whilst holding a block Boolean false   
-=============== ================================================================= ======= =======
+=============== ================================================================= ============ =======
+Node            Comment                                                           Type         Default 
+=============== ================================================================= ============ =======
+read-with-block Whether to allow the player to read a book whilst holding a block Boolean      false   
+sneak-state     Sets how the player must be sneaking in order to use a bookshelf. TernaryState FALSE   
+=============== ================================================================= ============ =======
 
 
 Permissions
