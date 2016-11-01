@@ -30,10 +30,10 @@ max-lights The maximum amount of lights the mechanic will toggle. Integer 20
 Permissions
 ===========
 
-============================== ======================================== ============
-Node                           Description                              Default Role 
-============================== ======================================== ============
-craftbook.mech.lightswitch     Allows for creation of the light switch. staff        
-craftbook.mech.lightswitch.use Allows for creation of the light switch. user         
-============================== ======================================== ============
+========================= ======================================== ============
+Node                      Description                              Default Role 
+========================= ======================================== ============
+craftbook.lightswitch     Allows for creation of the light switch. staff        
+craftbook.lightswitch.use Allows for creation of the light switch. user         
+========================= ======================================== ============
 
