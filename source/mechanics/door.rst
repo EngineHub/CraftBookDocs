@@ -24,10 +24,10 @@ maximum-width  The maximum width each side of the door can be. The overall max w
 Permissions
 ===========
 
-===================== ============================================ ============
-Node                  Description                                  Default Role 
-===================== ============================================ ============
-craftbook.door.create Allows the user to create the Door mechanic. user         
-craftbook.door.use    Allows the user to use the Door mechanic.    user         
-===================== ============================================ ============
+================== ============================================ ============
+Node               Description                                  Default Role 
+================== ============================================ ============
+craftbook.door     Allows the user to create the Door mechanic. user         
+craftbook.door.use Allows the user to use the Door mechanic.    user         
+================== ============================================ ============
 

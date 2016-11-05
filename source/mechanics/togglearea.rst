@@ -19,7 +19,7 @@ Permissions
 ================================ ===================================================================== ============
 Node                             Description                                                           Default Role 
 ================================ ===================================================================== ============
-craftbook.area.create            Allows the user to create the ToggleArea mechanic.                    user         
+craftbook.area                   Allows the user to create the ToggleArea mechanic.                    user         
 craftbook.area.use               Allows the user to use the ToggleArea mechanic.                       user         
 craftbook.area.create.save       Allows the user to create the ToggleArea Save-Only mechanic.          user         
 craftbook.area.create.global     Allows the user to create global ToggleArea mechanics.                staff        

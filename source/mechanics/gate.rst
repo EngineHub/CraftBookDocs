@@ -17,10 +17,10 @@ search-radius  The maximum area around the sign the gate can search.            
 Permissions
 ===========
 
-===================== ============================================ ============
-Node                  Description                                  Default Role 
-===================== ============================================ ============
-craftbook.gate.create Allows the user to create the Gate mechanic. user         
-craftbook.gate.use    Allows the user to use the Gate mechanic.    user         
-===================== ============================================ ============
+================== ============================================ ============
+Node               Description                                  Default Role 
+================== ============================================ ============
+craftbook.gate     Allows the user to create the Gate mechanic. user         
+craftbook.gate.use Allows the user to use the Gate mechanic.    user         
+================== ============================================ ============
 

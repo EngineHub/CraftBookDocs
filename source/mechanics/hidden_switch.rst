@@ -28,9 +28,10 @@ allow-any-side Allows the user to click any side of the attached block. Boolean 
 Permissions
 ===========
 
-============================== ========================================= ============
-Node                           Description                               Default Role 
-============================== ========================================= ============
-craftbook.hidden-switch.create Allows the user to create Hidden Switches user         
-============================== ========================================= ============
+=========================== ========================================= ============
+Node                        Description                               Default Role 
+=========================== ========================================= ============
+craftbook.hidden-switch     Allows the user to create Hidden Switches user         
+craftbook.hidden-switch.use Allows the user to use Hidden Switches    user         
+=========================== ========================================= ============
 

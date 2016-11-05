@@ -39,10 +39,10 @@ maximum-width  The maximum width each side of the bridge can be. The overall max
 Permissions
 ===========
 
-======================= ============================================== ============
-Node                    Description                                    Default Role 
-======================= ============================================== ============
-craftbook.bridge.create Allows the user to create the Bridge mechanic. user         
-craftbook.bridge.use    Allows the user to use the Bridge mechanic.    user         
-======================= ============================================== ============
+==================== ============================================== ============
+Node                 Description                                    Default Role 
+==================== ============================================== ============
+craftbook.bridge     Allows the user to create the Bridge mechanic. user         
+craftbook.bridge.use Allows the user to use the Bridge mechanic.    user         
+==================== ============================================== ============
 
