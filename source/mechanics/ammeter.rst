@@ -12,11 +12,11 @@ This can be useful when debugging analogue redstone circuits, such as those that
 Configuration
 =============
 
-============ ============================================ ========= =============
-Node         Comment                                      Type      Default       
-============ ============================================ ========= =============
-ammeter-item The item that triggers the ammeter mechanic. ItemStack 1xitem.coal@1 
-============ ============================================ ========= =============
+============ ============================================ ========= ====================================================================
+Node         Comment                                      Type      Default                                                              
+============ ============================================ ========= ====================================================================
+ammeter-item The item that triggers the ammeter mechanic. ItemStack {ContentVersion=1, ItemType=minecraft:coal, Count=1, UnsafeDamage=1} 
+============ ============================================ ========= ====================================================================
 
 
 Permissions
