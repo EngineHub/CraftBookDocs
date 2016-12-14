@@ -22,9 +22,10 @@ signcopier-item The item that triggers the Sign Copier mechanic. ItemStack {Cont
 Permissions
 ===========
 
-======================== ======================================== ============
-Node                     Description                              Default Role 
-======================== ======================================== ============
-craftbook.signcopier.use Allows the user to copy and paste signs. user         
-======================== ======================================== ============
+========================= ============================================= ============
+Node                      Description                                   Default Role 
+========================= ============================================= ============
+craftbook.signcopier.use  Allows the user to copy and paste signs.      user         
+craftbook.signcopier.edit Allows the user to use the sign edit command. user         
+========================= ============================================= ============
 
