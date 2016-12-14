@@ -23,3 +23,6 @@ When the timer reaches the desired time for it to give out and output:
 .. image:: /images/ics/clocki.png
     :align: center
 
+%CONFIG%
+
+%PERMS%
