@@ -1,0 +1,22 @@
+==============
+Clock [MC1421]
+==============
+
+**Clocks**, well are a simpler way of using a minecraft timer that does not requires much buiding but instead requires only a sign and a block.
+
+========
+Creation
+========
+
+You only need three lines:
+
+    1. Leave first line blank
+
+    2. Type on 2nd line: [MC1421]
+
+    3. And on the third line type the amount of ticks the clock should take for it to give an output! 
+    
+                    When the timer reaches the desired time for it to give out and output:
+.. image:: /images/ics/clocki.png
+    :align: center
+
