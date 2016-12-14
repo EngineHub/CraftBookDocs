@@ -16,7 +16,9 @@ You only need three lines:
 
     3. And on the third line type the amount of ticks the clock should take for it to give an output! 
     
-                    When the timer reaches the desired time for it to give out and output:
+The images below shoub be what you get:
+
+When the timer reaches the desired time for it to give out and output:
 .. image:: /images/ics/clocki.png
     :align: center
 
