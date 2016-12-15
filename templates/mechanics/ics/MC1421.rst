@@ -1,8 +1,10 @@
-**1421** is an IC that allows for a precisely timed redstone signal.
+**MC1421** is an IC that allows for a precisely timed redstone signal.
 The IC toggles between rising and falling states every X amount of ticks.
 
 Sign parameters
 ===============
+
+  1. Blank
   2. [MC1421] or [MC1421]S
   3. Amount of redstone ticks between toggle
   4. Blank

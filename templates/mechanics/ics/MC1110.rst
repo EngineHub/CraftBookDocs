@@ -1,4 +1,4 @@
-**1110** allows transmitting redstone signal over long distances. The equivalent IC to receive the signals is `1111 <1111.html>`_
+**MC1110** allows transmitting redstone signal over long distances. The equivalent IC to receive the signals is `1111 <1111.html>`_
  
 Sign parameters
 ===============
