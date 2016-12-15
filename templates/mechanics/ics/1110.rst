@@ -1,0 +1,15 @@
+**MC1110** allows transmitting redstone signal over long distances. The equivalent IC to receive the signals is `MC1111 <1111.html>`_
+ 
+Sign parameters
+~~~~~~~~~~~~~~~
+
+   1. Blank
+   2. [MC1110
+   3. The channel name
+   4. Optional wideband. Defaults to UUID if blank
+
+How-To
+~~~~~~
+
+Once you setup your sign, setup a `Receiver/MC1111 <1111.html>`_ then you power can the Transmitter and watch the magic happen.
+
