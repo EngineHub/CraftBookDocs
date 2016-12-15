@@ -4,7 +4,7 @@ Sign parameters
 ===============
 
    1. Blank
-   2. [1110]
+   2. [MC1110]
    3. The channel name
    4. Optional wideband. Defaults to UUID if blank
 
