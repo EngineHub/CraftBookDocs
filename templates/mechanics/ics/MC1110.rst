@@ -13,5 +13,5 @@ How-To
 
 Once you setup your sign, setup a `Receiver <1111.html>`_ then you can power the Transmitter and watch the magic happen.
 
-.. image:: mc1110/transmitter.png
+.. image:: images/mc1110/transmitter.png
    :align: center
