@@ -11,5 +11,7 @@ Sign parameters
 How-To
 ~~~~~~
 
-Once you setup your sign, setup a `Receiver/MC1111 <1111.html>`_ then you power can the Transmitter and watch the magic happen.
+Once you setup your sign, setup a `Receiver <1111.html>`_ then you can power the Transmitter and watch the magic happen.
 
+.. image:: /images/ics/transmitter.png
+   :align: center
