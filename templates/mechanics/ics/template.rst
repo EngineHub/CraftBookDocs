@@ -1,1 +1,3 @@
 %IC_HEADER%
+
+%IMPORT %IC_ID%%
