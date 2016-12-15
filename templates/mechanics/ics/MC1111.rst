@@ -4,8 +4,8 @@ Sign parameters
 ===============
 
    1. Blank
-   2. [MC1111]
-   3. The channel name (Defined in `1110 <1110.html>`_)
+   2. [MC1111] or [MC1111]S
+   3. The channel name (Defined in `MC1110 <MC1110.html>`_)
    4. Optional wideband. Defaults to UUID if blank
    
 How-To
