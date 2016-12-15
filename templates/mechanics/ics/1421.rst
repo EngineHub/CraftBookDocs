@@ -2,20 +2,22 @@
 Clock [MC1421]
 ==============
 
-**Clocks**, well are a simpler way of using a minecraft timer that does not requires much buiding but instead requires only a sign and a block.
+**Clocks**, are an ic that allows precise timing. So, for example, if you specify the integer on the sign to be 15 it will take
+15 redstone ticks and if 
 
-========
-Creation
-========
+==============
+Sign parameters
+===============
+   1. Leave first line blank
 
-You only need three lines:
+   2. Type on 2nd line: [MC1421] 
 
-    1. Leave first line blank
+   3. And on the third line type the amount of 2 ticks the clock should take for it to give an output! 
+   
+Side-note: Do **[MC1421]S** to make it Self-triggered and give it a redstone signal to stop it
 
-    2. Type on 2nd line: [MC1421] Side-note: Do [MC1421]S to make it Self-triggered and give it a redstone signal to stop it 
+Please note that behind the block with the sign should be a lever connected to the redstone 
 
-    3. And on the third line type the amount of 2 ticks the clock should take for it to give an output! 
-    
 The images below shoud be what you get:
 
 When the timer reaches the desired time for it to give out and output:
@@ -23,9 +25,8 @@ When the timer reaches the desired time for it to give out and output:
 .. image:: /images/ics/clock_on.png
     :align: center
     
-And when it is not the desired time
+And when it is not the desired time:
 
 .. image:: /images/ics/clock_off.png
     :align: center
     
-Please note that behind the block with the sign should be a lever connected to the redstone
