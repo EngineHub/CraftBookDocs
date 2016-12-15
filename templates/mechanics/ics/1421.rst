@@ -12,20 +12,20 @@ You only need three lines:
 
     1. Leave first line blank
 
-    2. Type on 2nd line: [MC1421]
+    2. Type on 2nd line: [MC1421] Side-note: Do [MC1421]S to make it Self-triggered and give it a redstone signal to stop it 
 
-    3. And on the third line type the amount of ticks the clock should take for it to give an output! 
+    3. And on the third line type the amount of 2 ticks the clock should take for it to give an output! 
     
-The images below shoub be what you get:
+The images below shoud be what you get:
 
 When the timer reaches the desired time for it to give out and output:
 
-.. image:: /images/ics/clocki.png
+.. image:: /images/ics/clock_on.png
     :align: center
     
 And when it is not the desired time
 
-.. image:: /images/ics/clocko.png
+.. image:: /images/ics/clock_off.png
     :align: center
     
-Please note that behind the block the sign is on should be a lever connected to the redstone
+Please note that behind the block with the sign should be a lever connected to the redstone
