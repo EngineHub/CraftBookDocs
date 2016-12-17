@@ -16,14 +16,14 @@ It is possible to set the required sneaking state in the configuration, so that 
 Configuration
 =============
 
-============== =================================================================== ============ ====================================================
-Node           Comment                                                             Type         Default                                              
-============== =================================================================== ============ ====================================================
-require-bottle Requires the player to be holding a glass bottle to use.            Boolean      false                                                
-block          The block that is an XP Storer.                                     BlockState   {ContentVersion=2, BlockState=minecraft:mob_spawner} 
-sneak-state    Sets how the player must be sneaking in order to use the XP Storer. TernaryState FALSE                                                
-xp-per-bottle  Sets the amount of XP points required per each bottle.              Integer      16                                                   
-============== =================================================================== ============ ====================================================
+============== =================================================================== ============ =====================
+Node           Comment                                                             Type         Default               
+============== =================================================================== ============ =====================
+require-bottle Requires the player to be holding a glass bottle to use.            Boolean      false                 
+block          The block that is an XP Storer.                                     BlockState   minecraft:mob_spawner 
+sneak-state    Sets how the player must be sneaking in order to use the XP Storer. TernaryState FALSE                 
+xp-per-bottle  Sets the amount of XP points required per each bottle.              Integer      16                    
+============== =================================================================== ============ =====================
 
 
 Permissions
