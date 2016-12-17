@@ -9,8 +9,8 @@ Sign parameters
   3. Amount of redstone ticks between toggle
   4. Blank
 
-.. image:: /images/mc1421/clock_on.png
+.. image:: /images/ics/mc1421/clock_on.png
     :align: center
     
-.. image:: /images/mc1421/clock_off.png
+.. image:: /images/ics/mc1421/clock_off.png
     :align: center

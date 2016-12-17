@@ -13,5 +13,5 @@ How-To
 
 Once this IC is setup, create a `Receiver <MC1111.html>`_ with the same `narrowband` and `wideband`.
 
-.. image:: /images/mc1110/transmitter.png
+.. image:: /images/ics/mc1110/transmitter.png
    :align: center
