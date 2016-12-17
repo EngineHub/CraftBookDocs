@@ -9,14 +9,14 @@ Sign parameters
 
    1. Blank
    2. [MC1111] or [MC1111]S
-   3. The channel name (Defined in `MC1110 <MC1110.html>`_)
+   3. The channel name (narrowband)
    4. Optional wideband. Defaults to UUID if blank
    
 How-To
 ======
 
-Once you setup your sign, setup a `Transmitter <MC1110.html>`_ then you can power the Transmitter and watch the magic happen.
+Once this IC is setup, create a `Transmitter <MC1110.html>`_ with the same `narrowband` and `wideband`.
 
-.. image:: images/mc1111/receiver.png
+.. image:: /images/mc1111/receiver.png
    :align: center
 
