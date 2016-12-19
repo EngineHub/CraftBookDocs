@@ -1,4 +1,4 @@
-sphinx==1.4.8
+sphinx==1.5.1
 sphinxcontrib.youtube==0.1.2
 colorama==0.3.5
 requests==2.9.0
