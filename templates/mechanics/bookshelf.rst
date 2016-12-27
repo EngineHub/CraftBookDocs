@@ -9,7 +9,7 @@ Customizing the lines
 
 A default collection of quotations is provided in the books.txt file that comes with the CraftBook download. It is found in config/craftbook/
 
-You can add new lines, remove lines, or replace the entire file altogether. Each line of text is one "book." The file can be as big or as small as you want it to be.
+You can add new lines, remove lines, or replace the entire file altogether. Each line of text is one "book". The file can be as big or as small as you want it to be.
 
 %CONFIG%
 

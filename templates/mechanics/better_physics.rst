@@ -2,7 +2,7 @@
 Better Physics
 ==============
 
-Better Physics is a series of mechanics that aim to allow small changes to physics, that make a big difference.
+Better Physics is a series of mechanics that aim to allow small changes to physics that make a big difference.
 
 Falling Ladders
 ===============
