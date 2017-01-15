@@ -36,12 +36,14 @@ If enabled in the configuration, it is possible fuel the cooking pot with a puls
 Configuration
 =============
 
-============= ================================================================================= ======= =======
-Node          Comment                                                                           Type    Default 
-============= ================================================================================= ======= =======
-require-fuel  Causes the cooking pot to require fuel to cook. Otherwise fuel speeds up cooking. Boolean true    
-redstone-fuel Allows for a pulsing redstone signal to be used as a fuel source.                 Boolean false   
-============= ================================================================================= ======= =======
+============= =============================================================================================== ======= =======
+Node          Comment                                                                                         Type    Default 
+============= =============================================================================================== ======= =======
+require-fuel  Causes the cooking pot to require fuel to cook. Otherwise fuel speeds up cooking.               Boolean true    
+redstone-fuel Allows for a pulsing redstone signal to be used as a fuel source.                               Boolean false   
+super-fast    Removes the cap for 5 fuel to be used per tick, making the cooking pot faster.                  Boolean false   
+food-only     Caused the cooking pot to only cook food. Food is defined as anything that gives hunger points. Boolean true    
+============= =============================================================================================== ======= =======
 
 
 Permissions
