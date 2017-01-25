@@ -17,6 +17,8 @@ IC ID             Shorthand   Name                          Description         
 ================= =========== ============================= ============================================== ====== ===============
 :doc:`MC1000`     REPEATER    Repeater                      Repeats a redstone signal.                     SISO   No              
 :doc:`MC1001`     INVERTER    Inverter                      Inverts a redstone signal.                     SISO   No              
+:doc:`MC1017`     RE T FLIP   Toggle Flip Flop RE           Toggles output on high.                        SISO   No              
+:doc:`MC1018`     FE T FLIP   Toggle Flip Flip FE           Toggles output on low.                         SISO   No              
 :doc:`MC1110`     TRANSMITTER Wireless Transmitter          Transmits a wireless redstone signal.          SISO   No              
 :doc:`MC1111`     RECEIVER    Wireless Receiver             Receives a wireless redstone signal.           SISO   Yes             
 :doc:`MC1253`     FIREWORK    Programmable Firework Display Plays a firework show from a file.             SISO   No              

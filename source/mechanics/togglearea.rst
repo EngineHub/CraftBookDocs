@@ -10,6 +10,7 @@ Node             Comment                                                        
 ================ =================================================================================== ======= =======
 maximum-size     The maximum amount of blocks that the saved areas can contain. -1 to disable limit. Integer 5000    
 maximum-per-user The maximum amount of areas that a namespace can own. 0 to disable limit.           Integer 30      
+allow-redstone   Whether to allow redstone to be used to trigger this mechanic or not                Boolean true    
 ================ =================================================================================== ======= =======
 
 
