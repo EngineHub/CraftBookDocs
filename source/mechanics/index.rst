@@ -11,5 +11,6 @@ CraftBook is built up of many features called 'Mechanics'. Each of these feature
     :glob:
 
     *
+    boat/index
     ics/index
     minecart/index
