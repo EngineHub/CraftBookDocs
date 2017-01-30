@@ -4,12 +4,35 @@ Head Drops
 
 The Head Drops mechanic allows the head of a slain entity or player to rarely drop their head.
 
+Configuration
+=============
+
+===================== ==================================================== ======= =======
+Node                  Comment                                              Type    Default 
+===================== ==================================================== ======= =======
+player-kills-only     Only drop heads when mobs are killed by a player.    Boolean true    
+drop-rate             Drop chance out of 1.                                Double  0.05    
+looting-rate-modifier Added chance for each looting level.                 Double  0.05    
+show-name-on-click    Show the name of the owner of a head on right click. Boolean true    
+player-heads          Allow players to drop their heads on death.          Boolean true    
+mob-heads             Allow mobs to drop their heads on death.             Boolean true    
+===================== ==================================================== ======= =======
 
 
+Permissions
+===========
+
+======================== ========================================================== ============
+Node                     Description                                                Default Role 
+======================== ========================================================== ============
+craftbook.headdrops.kill Allow the player to get a HeadDrop from killing an entity. user         
+======================== ========================================================== ============
 
 
-Custom Head Drops
+Mob Head Drops
 =================
+
+HeadDrops supports all mob heads in the base game, as well as many more.
 
 ============== ==========================================================
 Mob            Image                                                      
