@@ -19,6 +19,7 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC1001`     INVERTER       Inverter                      Inverts a redstone signal.                              SISO   No              
 :doc:`MC1017`     RE T FLIP      Toggle Flip Flop RE           Toggles output on high.                                 SISO   No              
 :doc:`MC1018`     FE T FLIP      Toggle Flip Flip FE           Toggles output on low.                                  SISO   No              
+:doc:`MC1020`     RANDOM BIT     Random Bit                    Randomly sets the output on high.                       SISO   No              
 :doc:`MC1025`     TIME MODULUS   World Time Modulus            Outputs high when the world time is odd.                SISO   No              
 :doc:`MC1110`     TRANSMITTER    Wireless Transmitter          Transmits a wireless redstone signal.                   SISO   No              
 :doc:`MC1111`     RECEIVER       Wireless Receiver             Receives a wireless redstone signal.                    SISO   Yes             
