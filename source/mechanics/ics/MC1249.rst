@@ -3,3 +3,24 @@ MC1249
 ======
 
 
+
+Sign Lines
+==========
+
+3. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- Clock
+
+Outputs
+~~~~~~~
+
+- None
+

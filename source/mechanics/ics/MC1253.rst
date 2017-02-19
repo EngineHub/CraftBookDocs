@@ -159,3 +159,24 @@ Example
     launch b
 
 
+
+Sign Lines
+==========
+
+3. Firework Script Name
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- Runs script on high
+
+Outputs
+~~~~~~~
+
+- None
+

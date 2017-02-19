@@ -19,3 +19,24 @@ Sign parameters
 .. image:: /images/ics/mc1421/clock_off.png
     :align: center
 
+
+Sign Lines
+==========
+
+3. Ticks per cycle
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- High to disable the clock
+
+Outputs
+~~~~~~~
+
+- Toggles every X ticks
+

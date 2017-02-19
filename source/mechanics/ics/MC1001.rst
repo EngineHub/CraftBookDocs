@@ -3,3 +3,24 @@ MC1001
 ======
 
 
+
+Sign Lines
+==========
+
+3. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- NOT Operand
+
+Outputs
+~~~~~~~
+
+- Opposite of input
+

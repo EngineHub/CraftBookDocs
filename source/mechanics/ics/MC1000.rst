@@ -3,3 +3,24 @@ MC1000
 ======
 
 
+
+Sign Lines
+==========
+
+3. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- Input
+
+Outputs
+~~~~~~~
+
+- Outputs input
+

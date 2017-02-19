@@ -20,3 +20,24 @@ Once this IC is setup, create a `Receiver <MC1111.html>`_ with the same `narrowb
 .. image:: /images/ics/mc1110/transmitter.png
    :align: center
 
+
+Sign Lines
+==========
+
+3. Shortband
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- Wireless Input
+
+Outputs
+~~~~~~~
+
+- None
+

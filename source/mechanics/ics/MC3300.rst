@@ -3,3 +3,26 @@ MC3300
 ======
 
 
+
+Sign Lines
+==========
+
+3. Accessed Filename
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- First digit of file
+- Second digit of file
+- Third digit of file
+
+Outputs
+~~~~~~~
+
+- None
+

@@ -3,3 +3,24 @@ MC3003
 ======
 
 
+
+Sign Lines
+==========
+
+3. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- The NAND Operand
+
+Outputs
+~~~~~~~
+
+- Outputs high if not all inputs are high
+

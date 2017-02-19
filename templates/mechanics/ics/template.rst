@@ -1,3 +1,7 @@
 %IC_HEADER%
 
 %IMPORT %IC_ID%%
+
+%IC_LINES%
+
+%IC_PINS%

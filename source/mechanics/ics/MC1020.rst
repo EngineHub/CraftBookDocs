@@ -12,3 +12,24 @@ Sign parameters
    3. Min Outputs:Max Outputs
    4. Blank
 
+
+Sign Lines
+==========
+
+3. Min On:Max On
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- High to output random state
+
+Outputs
+~~~~~~~
+
+- Outputs random state
+

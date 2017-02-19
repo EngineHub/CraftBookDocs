@@ -3,3 +3,24 @@ MC3002
 ======
 
 
+
+Sign Lines
+==========
+
+3. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- AND operand
+
+Outputs
+~~~~~~~
+
+- Outputs high if all inputs are high
+
