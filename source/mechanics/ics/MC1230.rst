@@ -1,0 +1,30 @@
+======
+MC1230
+======
+
+**MC1230** outputs high if it is day when the input (the "clock") goes from low to high. Precisely it is high when the server time is less than 13000
+ticks. Essentially this means that a low is outputted when it starts getting dark and it goes high after it has been bright for some time.
+
+The start and end time for day are configurable, making this IC capable of detecting any span of time.
+
+
+Sign Lines
+==========
+
+3. Start Time
+
+
+IC Pins
+=======
+
+
+Inputs
+~~~~~~
+
+- Clock
+
+Outputs
+~~~~~~~
+
+- If day (Or within time bounds)
+

@@ -24,6 +24,7 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC1110`     TRANSMITTER    Wireless Transmitter          Transmits a wireless redstone signal.                                            SISO   No              
 :doc:`MC1111`     RECEIVER       Wireless Receiver             Receives a wireless redstone signal.                                             SISO   Yes             
 :doc:`MC1203`     ZEUS BOLT      Zeus Bolt                     Strikes a location with lightning.                                               SISO   No              
+:doc:`MC1230`     SENSE DAY      Daylight Sensor               Outputs high if it is day.                                                       SISO   Yes             
 :doc:`MC1249`     BLOCK REPLACER Block Replacer                Searches a nearby area and replaces blocks accordingly.                          SISO   No              
 :doc:`MC1253`     FIREWORK       Programmable Firework Display Plays a firework show from a file.                                               SISO   No              
 :doc:`MC1421`     CLOCK          Clock                         Outputs high every X ticks when input is high.                                   SISO   Yes             

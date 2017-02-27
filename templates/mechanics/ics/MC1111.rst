@@ -1,13 +1,5 @@
 **MC1111** allows receiving redstone signals over long distances. The equivalent IC to transmit the signals is `MC1110 <MC1110.html>`_.
 
-Sign parameters
-===============
-
-   1. Blank
-   2. [MC1111] or [MC1111]S
-   3. The channel name (narrowband)
-   4. Optional wideband. Defaults to UUID if blank
-   
 How-To
 ======
 
