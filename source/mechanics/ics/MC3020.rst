@@ -7,7 +7,10 @@ MC3020
 Sign Lines
 ==========
 
+1. XOR
+2. [MC3020]
 3. Blank
+4. Blank
 
 
 IC Pins

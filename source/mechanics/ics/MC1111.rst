@@ -16,7 +16,10 @@ Once this IC is setup, create a `Transmitter <MC1110.html>`_ with the same `narr
 Sign Lines
 ==========
 
+1. RECEIVER
+2. [MC1111]
 3. The channel name (narrowband)
+4. Optional wideband. Defaults to UUID if blank
 
 
 IC Pins

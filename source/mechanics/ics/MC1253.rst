@@ -163,7 +163,10 @@ Example
 Sign Lines
 ==========
 
+1. FIREWORK
+2. [MC1253]
 3. Firework Script Name
+4. Stop on Low (true/false)
 
 
 IC Pins

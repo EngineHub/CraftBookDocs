@@ -7,7 +7,10 @@ MC1025
 Sign Lines
 ==========
 
+1. TIME MODULUS
+2. [MC1025]
 3. Blank
+4. Blank
 
 
 IC Pins

@@ -7,7 +7,10 @@ MC1203
 Sign Lines
 ==========
 
+1. ZEUS BOLT
+2. [MC1203]
 3. radius=x,z,y
+4. Optional chance (Out of 100)
 
 
 IC Pins

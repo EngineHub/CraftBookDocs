@@ -7,7 +7,10 @@ MC3021
 Sign Lines
 ==========
 
+1. XNOR
+2. [MC3021]
 3. Blank
+4. Blank
 
 
 IC Pins

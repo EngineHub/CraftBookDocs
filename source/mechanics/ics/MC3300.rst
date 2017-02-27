@@ -7,7 +7,10 @@ MC3300
 Sign Lines
 ==========
 
+1. ROM SET
+2. [MC3300]
 3. Accessed Filename
+4. Blank
 
 
 IC Pins

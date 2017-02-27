@@ -16,7 +16,10 @@ Once this IC is setup, create a `Receiver <MC1111.html>`_ with the same `narrowb
 Sign Lines
 ==========
 
+1. TRANSMITTER
+2. [MC1110]
 3. The channel name (narrowband)
+4. Optional wideband. Defaults to UUID if blank
 
 
 IC Pins

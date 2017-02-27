@@ -16,7 +16,10 @@ Sign parameters
 Sign Lines
 ==========
 
+1. RANDOM BIT
+2. [MC1020]
 3. Min On:Max On
+4. Blank
 
 
 IC Pins

@@ -7,7 +7,10 @@ MC3002
 Sign Lines
 ==========
 
+1. AND
+2. [MC3002]
 3. Blank
+4. Blank
 
 
 IC Pins

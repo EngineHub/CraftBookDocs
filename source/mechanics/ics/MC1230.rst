@@ -11,7 +11,10 @@ The start and end time for day are configurable, making this IC capable of detec
 Sign Lines
 ==========
 
+1. SENSE DAY
+2. [MC1230]
 3. Start Time
+4. End Time
 
 
 IC Pins

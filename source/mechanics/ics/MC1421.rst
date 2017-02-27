@@ -23,7 +23,10 @@ Sign parameters
 Sign Lines
 ==========
 
+1. CLOCK
+2. [MC1421]
 3. Ticks per cycle
+4. Blank
 
 
 IC Pins

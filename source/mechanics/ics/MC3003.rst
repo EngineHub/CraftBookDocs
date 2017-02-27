@@ -7,7 +7,10 @@ MC3003
 Sign Lines
 ==========
 
+1. NAND
+2. [MC3003]
 3. Blank
+4. Blank
 
 
 IC Pins
