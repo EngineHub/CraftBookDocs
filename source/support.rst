@@ -10,4 +10,4 @@ If you have a question,
 
 If you have a feature request or bug report,
 
-* `Submit it to our issue tracker <http://youtrack.sk89q.com/issues?q=project%3A+CraftBook>`_
+* `Submit it to our issue tracker <http://dev.enginehub.org/youtrack/issues/CRAFTBOOK>`_

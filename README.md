@@ -4,7 +4,8 @@ These are the files for CraftBook's documentation.
 
 Contributions are welcome. Please read the licensing information below.
 
-To modify mechanic pages, please modify the template files instead. These are located [here](https://github.com/sk89q/CraftBook/tree/master/src/main/resources/docs). PRs that modify the mechanic pages will not be accepted, as they are automatically generated from the templates.
+To modify mechanic pages, please modify the template files instead. These are located [here](https://github.com/EngineHub/CraftBook/tree/master/src/main/resources/docs). PRs that modify the mechanic pages will not be accepted, as they are automatically 
+generated from the templates.
 
 ## License
 
