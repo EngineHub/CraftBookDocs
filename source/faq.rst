@@ -28,9 +28,11 @@ If you are unable to discover the problem from reading the server log, you can :
 How old is CraftBook?
 ~~~~~~~~~~~~~~~~~~~~~
 
-CraftBook began in November 2010 for the "hMod" modding platform by `sk89q <http://www.sk89q.com>`_. Later on, CraftBook was ported to Bukkit, and later Sponge. `Me4502 <http://www.me4502.com>`_ has been the lead developer since April 2012.
+CraftBook began in November 2010 for the "hMod" modding platform by `sk89q <http://www.sk89q.com>`_. Later on, CraftBook was ported to Bukkit, and
+later Sponge. `Me4502 <http://www.me4502.com>`_ has been the lead developer since April 2012.
 
 Who works on CraftBook?
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-CraftBook has been developed by many people, and large portions of CraftBook include contributed code. The list of top contributors can be `found on GitHub <https://github.com/sk89q/CraftBook/graphs/contributors>`_.
+CraftBook has been developed by many people, and large portions of CraftBook include contributed code. The list of top contributors can be
+`found on GitHub <https://github.com/EngineHub/CraftBook/graphs/contributors>`_.

@@ -288,7 +288,7 @@ texinfo_documents = [
 epub_title = u'CraftBook Documentation'
 epub_author = u'CraftBook Team'
 epub_publisher = u'CraftBook Team'
-epub_copyright = u'2016, CraftBook Team'
+epub_copyright = u'2017, CraftBook Team'
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'CraftBook Documentation'

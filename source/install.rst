@@ -5,7 +5,8 @@ Installation
 Requirements
 ============
 
-CraftBook requires a version of the Minecraft server that supports the `SpongeAPI <http://www.spongepowered.org/>`_, which includes SpongeForge, and SpongeVanilla. The official Minecraft server is not supported.
+CraftBook requires a version of the Minecraft server that supports the `SpongeAPI <http://www.spongepowered.org/>`_, which includes SpongeForge,
+and SpongeVanilla. The official Minecraft server is not supported.
 
 .. note::
 
@@ -21,4 +22,4 @@ CraftBook can be `downloaded from the EngineHub site <http://builds.enginehub.or
 3. Copy the CraftBook .jar file into the mods folder.
 4. Start your server.
 
-Check your server log for errors. If you encounter errors, see the ?? page.
+Check your server log for errors. If you encounter errors, see the :doc:`support` page.

@@ -4,7 +4,7 @@ Getting Help
 
 If you have a question,
 
-* `Ask on our forum <http://forum.sk89q.com/>`_
+* `Ask on our Discord Guild <https://discord.gg/wvneRVm>`_
 * `Join us on IRC <http://wiki.sk89q.com/wiki/IRC>`_
 * `Contact @the_me4502 on Twitter <http://twitter.com/the_me4502>`_
 
