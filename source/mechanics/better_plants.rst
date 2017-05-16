@@ -7,8 +7,12 @@ Better Plants is a series of mechanics that aim to enhance the way plants are in
 Fern Farming
 ============
 
-Fern Farming allows for ferns to be farmed. Small ferns grow into large ferns after a period of time, and then the top block of the large fern is breakable to drop another small fern.
-Once a large fern is broken, a small fern is put in the place of the large fern.
+Fern Farming allows for ferns to be farmed. Small ferns grow into large ferns after a period of time, and then the top block of the large fern is
+breakable to drop another small fern. Once a large fern is broken, a small fern is put in the place of the large fern. This is linked to random
+block updates, and is therefore impacted by the `randomTickSpeed` gamerule.
+
+.. image:: /images/better_plants/fern_farming.png
+    :align: center
 
 Configuration
 =============

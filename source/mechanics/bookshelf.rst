@@ -4,6 +4,9 @@ Bookshelf
 
 Readable bookshelves make bookshelves "readable" on right click. Lines of text read from the bookshelves file will be printed to the player's chat on each right click, simulating usage of the bookshelf.
 
+.. image:: /images/bookshelf/reading.png
+    :align: center
+
 Customizing the lines
 =====================
 

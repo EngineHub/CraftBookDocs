@@ -9,6 +9,9 @@ block and source blocks emit a level of 15, giving us the wire length limit of 1
 
 This can be useful when debugging analogue redstone circuits, such as those that use comparators.
 
+.. image:: /images/ammeter/ammeter.png
+    :align: center
+
 Configuration
 =============
 

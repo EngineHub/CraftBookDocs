@@ -3,7 +3,7 @@ Block Bags
 ==========
 
 **Block Bags** are a mechanic that allows for other mechanics to use a source of blocks, rather than spawning items in. This is a replacement for
-the `safe-destruction` option from CraftBook 3.x.
+the `safe-destruction` option from CraftBook 3.
 
 There are multiple types of Block Bags, with more to be added in the future. The method of assigning block bags varies depending on the mechanic in
  use.
