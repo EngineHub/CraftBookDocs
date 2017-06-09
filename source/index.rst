@@ -7,7 +7,7 @@ CraftBook has a host of functions for server owners, server map makers, regular 
 * Modular, and extremely light on your server. **Everything is off by default.**
 * Enable features that you need, disable ones that you don't. Even tweak features to your liking.
 * Adds heaps of mechanics that allow you to mimic large portions of FTB/Tekkit with a vanilla client.
-* Redstone ICs (Logic gates, Sensors, [Many others!](http://wiki.sk89q.com/wiki/CraftBook/Integrated_circuits#ICs))
+* Redstone ICs (Logic gates, Sensors, `Many others! <http://enginehub.github.io/CraftBookDocs/mechanics/ics/index.html>`_
 * Elevators for your server so people can jump between floors quickly. (Or smoothly, if you choose so)
 * Working cauldrons so players can cook inside them.
 * Your own custom crafting recipes.
