@@ -1,14 +1,6 @@
 **MC1253** is an IC that can play a firework show using 2 available scripting languages implemented into CraftBook.
 Scripts go inside the /config/craftbook/fireworks folder, and come in either .txt or .fwk file formats.
 
-Sign parameters
-===============
-
-   1. Blank
-   2. [MC1253]
-   3. The firework show name
-   4. `true` if the show should stop on falling edge
-
 Firework Languages
 ==================
 

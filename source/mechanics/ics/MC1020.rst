@@ -4,14 +4,6 @@ MC1020
 
 The **MC1020** generates a random state whenever the input (the "clock") goes from low to high.
 
-Sign parameters
-===============
-
-   1. Blank
-   2. [MC1110]
-   3. Min Outputs:Max Outputs
-   4. Blank
-
 
 Sign Lines
 ==========
