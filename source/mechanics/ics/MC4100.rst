@@ -1,0 +1,34 @@
+======
+MC4100
+======
+
+**MC4100** is an IC that implements a full subtractor.
+
+
+Sign Lines
+==========
+
+1. FULL SUBTR
+2. [MC4100]
+3. Blank
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Starting Value
+- First Subtrahend
+- Second Subtrahend
+
+Outputs
+-------
+
+- Difference
+- Borrow
+- Borrow (Same as Output 2)
+

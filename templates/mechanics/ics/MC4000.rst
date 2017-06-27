@@ -1,0 +1,1 @@
+**MC4000** is an IC that implements a full adder. It adds the two input bits, adds the carry in (third bit), and returns the sum and the carry.

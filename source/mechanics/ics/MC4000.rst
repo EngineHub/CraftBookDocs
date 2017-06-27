@@ -1,0 +1,34 @@
+======
+MC4000
+======
+
+**MC4000** is an IC that implements a full adder. It adds the two input bits, adds the carry in (third bit), and returns the sum and the carry.
+
+
+Sign Lines
+==========
+
+1. FULL ADDER
+2. [MC4000]
+3. Blank
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- First Operand
+- Second Operand
+- Carry Bit
+
+Outputs
+-------
+
+- Sum
+- Carry Out
+- Carry Out (Same as Output 2)
+

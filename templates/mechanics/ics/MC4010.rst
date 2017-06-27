@@ -1,0 +1,1 @@
+**MC4010** is an IC that implements a half adder. It takes two one-bit inputs, adds them, and returns the sum and the carry.

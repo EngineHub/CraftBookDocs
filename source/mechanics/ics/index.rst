@@ -39,6 +39,10 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC3036`     LEVEL-D        Level-Trigger D Flip Flop     A compact Level-D Flip Flop                                                      3ISO   No              
 :doc:`MC3050`     COMBO          Combination Lock              Outputs high if the correct combination is inputed                               3ISO   No              
 :doc:`MC3300`     ROM SET        ROM Set                       Sets the memory state for a file for usage in the MemorySetter/Access IC group.  3ISO   No              
+:doc:`MC4000`     FULL ADDER     Full Adder                    A compact full-adder                                                             3I3O   No              
+:doc:`MC4010`     HALF ADDER     Half Adder                    A compact half-adder                                                             3I3O   No              
+:doc:`MC4100`     FULL SUBTR     Full Subtractor               A compact full-subtractor                                                        3I3O   No              
+:doc:`MC4110`     HALF SUBTR     Half Subtractor               A compact half-subtractor                                                        3I3O   No              
 :doc:`MC4200`     DISPATCH       Dispatcher                    Outputs the centre input on the appropriate outputs when input is high.          3I3O   No              
 ================= ============== ============================= ================================================================================ ====== ===============
 
