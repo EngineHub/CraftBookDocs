@@ -1,32 +1,3 @@
-======
-MC1018
-======
-
 **MC1018** is a toggle flip flop that toggles its output state between low and high whenever the input (the "clock") changes from high to low
 
 Equivalent Perlstone script: ``Lp1AdSp1.0010[Lp0!dSp0r]Lp0r``
-
-
-Sign Lines
-==========
-
-1. FE T FLIP
-2. [MC1018]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
-------
-
-- Toggle output on high
-
-Outputs
--------
-
-- Output
-

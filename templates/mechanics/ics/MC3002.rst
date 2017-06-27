@@ -1,7 +1,3 @@
-======
-MC3002
-======
-
 **MC3002** outputs high if and only if all connected inputs are high.
 
 Equivalent Perlstone script: ``ABC&&r``
@@ -21,28 +17,3 @@ A  B  C  Output
 1  0  1  0
 1  1  1  1
 =  =  =  =====
-
-
-Sign Lines
-==========
-
-1. AND
-2. [MC3002]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
-------
-
-- AND operand
-
-Outputs
--------
-
-- Outputs high if all inputs are high
-

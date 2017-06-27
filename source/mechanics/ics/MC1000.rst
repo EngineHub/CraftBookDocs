@@ -2,6 +2,9 @@
 MC1000
 ======
 
+**MC1000** is an IC that repeats a state from input to output terminals.
+
+Equivalent Perlstone script: ``Ar``
 
 
 Sign Lines

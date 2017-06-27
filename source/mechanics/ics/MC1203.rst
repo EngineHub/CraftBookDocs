@@ -2,6 +2,8 @@
 MC1203
 ======
 
+**MC1203** is an IC that generates a lighting bolt on the block behind the IC sign (or the block at the offset if offset is set) when the input (the
+"clock") goes from low to high.
 
 
 Sign Lines

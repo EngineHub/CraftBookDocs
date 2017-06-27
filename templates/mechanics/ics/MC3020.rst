@@ -1,7 +1,3 @@
-======
-MC3020
-======
-
 **MC3020** is an IC that outputs a high if and only if the first two inputs are not the same. As of alpha 3: any two inputs are accepted. If three
 are given, the last (input 3) is ignored. If only one is given, IC retains state.
 
@@ -19,28 +15,3 @@ A  B  Output
 0  1  1
 1  1  0
 =  =  =====
-
-
-Sign Lines
-==========
-
-1. XOR
-2. [MC3020]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
-------
-
-- The XOR Operand
-
-Outputs
--------
-
-- Outputs high if the inputs are not equal
-

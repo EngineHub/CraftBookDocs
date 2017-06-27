@@ -1,0 +1,3 @@
+**MC1001** is an IC that inverts the input state.
+
+Equivalent Perlstone script: ``A!r``
