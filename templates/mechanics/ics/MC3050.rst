@@ -1,0 +1,4 @@
+**MC3050** is an IC which outputs high when the correct combination is inputed.
+
+Combinations are defined on the third line of the sign, by entering a string of characters. X refers to on, and O refers to off.
+For example, XOX requires the left and right input to be high.
