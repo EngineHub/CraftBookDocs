@@ -1,0 +1,4 @@
+**MC4200** is an IC that implements a dispatcher that works similar to two `MC3036 <MC3036.html>`_ level-triggered D flip flops sharing the same
+input and having no reset input.
+
+Equivalent Perlstone script: ``:B[AdSp0r]Lp0r:C[AdSp1r]Lp1r``
