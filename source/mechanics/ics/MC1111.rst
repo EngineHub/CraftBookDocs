@@ -27,12 +27,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Clock
 
 Outputs
-~~~~~~~
+-------
 
 - Wireless Output
 

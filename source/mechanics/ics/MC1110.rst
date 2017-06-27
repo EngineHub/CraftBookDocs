@@ -27,12 +27,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Wireless Input
 
 Outputs
-~~~~~~~
+-------
 
 - None
 

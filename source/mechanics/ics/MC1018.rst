@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Toggle output on high
 
 Outputs
-~~~~~~~
+-------
 
 - Output
 

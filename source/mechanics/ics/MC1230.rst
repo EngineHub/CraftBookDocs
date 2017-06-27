@@ -22,12 +22,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Clock
 
 Outputs
-~~~~~~~
+-------
 
 - If day (Or within time bounds)
 

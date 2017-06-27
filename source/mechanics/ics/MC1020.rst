@@ -19,12 +19,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - High to output random state
 
 Outputs
-~~~~~~~
+-------
 
 - Outputs random state
 

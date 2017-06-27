@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - High to read from file
 
 Outputs
-~~~~~~~
+-------
 
 - First digit of file
 - Second digit of file

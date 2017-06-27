@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - The NAND Operand
 
 Outputs
-~~~~~~~
+-------
 
 - Outputs high if not all inputs are high
 

@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - The XNOR Operand
 
 Outputs
-~~~~~~~
+-------
 
 - Outputs high if all or no inputs are high
 

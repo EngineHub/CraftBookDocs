@@ -26,12 +26,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - High to disable the clock
 
 Outputs
-~~~~~~~
+-------
 
 - Toggles every X ticks
 

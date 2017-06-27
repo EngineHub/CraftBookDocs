@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Strike lightning on high
 
 Outputs
-~~~~~~~
+-------
 
 - None
 

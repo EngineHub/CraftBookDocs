@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - The XOR Operand
 
 Outputs
-~~~~~~~
+-------
 
 - Outputs high if the inputs are not equal
 

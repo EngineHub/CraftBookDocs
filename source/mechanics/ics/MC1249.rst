@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Clock
 
 Outputs
-~~~~~~~
+-------
 
 - None
 

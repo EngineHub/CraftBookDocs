@@ -18,12 +18,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - NOT Operand
 
 Outputs
-~~~~~~~
+-------
 
 - Opposite of input
 

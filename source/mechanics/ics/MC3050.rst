@@ -22,14 +22,14 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - First Input
 - Second Input
 - Third Input
 
 Outputs
-~~~~~~~
+-------
 
 - High if combination correct
 

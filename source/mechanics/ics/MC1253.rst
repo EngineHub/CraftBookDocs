@@ -166,12 +166,12 @@ IC Pins
 
 
 Inputs
-~~~~~~
+------
 
 - Runs script on high
 
 Outputs
-~~~~~~~
+-------
 
 - None
 
