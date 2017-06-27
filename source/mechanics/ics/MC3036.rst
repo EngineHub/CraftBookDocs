@@ -1,0 +1,35 @@
+======
+MC3036
+======
+
+**MC3036** is an IC that implements a flip flop that sets its output to the state of the D ("data") input whenever the clock input is high. If the D
+input changes state while the clock is low, the output will not change. Also, while the reset input is high the output state is forced to low.
+
+Equivalent Perlstone script: ``C[-dSp0r]A[BdSp0r]Lp0r``
+
+
+Sign Lines
+==========
+
+1. LEVEL-D
+2. [MC3036]
+3. Blank
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Trigger Value Carry
+- Value to Carry
+- Reset
+
+Outputs
+-------
+
+- Carried Value
+

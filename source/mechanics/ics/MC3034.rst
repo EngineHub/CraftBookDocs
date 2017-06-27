@@ -1,0 +1,38 @@
+======
+MC3034
+======
+
+**MC3034** is an IC that implements a flip flop that sets its output to the state of the D ("data") input whenever the clock input goes from low to
+high.
+
+If the D input changes state without the clock going from low to high, the output will not change. If the D input changes while the clock is high,
+the output will not change. Also, while the reset input is high the output state is forced to low.
+
+Equivalent Perlstone script: ``C[-dSp0r]Lp1AdSp1.0100[BdSp0r]Lp0r``
+
+
+Sign Lines
+==========
+
+1. EDGE-D
+2. [MC3034]
+3. Blank
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Value to Carry
+- Trigger Value Carry
+- Reset
+
+Outputs
+-------
+
+- Carried Value
+

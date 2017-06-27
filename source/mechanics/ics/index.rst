@@ -35,6 +35,8 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC3021`     XNOR           Xnor Gate                     Outputs high if the inputs are the same                                          3ISO   No              
 :doc:`MC3030`     RS-NOR         RS-Nor Latch                  A compact RS-Nor Latch                                                           3ISO   No              
 :doc:`MC3033`     RS-NAND        RS-Nand Latch                 A compact RS-Nand Latch                                                          3ISO   No              
+:doc:`MC3034`     EDGE-D         Edge-Trigger D Flip Flop      A compact Edge-D Flip Flop                                                       3ISO   No              
+:doc:`MC3036`     LEVEL-D        Level-Trigger D Flip Flop     A compact Level-D Flip Flop                                                      3ISO   No              
 :doc:`MC3050`     COMBO          Combination Lock              Outputs high if the correct combination is inputed                               3ISO   No              
 :doc:`MC3300`     ROM SET        ROM Set                       Sets the memory state for a file for usage in the MemorySetter/Access IC group.  3ISO   No              
 :doc:`MC4200`     DISPATCH       Dispatcher                    Outputs the centre input on the appropriate outputs when input is high.          3I3O   No              
