@@ -1,0 +1,2 @@
+**MC3102** is an IC that incrementally counts up to X each time received input goes from low to high. When the counter reaches the specified value,
+ it outputs high.

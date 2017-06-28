@@ -1,0 +1,33 @@
+======
+MC3102
+======
+
+**MC3102** is an IC that incrementally counts up to X each time received input goes from low to high. When the counter reaches the specified value,
+ it outputs high.
+
+
+Sign Lines
+==========
+
+1. COUNTER
+2. [MC3102]
+3. Reset Value{:INF}
+4. Current Value
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Increment Counter
+- Reset Counter
+- Nothing
+
+Outputs
+-------
+
+- High on Counter Complete
+
