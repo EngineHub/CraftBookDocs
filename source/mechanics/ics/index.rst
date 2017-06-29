@@ -35,6 +35,8 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC3020`     XOR            Xor Gate                      Outputs high if the inputs are different                                         3ISO   No              
 :doc:`MC3021`     XNOR           Xnor Gate                     Outputs high if the inputs are the same                                          3ISO   No              
 :doc:`MC3030`     RS-NOR         RS-Nor Latch                  A compact RS-Nor Latch                                                           3ISO   No              
+:doc:`MC3031`     INV RS-NAND    Inverse RS-Nand Latch         A compact Inverse RS-Nand Latch                                                  3ISO   No              
+:doc:`MC3032`     JK FLIP        JK Flip Flip                  A compact JK Flip Flop                                                           3ISO   No              
 :doc:`MC3033`     RS-NAND        RS-Nand Latch                 A compact RS-Nand Latch                                                          3ISO   No              
 :doc:`MC3034`     EDGE-D         Edge-Trigger D Flip Flop      A compact Edge-D Flip Flop                                                       3ISO   No              
 :doc:`MC3036`     LEVEL-D        Level-Trigger D Flip Flop     A compact Level-D Flip Flop                                                      3ISO   No              
