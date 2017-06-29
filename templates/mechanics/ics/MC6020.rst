@@ -1,0 +1,1 @@
+**MC6020** is an IC that generates 5 random bits whenever the input (the "clock") goes from low to high.

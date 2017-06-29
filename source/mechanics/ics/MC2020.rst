@@ -1,0 +1,30 @@
+======
+MC2020
+======
+
+**MC2020** is an IC that generates 3 random bits whenever the input (the "clock") goes from low to high.
+
+
+Sign Lines
+==========
+
+1. RANDOM 3
+2. [MC2020]
+3. Min On:Max On
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- High to output random state
+
+Outputs
+-------
+
+- Outputs random state
+

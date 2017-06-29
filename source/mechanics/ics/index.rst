@@ -28,6 +28,7 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC1249`     BLOCK REPLACER Block Replacer                Searches a nearby area and replaces blocks accordingly.                          SISO   No              
 :doc:`MC1253`     FIREWORK       Programmable Firework Display Plays a firework show from a file.                                               SISO   No              
 :doc:`MC1421`     CLOCK          Clock                         Outputs high every X ticks when input is high.                                   SISO   Yes             
+:doc:`MC2020`     RANDOM 3       Random 3-Bit                  Randomly sets the outputs on high.                                               SI3O   No              
 :doc:`MC2300`     ROM GET        ROM Get                       Gets the memory state from a file for usage in the MemorySetter/Access IC group. SI3O   No              
 :doc:`MC3002`     AND            And Gate                      Outputs high if all inputs are high.                                             3ISO   No              
 :doc:`MC3003`     NAND           Nand Gate                     Outputs high if all inputs are low.                                              3ISO   No              
@@ -46,6 +47,7 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC4100`     FULL SUBTR     Full Subtractor               A compact full-subtractor                                                        3I3O   No              
 :doc:`MC4110`     HALF SUBTR     Half Subtractor               A compact half-subtractor                                                        3I3O   No              
 :doc:`MC4200`     DISPATCH       Dispatcher                    Outputs the centre input on the appropriate outputs when input is high.          3I3O   No              
+:doc:`MC6020`     RANDOM 5       Random 5-Bit                  Randomly sets the outputs on high.                                               SI5O   No              
 ================= ============== ============================= ================================================================================ ====== ===============
 
 

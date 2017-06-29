@@ -1,0 +1,30 @@
+======
+MC6020
+======
+
+**MC6020** is an IC that generates 5 random bits whenever the input (the "clock") goes from low to high.
+
+
+Sign Lines
+==========
+
+1. RANDOM 5
+2. [MC6020]
+3. Min On:Max On
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- High to output random state
+
+Outputs
+-------
+
+- Outputs random state
+

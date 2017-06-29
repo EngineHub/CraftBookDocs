@@ -1,0 +1,1 @@
+**MC2020** is an IC that generates 3 random bits whenever the input (the "clock") goes from low to high.
