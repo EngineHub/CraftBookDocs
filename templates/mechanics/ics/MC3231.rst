@@ -1,0 +1,4 @@
+**MC3231** changes the time of day when the clock input goes from low to high. The time of day is changed to day if the D input is high and to night
+if the D input is low.
+
+The date will always change to the next night/day, meaning time will never go backwards. This allows the server's local difficulty to be kept.

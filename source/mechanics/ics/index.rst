@@ -41,6 +41,7 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC3050`     COMBO          Combination Lock              Outputs high if the correct combination is inputed                               3ISO   No              
 :doc:`MC3101`     DOWN COUNTER   Down Counter                  Decrements on redstone signal, outputs high when reset.                          3ISO   No              
 :doc:`MC3102`     COUNTER        Counter                       Increments on redstone signal, outputs high when reset.                          3ISO   No              
+:doc:`MC3231`     T CONTROL ADV  Time Control Advanced         Changes the time of day when the clock input goes from low to high.              3ISO   No              
 :doc:`MC3300`     ROM SET        ROM Set                       Sets the memory state for a file for usage in the MemorySetter/Access IC group.  3ISO   No              
 :doc:`MC4000`     FULL ADDER     Full Adder                    A compact full-adder                                                             3I3O   No              
 :doc:`MC4010`     HALF ADDER     Half Adder                    A compact half-adder                                                             3I3O   No              
