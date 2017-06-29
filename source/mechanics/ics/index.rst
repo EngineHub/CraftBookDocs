@@ -38,6 +38,7 @@ IC ID             Shorthand      Name                          Description      
 :doc:`MC3034`     EDGE-D         Edge-Trigger D Flip Flop      A compact Edge-D Flip Flop                                                       3ISO   No              
 :doc:`MC3036`     LEVEL-D        Level-Trigger D Flip Flop     A compact Level-D Flip Flop                                                      3ISO   No              
 :doc:`MC3050`     COMBO          Combination Lock              Outputs high if the correct combination is inputed                               3ISO   No              
+:doc:`MC3101`     DOWN COUNTER   Down Counter                  Decrements on redstone signal, outputs high when reset.                          3ISO   No              
 :doc:`MC3102`     COUNTER        Counter                       Increments on redstone signal, outputs high when reset.                          3ISO   No              
 :doc:`MC3300`     ROM SET        ROM Set                       Sets the memory state for a file for usage in the MemorySetter/Access IC group.  3ISO   No              
 :doc:`MC4000`     FULL ADDER     Full Adder                    A compact full-adder                                                             3I3O   No              
