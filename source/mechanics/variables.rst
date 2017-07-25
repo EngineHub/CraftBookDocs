@@ -21,4 +21,19 @@ default-to-global If no namespace is provided, default to global. Otherwise pers
 ================= ============================================================================ ======= =======
 
 
+Permissions
+===========
+
+================================= ================================= ============
+Node                              Description                       Default Role 
+================================= ================================= ============
+craftbook.variables.set           Allows setting variables.         user         
+craftbook.variables.set.global    Allows setting global variables.  staff        
+craftbook.variables.get           Allows getting variables.         user         
+craftbook.variables.get.global    Allows getting global variables.  staff        
+craftbook.variables.remove        Allows removing variables.        user         
+craftbook.variables.remove.global Allows removing global variables. staff        
+craftbook.variables.list          Allows listing variables.         user         
+craftbook.variables.list.global   Allows listing global variables.  staff        
+================================= ================================= ============
 
