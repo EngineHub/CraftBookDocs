@@ -1,0 +1,31 @@
+======
+MC5000
+======
+
+
+
+Sign Lines
+==========
+
+1. PERLSTONE
+2. [MC5000]
+3. Blank
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Programmable Input
+- Programmable Input
+- Programmable Input
+
+Outputs
+-------
+
+- Program Output
+
