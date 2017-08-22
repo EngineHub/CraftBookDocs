@@ -32,6 +32,14 @@ Stained Glass Tubes
 Stained glass blocks are used to allow multiple pipes to run next to each other. Stained pipes will only transfer items to standard pipes, or
 stained pipes of the same color.
 
+Configuration
+=============
+
+============== =================================================== ======= =======
+Node           Comment                                             Type    Default 
+============== =================================================== ======= =======
+stack-per-pull Only pull a single stack from the source per usage. Boolean true    
+============== =================================================== ======= =======
 
 
 
