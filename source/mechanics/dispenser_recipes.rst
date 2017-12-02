@@ -15,6 +15,22 @@ The **Cannon** recipe shoots a lit block of TNT out of the dispenser, with consi
 .. image:: /images/dispenser/cannon_recipe.png
     :align: center
 
+Fan
+---
+
+The **Fan** pushes away any entity 5 blocks in front of the dispenser.
+
+.. image:: /images/dispenser/fan_recipe.png
+    :align: center
+
+Vacuum
+------
+
+The **Vacuum** pulls in any entity 5 blocks in front of the dispenser.
+
+.. image:: /images/dispenser/vacuum_recipe.png
+    :align: center
+
 
 
 
