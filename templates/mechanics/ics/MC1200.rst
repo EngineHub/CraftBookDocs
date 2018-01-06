@@ -1,7 +1,3 @@
-======
-MC1200
-======
-
 The **MC1200** spawns an entity in the first free space above the block behind the IC sign when the input (the "clock") goes from low to high.
 
 Setting The Entity
@@ -12,28 +8,3 @@ So for a pig you'd write pig (Or minecraft:pig).
 
 If you want to spawn multiple different entities, or entities with more custom data, just leave the 3rd line blank. Once the IC is created it'll
 open a menu where you can provide Spawn Eggs of what you want spawned.
-
-
-Sign Lines
-==========
-
-1. SPAWNER
-2. [MC1200]
-3. entity type, or blank to set later
-4. amount
-
-
-IC Pins
-=======
-
-
-Inputs
-------
-
-- Clock
-
-Outputs
--------
-
-- None
-

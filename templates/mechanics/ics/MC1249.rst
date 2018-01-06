@@ -1,2 +1,7 @@
 **MC1249** is an IC that replaces connected blocks of one type to another depending on on/off state. A configurable delay is waited between changes,
 and physics is configurable.
+
+Setting the Blocks
+==================
+
+When you first create the IC, two menus will pop up that allow you to enter the 'On State' block, and the 'Off State' block.
