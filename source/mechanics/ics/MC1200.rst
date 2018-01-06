@@ -1,0 +1,29 @@
+======
+MC1200
+======
+
+
+
+Sign Lines
+==========
+
+1. SPAWNER
+2. [MC1200]
+3. entity type, or blank to set later
+4. amount
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Clock
+
+Outputs
+-------
+
+- None
+

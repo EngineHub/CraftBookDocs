@@ -23,6 +23,7 @@ IC ID             Shorthand      Name                                   Descript
 :doc:`MC1025`     TIME MODULUS   World Time Modulus                     Outputs high when the world time is odd.                                         SISO   No              
 :doc:`MC1110`     TRANSMITTER    Wireless Transmitter                   Transmits a wireless redstone signal.                                            SISO   No              
 :doc:`MC1111`     RECEIVER       Wireless Receiver                      Receives a wireless redstone signal.                                             SISO   Yes             
+:doc:`MC1200`     SPAWNER        Entity Spawner                         Spawns an entity with specified data.                                            SISO   No              
 :doc:`MC1203`     ZEUS BOLT      Zeus Bolt                              Strikes a location with lightning.                                               SISO   No              
 :doc:`MC1230`     SENSE DAY      Daylight Sensor                        Outputs high if it is day.                                                       SISO   Yes             
 :doc:`MC1249`     BLOCK REPLACER Block Replacer                         Searches a nearby area and replaces blocks accordingly.                          SISO   No              
