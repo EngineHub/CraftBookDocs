@@ -1,0 +1,39 @@
+======
+MC1201
+======
+
+The **MC1201** spawns items in the first free space above the block behind the IC sign when the input (the "clock") goes from low to high.
+
+Setting The Items
+=================
+
+The items to spawn can be set in a few different ways. If you want to simply just spawn a stick, just write the ID of that item on the 3rd line.
+So for a stick you'd write stick (Or minecraft:stick).
+
+If you want to spawn multiple different items, or items with more custom data, just leave the 3rd line blank. Once the IC is created it'll
+open a menu where you can provide all the items you want spawned. This includes amount as well.
+
+
+Sign Lines
+==========
+
+1. DISPENSER
+2. [MC1201]
+3. item type, or blank to set later
+4. Blank
+
+
+IC Pins
+=======
+
+
+Inputs
+------
+
+- Clock
+
+Outputs
+-------
+
+- None
+
