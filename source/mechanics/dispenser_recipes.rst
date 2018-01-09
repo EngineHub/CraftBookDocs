@@ -31,6 +31,30 @@ The **Vacuum** pulls in any entity 5 blocks in front of the dispenser.
 .. image:: /images/dispenser/vacuum_recipe.png
     :align: center
 
+Fire Arrows
+-----------
+
+The **Fire Arrows** recipe shoots flaming arrows out of the dispenser.
+
+.. image:: /images/dispenser/fire_arrow_recipe.png
+    :align: center
+
+Snow Shooter
+------------
+
+The **Snow Shooter** recipe shoots snowballs out of the dispenser.
+
+.. image:: /images/dispenser/snow_shooter_recipe.png
+    :align: center
+
+XP Shooter
+----------
+
+The **XP Shooter** recipe shoots experience bottles out of the dispenser.
+
+.. image:: /images/dispenser/xp_shooter_recipe.png
+    :align: center
+
 
 
 
