@@ -13,11 +13,11 @@ theoretically.
 Configuration
 =============
 
-======== ====================================== =========== =========
-Node     Comment                                Type        Default   
-======== ====================================== =========== =========
-material The block that this mechanic requires. BlockFilter END_STONE 
-======== ====================================== =========== =========
+======== ====================================== ================= ===================
+Node     Comment                                Type              Default             
+======== ====================================== ================= ===================
+material The block that this mechanic requires. SpongeBlockFilter minecraft:end_stone 
+======== ====================================== ================= ===================
 
 
 Permissions

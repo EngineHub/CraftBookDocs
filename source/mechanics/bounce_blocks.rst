@@ -29,13 +29,13 @@ the direction they are looking. To make this work with absolute velocity, add an
 Configuration
 =============
 
-============== ==================================================== ====== =====================
-Node           Comment                                              Type   Default               
-============== ==================================================== ====== =====================
-allowed-blocks The list of blocks that can be normal bounce blocks. List   [DIAMOND_BLOCK]       
-sensitivity    Sensitivity of jump detection.                       Double 0.1                   
-auto-blocks    Bounce blocks that are predefined.                   Map    {hardened_clay=2,1,2} 
-============== ==================================================== ====== =====================
+============== ==================================================== ====== =====================================================
+Node           Comment                                              Type   Default                                               
+============== ==================================================== ====== =====================================================
+allowed-blocks The list of blocks that can be normal bounce blocks. List   [minecraft:diamond_block]                             
+sensitivity    Sensitivity of jump detection.                       Double 0.1                                                   
+auto-blocks    Bounce blocks that are predefined.                   Map    {minecraft:stained_hardened_clay[color=orange]=2,1,2} 
+============== ==================================================== ====== =====================================================
 
 
 Permissions

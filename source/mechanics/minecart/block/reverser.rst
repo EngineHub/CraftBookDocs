@@ -21,11 +21,11 @@ you want carts to go and place the sign), and can be either two or three blocks 
 Configuration
 =============
 
-======== ====================================== =========== =======
-Node     Comment                                Type        Default 
-======== ====================================== =========== =======
-material The block that this mechanic requires. BlockFilter WOOL    
-======== ====================================== =========== =======
+======== ====================================== ================= ==============
+Node     Comment                                Type              Default        
+======== ====================================== ================= ==============
+material The block that this mechanic requires. SpongeBlockFilter minecraft:wool 
+======== ====================================== ================= ==============
 
 
 Permissions

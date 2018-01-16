@@ -12,11 +12,11 @@ Players are only ejected one block away and diagonal directions are supported.
 Configuration
 =============
 
-======== ====================================== =========== ==========
-Node     Comment                                Type        Default    
-======== ====================================== =========== ==========
-material The block that this mechanic requires. BlockFilter IRON_BLOCK 
-======== ====================================== =========== ==========
+======== ====================================== ================= ====================
+Node     Comment                                Type              Default              
+======== ====================================== ================= ====================
+material The block that this mechanic requires. SpongeBlockFilter minecraft:iron_block 
+======== ====================================== ================= ====================
 
 
 Permissions
