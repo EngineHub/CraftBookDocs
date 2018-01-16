@@ -15,6 +15,15 @@ Hidden switches consist of three parts:
 
 Right clicking a block next to the sign will toggle the switch(es) or button(s) adjacent to the sign.
 
+Access Restrictions
+-------------------
+
+Keys
+~~~~
+
+In order to lock Hidden Switches with keys, write `locked` on the 3rd line of the sign. A prompt will show up where you can enter in the chosen key.
+Once this is done, only the given item will allow the Hidden Switch to be used.
+
 Configuration
 =============
 
