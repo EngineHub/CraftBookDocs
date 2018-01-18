@@ -10,8 +10,7 @@ Construction
 Pipes consist of numerous parts:
 
 #. An item source. This can be an inventory, a supported CraftBook mechanic, or another supporting plugin or mod.
-#. A sticky piston pointed at the source. When the power state of the sticky piston goes from low to high, items are sucked out of the source into
-the pipe.
+#. A sticky piston pointed at the source. When the power state of the sticky piston goes from low to high, items are sucked out of the source into the pipe.
 #. A tube of blocks to act as the pipe.
 #. A piston pointed at the destination.
 #. An item destination. This can be an inventory, a supported CraftBook mechanic, or another supporting plugin or mod.

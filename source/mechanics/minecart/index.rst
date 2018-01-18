@@ -10,3 +10,4 @@ The following mechanics are minecart related.
     :glob:
 
     *
+    block/index

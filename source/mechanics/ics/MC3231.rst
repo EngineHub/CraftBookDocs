@@ -2,7 +2,8 @@
 MC3231
 ======
 
-.. NOTE:
+.. note::
+
    This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
 
 
