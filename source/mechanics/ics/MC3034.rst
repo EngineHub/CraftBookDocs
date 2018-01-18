@@ -43,7 +43,7 @@ Permissions
 ======================== ============================================================ ============
 Node                     Description                                                  Default Role 
 ======================== ============================================================ ============
-craftbook.ic.safe.MC3034 Allows creation of the Edge-Trigger D Flip Flop (MC3034) IC. user         
+craftbook.ic.safe.mc3034 Allows creation of the Edge-Trigger D Flip Flop (MC3034) IC. user         
 ======================== ============================================================ ============
 
 

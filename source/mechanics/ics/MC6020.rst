@@ -35,7 +35,7 @@ Permissions
 ======================== ================================================ ============
 Node                     Description                                      Default Role 
 ======================== ================================================ ============
-craftbook.ic.safe.MC6020 Allows creation of the Random 5-Bit (MC6020) IC. user         
+craftbook.ic.safe.mc6020 Allows creation of the Random 5-Bit (MC6020) IC. user         
 ======================== ================================================ ============
 
 

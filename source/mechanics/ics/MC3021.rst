@@ -50,7 +50,7 @@ Permissions
 ======================== ============================================= ============
 Node                     Description                                   Default Role 
 ======================== ============================================= ============
-craftbook.ic.safe.MC3021 Allows creation of the Xnor Gate (MC3021) IC. user         
+craftbook.ic.safe.mc3021 Allows creation of the Xnor Gate (MC3021) IC. user         
 ======================== ============================================= ============
 
 

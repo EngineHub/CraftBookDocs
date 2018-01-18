@@ -182,7 +182,7 @@ Permissions
 ======================== ================================================================= ============
 Node                     Description                                                       Default Role 
 ======================== ================================================================= ============
-craftbook.ic.safe.MC1253 Allows creation of the Programmable Firework Display (MC1253) IC. user         
+craftbook.ic.safe.mc1253 Allows creation of the Programmable Firework Display (MC1253) IC. user         
 ======================== ================================================================= ============
 
 

@@ -35,7 +35,7 @@ Permissions
 ======================== ============================================== ============
 Node                     Description                                    Default Role 
 ======================== ============================================== ============
-craftbook.ic.safe.MC1020 Allows creation of the Random Bit (MC1020) IC. user         
+craftbook.ic.safe.mc1020 Allows creation of the Random Bit (MC1020) IC. user         
 ======================== ============================================== ============
 
 

@@ -39,7 +39,7 @@ Permissions
 ======================== =================================================== ============
 Node                     Description                                         Default Role 
 ======================== =================================================== ============
-craftbook.ic.safe.MC4100 Allows creation of the Full Subtractor (MC4100) IC. user         
+craftbook.ic.safe.mc4100 Allows creation of the Full Subtractor (MC4100) IC. user         
 ======================== =================================================== ============
 
 

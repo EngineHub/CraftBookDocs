@@ -43,7 +43,7 @@ Permissions
 ======================== ===================================================== ============
 Node                     Description                                           Default Role 
 ======================== ===================================================== ============
-craftbook.ic.safe.MC1111 Allows creation of the Wireless Receiver (MC1111) IC. user         
+craftbook.ic.safe.mc1111 Allows creation of the Wireless Receiver (MC1111) IC. user         
 ======================== ===================================================== ============
 
 

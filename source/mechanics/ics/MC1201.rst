@@ -49,7 +49,7 @@ Permissions
 ============================== ================================================== ============
 Node                           Description                                        Default Role 
 ============================== ================================================== ============
-craftbook.ic.restricted.MC1201 Allows creation of the Item Dispenser (MC1201) IC. staff        
+craftbook.ic.restricted.mc1201 Allows creation of the Item Dispenser (MC1201) IC. staff        
 ============================== ================================================== ============
 
 

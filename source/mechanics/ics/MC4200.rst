@@ -42,7 +42,7 @@ Permissions
 ======================== ============================================== ============
 Node                     Description                                    Default Role 
 ======================== ============================================== ============
-craftbook.ic.safe.MC4200 Allows creation of the Dispatcher (MC4200) IC. user         
+craftbook.ic.safe.mc4200 Allows creation of the Dispatcher (MC4200) IC. user         
 ======================== ============================================== ============
 
 

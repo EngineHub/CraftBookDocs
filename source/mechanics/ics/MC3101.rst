@@ -38,7 +38,7 @@ Permissions
 ======================== ================================================ ============
 Node                     Description                                      Default Role 
 ======================== ================================================ ============
-craftbook.ic.safe.MC3101 Allows creation of the Down Counter (MC3101) IC. user         
+craftbook.ic.safe.mc3101 Allows creation of the Down Counter (MC3101) IC. user         
 ======================== ================================================ ============
 
 

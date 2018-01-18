@@ -37,7 +37,7 @@ Permissions
 ======================== ======================================================= ============
 Node                     Description                                             Default Role 
 ======================== ======================================================= ============
-craftbook.ic.safe.MC1018 Allows creation of the Toggle Flip Flip FE (MC1018) IC. user         
+craftbook.ic.safe.mc1018 Allows creation of the Toggle Flip Flip FE (MC1018) IC. user         
 ======================== ======================================================= ============
 
 

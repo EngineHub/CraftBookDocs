@@ -38,7 +38,7 @@ Permissions
 ======================== =========================================== ============
 Node                     Description                                 Default Role 
 ======================== =========================================== ============
-craftbook.ic.safe.MC3102 Allows creation of the Counter (MC3102) IC. user         
+craftbook.ic.safe.mc3102 Allows creation of the Counter (MC3102) IC. user         
 ======================== =========================================== ============
 
 

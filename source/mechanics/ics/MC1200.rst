@@ -49,7 +49,7 @@ Permissions
 ============================== ================================================== ============
 Node                           Description                                        Default Role 
 ============================== ================================================== ============
-craftbook.ic.restricted.MC1200 Allows creation of the Entity Spawner (MC1200) IC. staff        
+craftbook.ic.restricted.mc1200 Allows creation of the Entity Spawner (MC1200) IC. staff        
 ============================== ================================================== ============
 
 

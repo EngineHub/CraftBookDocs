@@ -36,7 +36,7 @@ Permissions
 ======================== ========================================================================== ============
 Node                     Description                                                                Default Role 
 ======================== ========================================================================== ============
-craftbook.ic.safe.MC5000 Allows creation of the Perlstone 3ISO Programmable Logic Chip (MC5000) IC. user         
+craftbook.ic.safe.mc5000 Allows creation of the Perlstone 3ISO Programmable Logic Chip (MC5000) IC. user         
 ======================== ========================================================================== ============
 
 

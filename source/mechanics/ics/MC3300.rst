@@ -40,7 +40,7 @@ Permissions
 ======================== =========================================== ============
 Node                     Description                                 Default Role 
 ======================== =========================================== ============
-craftbook.ic.safe.MC3300 Allows creation of the ROM Set (MC3300) IC. user         
+craftbook.ic.safe.mc3300 Allows creation of the ROM Set (MC3300) IC. user         
 ======================== =========================================== ============
 
 

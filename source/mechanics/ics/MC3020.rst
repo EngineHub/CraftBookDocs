@@ -51,7 +51,7 @@ Permissions
 ======================== ============================================ ============
 Node                     Description                                  Default Role 
 ======================== ============================================ ============
-craftbook.ic.safe.MC3020 Allows creation of the Xor Gate (MC3020) IC. user         
+craftbook.ic.safe.mc3020 Allows creation of the Xor Gate (MC3020) IC. user         
 ======================== ============================================ ============
 
 

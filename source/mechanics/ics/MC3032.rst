@@ -37,7 +37,7 @@ Permissions
 ======================== ================================================ ============
 Node                     Description                                      Default Role 
 ======================== ================================================ ============
-craftbook.ic.safe.MC3032 Allows creation of the JK Flip Flip (MC3032) IC. user         
+craftbook.ic.safe.mc3032 Allows creation of the JK Flip Flip (MC3032) IC. user         
 ======================== ================================================ ============
 
 

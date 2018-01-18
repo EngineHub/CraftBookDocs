@@ -39,7 +39,7 @@ Permissions
 ======================== ============================================== ============
 Node                     Description                                    Default Role 
 ======================== ============================================== ============
-craftbook.ic.safe.MC4000 Allows creation of the Full Adder (MC4000) IC. user         
+craftbook.ic.safe.mc4000 Allows creation of the Full Adder (MC4000) IC. user         
 ======================== ============================================== ============
 
 

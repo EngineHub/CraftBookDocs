@@ -35,7 +35,7 @@ Permissions
 ======================== ================================================ ============
 Node                     Description                                      Default Role 
 ======================== ================================================ ============
-craftbook.ic.safe.MC2020 Allows creation of the Random 3-Bit (MC2020) IC. user         
+craftbook.ic.safe.mc2020 Allows creation of the Random 3-Bit (MC2020) IC. user         
 ======================== ================================================ ============
 
 

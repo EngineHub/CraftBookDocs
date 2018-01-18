@@ -37,7 +37,7 @@ Permissions
 ======================== ============================================ ============
 Node                     Description                                  Default Role 
 ======================== ============================================ ============
-craftbook.ic.safe.MC1000 Allows creation of the Repeater (MC1000) IC. user         
+craftbook.ic.safe.mc1000 Allows creation of the Repeater (MC1000) IC. user         
 ======================== ============================================ ============
 
 

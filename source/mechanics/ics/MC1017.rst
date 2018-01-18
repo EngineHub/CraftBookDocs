@@ -37,7 +37,7 @@ Permissions
 ======================== ======================================================= ============
 Node                     Description                                             Default Role 
 ======================== ======================================================= ============
-craftbook.ic.safe.MC1017 Allows creation of the Toggle Flip Flop RE (MC1017) IC. user         
+craftbook.ic.safe.mc1017 Allows creation of the Toggle Flip Flop RE (MC1017) IC. user         
 ======================== ======================================================= ============
 
 

@@ -45,7 +45,7 @@ Permissions
 ============================== ========================================================= ============
 Node                           Description                                               Default Role 
 ============================== ========================================================= ============
-craftbook.ic.restricted.MC3231 Allows creation of the Time Control Advanced (MC3231) IC. staff        
+craftbook.ic.restricted.mc3231 Allows creation of the Time Control Advanced (MC3231) IC. staff        
 ============================== ========================================================= ============
 
 

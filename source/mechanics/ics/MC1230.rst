@@ -38,7 +38,7 @@ Permissions
 ======================== =================================================== ============
 Node                     Description                                         Default Role 
 ======================== =================================================== ============
-craftbook.ic.safe.MC1230 Allows creation of the Daylight Sensor (MC1230) IC. user         
+craftbook.ic.safe.mc1230 Allows creation of the Daylight Sensor (MC1230) IC. user         
 ======================== =================================================== ============
 
 

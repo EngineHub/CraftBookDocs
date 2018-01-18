@@ -36,7 +36,7 @@ Permissions
 ======================== ====================================================== ============
 Node                     Description                                            Default Role 
 ======================== ====================================================== ============
-craftbook.ic.safe.MC1025 Allows creation of the World Time Modulus (MC1025) IC. user         
+craftbook.ic.safe.mc1025 Allows creation of the World Time Modulus (MC1025) IC. user         
 ======================== ====================================================== ============
 
 

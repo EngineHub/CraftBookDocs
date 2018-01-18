@@ -53,7 +53,7 @@ Permissions
 ======================== ============================================ ============
 Node                     Description                                  Default Role 
 ======================== ============================================ ============
-craftbook.ic.safe.MC3002 Allows creation of the And Gate (MC3002) IC. user         
+craftbook.ic.safe.mc3002 Allows creation of the And Gate (MC3002) IC. user         
 ======================== ============================================ ============
 
 
