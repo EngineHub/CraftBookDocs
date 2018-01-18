@@ -32,6 +32,17 @@ Stained Glass Tubes
 Stained glass blocks are used to allow multiple pipes to run next to each other. Stained pipes will only transfer items to standard pipes, or
 stained pipes of the same color.
 
+Intersection Tubes
+~~~~~~~~~~~~~~~~~~
+
+Glass pane blocks are pipe blocks that will only connect pipes straight in the direction the pipe came from. This allows for two unrelated pipes to
+ pass through the same block.
+
+Stained Intersection Tubes
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Stained glass panes act similarly to intersection tubes, however they only work with other pipes of the same colour.
+
 Configuration
 =============
 
