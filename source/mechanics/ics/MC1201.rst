@@ -2,6 +2,10 @@
 MC1201
 ======
 
+.. NOTE:
+   This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
+
+
 The **MC1201** spawns items in the first free space above the block behind the IC sign when the input (the "clock") goes from low to high.
 
 Setting The Items
@@ -36,4 +40,16 @@ Outputs
 -------
 
 - None
+
+
+Permissions
+===========
+
+============================== ================================================== ============
+Node                           Description                                        Default Role 
+============================== ================================================== ============
+craftbook.ic.restricted.MC1201 Allows creation of the Item Dispenser (MC1201) IC. staff        
+============================== ================================================== ============
+
+
 

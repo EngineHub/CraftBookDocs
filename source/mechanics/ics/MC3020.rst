@@ -44,3 +44,15 @@ Outputs
 
 - Outputs high if the inputs are not equal
 
+
+Permissions
+===========
+
+======================== ============================================ ============
+Node                     Description                                  Default Role 
+======================== ============================================ ============
+craftbook.ic.safe.MC3020 Allows creation of the Xor Gate (MC3020) IC. user         
+======================== ============================================ ============
+
+
+

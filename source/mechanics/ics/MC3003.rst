@@ -46,3 +46,15 @@ Outputs
 
 - Outputs high if not all inputs are high
 
+
+Permissions
+===========
+
+======================== ============================================= ============
+Node                     Description                                   Default Role 
+======================== ============================================= ============
+craftbook.ic.safe.MC3003 Allows creation of the Nand Gate (MC3003) IC. user         
+======================== ============================================= ============
+
+
+

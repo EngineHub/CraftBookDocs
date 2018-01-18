@@ -2,6 +2,10 @@
 MC1200
 ======
 
+.. NOTE:
+   This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
+
+
 The **MC1200** spawns an entity in the first free space above the block behind the IC sign when the input (the "clock") goes from low to high.
 
 Setting The Entity
@@ -36,4 +40,16 @@ Outputs
 -------
 
 - None
+
+
+Permissions
+===========
+
+============================== ================================================== ============
+Node                           Description                                        Default Role 
+============================== ================================================== ============
+craftbook.ic.restricted.MC1200 Allows creation of the Entity Spawner (MC1200) IC. staff        
+============================== ================================================== ============
+
+
 

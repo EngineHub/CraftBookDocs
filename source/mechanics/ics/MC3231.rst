@@ -2,6 +2,10 @@
 MC3231
 ======
 
+.. NOTE:
+   This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
+
+
 **MC3231** changes the time of day when the clock input goes from low to high. The time of day is changed to day if the D input is high and to night
 if the D input is low.
 
@@ -32,4 +36,16 @@ Outputs
 -------
 
 - Nothing
+
+
+Permissions
+===========
+
+============================== ========================================================= ============
+Node                           Description                                               Default Role 
+============================== ========================================================= ============
+craftbook.ic.restricted.MC3231 Allows creation of the Time Control Advanced (MC3231) IC. staff        
+============================== ========================================================= ============
+
+
 

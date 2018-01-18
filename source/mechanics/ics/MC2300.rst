@@ -33,3 +33,15 @@ Outputs
 - Second digit of file
 - Third digit of file
 
+
+Permissions
+===========
+
+======================== =========================================== ============
+Node                     Description                                 Default Role 
+======================== =========================================== ============
+craftbook.ic.safe.MC2300 Allows creation of the ROM Get (MC2300) IC. user         
+======================== =========================================== ============
+
+
+
