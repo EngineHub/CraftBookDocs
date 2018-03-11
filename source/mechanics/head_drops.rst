@@ -51,8 +51,10 @@ cow                 .. image:: https://minotar.net/helm/MHF_Cow/64.png
 magma_cube          .. image:: https://minotar.net/helm/MHF_LavaSlime/64.png   
 spider              .. image:: https://minotar.net/helm/MHF_Spider/64.png      
 wither              .. image:: https://minotar.net/helm/MHF_Wither/64.png      
+horse               .. image:: https://minotar.net/helm/gavertoso/64.png       
 slime               .. image:: https://minotar.net/helm/MHF_Slime/64.png       
 polar_bear          .. image:: https://minotar.net/helm/Polar_Bear/64.png      
+bat                 .. image:: https://minotar.net/helm/bozzobrain/64.png      
 witch               .. image:: https://minotar.net/helm/MHF_Witch/64.png       
 pig                 .. image:: https://minotar.net/helm/MHF_Pig/64.png         
 sheep               .. image:: https://minotar.net/helm/MHF_Sheep/64.png       
