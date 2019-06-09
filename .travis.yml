@@ -1,8 +1,0 @@
-language: python
-sudo: false
-python:
-- '2.7'
-install: "./etc/install.sh"
-script: "./etc/build.sh"
-notifications:
-  email: false
