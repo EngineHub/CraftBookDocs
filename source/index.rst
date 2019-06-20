@@ -3,6 +3,7 @@ CraftBook Documentation
 =======================
 
 CraftBook is one of Minecraft's first ever game mods, and as a Minecraft SMP addon, it adds:
+
 * Modular, and extremely light on your server. **Everything is off by default.**
 * Enable features that you need, disable ones that you don't. Even tweak features to your liking.
 * Adds heaps of mechanics that allow you to mimic large portions of FTB/Tekkit with a vanilla client.
