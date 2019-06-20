@@ -29,22 +29,21 @@ the direction they are looking. To make this work with absolute velocity, add an
 Configuration
 =============
 
-============== ==================================================== ====== =====================================================
-Node           Comment                                              Type   Default                                               
-============== ==================================================== ====== =====================================================
-allowed-blocks The list of blocks that can be normal bounce blocks. List   [minecraft:diamond_block]                             
-sensitivity    Sensitivity of jump detection.                       Double 0.1                                                   
-auto-blocks    Bounce blocks that are predefined.                   Map    {minecraft:stained_hardened_clay[color=orange]=2,1,2} 
-============== ==================================================== ====== =====================================================
-
+================================== ======================================= =========================
+Node                               Comment                                 Default
+================================== ======================================= =========================
+mechanics.BounceBlocks.blocks      A list of blocks that can be jumped on. [minecraft:diamond_block]
+mechanics.BounceBlocks.sensitivity The sensitivity of jumping.             0.1
+mechanics.BounceBlocks.auto-blocks Bounce blocks that are predefined.
+================================== ======================================= =========================
 
 Permissions
 ===========
 
-========================== ==================================================== ============
-Node                       Description                                          Default Role 
-========================== ==================================================== ============
-craftbook.bounceblocks     Allows the user to create the BounceBlocks mechanic. user         
-craftbook.bounceblocks.use Allows the user to use the BounceBlocks mechanic.    user         
-========================== ==================================================== ============
+=============================== ====================================================
+Node                            Description
+=============================== ====================================================
+craftbook.mech.bounceblocks     Allows the user to create the BounceBlocks mechanic.
+craftbook.mech.bounceblocks.use Allows the user to use the BounceBlocks mechanic.
+=============================== ====================================================
 

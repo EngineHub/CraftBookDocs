@@ -1,1 +1,0 @@
-The **MC1020** generates a random state whenever the input (the "clock") goes from low to high.

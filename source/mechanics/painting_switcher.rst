@@ -19,13 +19,11 @@ To use paintings added by mods, the mod needs to register the painting with the 
 vanilla painting.
 
 
-
 Permissions
 ===========
 
-============================== ==================================== ============
-Node                           Description                          Default Role 
-============================== ==================================== ============
-craftbook.paintingswitcher.use Allows the user to switch paintings. user         
-============================== ==================================== ============
-
++------------------------------------+---------------------------------------+
+|  Permission Node                   |  Effect                               |
++====================================+=======================================+
+|  craftbook.mech.paintingswitch.use |  Allows use of the Painting Switcher. |
++------------------------------------+---------------------------------------+

@@ -1,9 +1,0 @@
-**MC1110** allows transmitting redstone signal over long distances. The equivalent IC to receive the signals is `MC1111 <MC1111.html>`_
-
-How-To
-======
-
-Once this IC is setup, create a `Receiver <MC1111.html>`_ with the same `narrowband` and `wideband`.
-
-.. image:: /images/ics/mc1110/transmitter.png
-   :align: center

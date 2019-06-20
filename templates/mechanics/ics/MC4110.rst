@@ -1,1 +1,0 @@
-**MC4110** is an IC that implements a half subtractor.

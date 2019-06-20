@@ -29,25 +29,39 @@ lowered, regardless of the config setting.
 Configuration
 =============
 
-====================== ======================================================================================= ======= ===============================================================================================================================================================================================================================================================================================================================================================================
-Node                   Comment                                                                                 Type    Default                                                                                                                                                                                                                                                                                                                                                                         
-====================== ======================================================================================= ======= ===============================================================================================================================================================================================================================================================================================================================================================================
-allowed-blocks         A list of blocks that can be used.                                                      List    [minecraft:oak_stairs, minecraft:nether_brick_stairs, minecraft:acacia_stairs, minecraft:purpur_stairs, minecraft:red_sandstone_stairs, minecraft:sandstone_stairs, minecraft:quartz_stairs, minecraft:stone_stairs, minecraft:jungle_stairs, minecraft:spruce_stairs, minecraft:stone_brick_stairs, minecraft:birch_stairs, minecraft:dark_oak_stairs, minecraft:brick_stairs] 
-exit-at-last-position  Moves player's to their entry position when they exit the chair.                        Boolean false                                                                                                                                                                                                                                                                                                                                                                           
-require-sign           Require signs on the chairs.                                                            Boolean false                                                                                                                                                                                                                                                                                                                                                                           
-max-sign-distance      The distance the sign can be from the clicked chair.                                    Integer 3                                                                                                                                                                                                                                                                                                                                                                               
-face-correct-direction When the player sits, automatically face them the direction of the chair. (If possible) Boolean true                                                                                                                                                                                                                                                                                                                                                                            
-heal-passenger         Heal the player when they're sitting in the chair.                                      Boolean false                                                                                                                                                                                                                                                                                                                                                                           
-heal-amount            Amount to heal the player by.                                                           Double  1.0                                                                                                                                                                                                                                                                                                                                                                             
-====================== ======================================================================================= ======= ===============================================================================================================================================================================================================================================================================================================================================================================
-
+======================================= ======================================================================================= =======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Node                                    Comment                                                                                 Default
+======================================= ======================================================================================= =======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+mechanics.Chairs.allow-holding-blocks   Allow players to sit in chairs when holding blocks.                                     false
+mechanics.Chairs.regen-health           Regenerate health passively when sitting down.                                          true
+mechanics.Chairs.regen-health-amount    The amount of health regenerated passively. (Can be decimal)                            1.0
+mechanics.Chairs.blocks                 A list of blocks that can be sat on.                                                    [minecraft:acacia_stairs, minecraft:birch_stairs, minecraft:brick_stairs, minecraft:cobblestone_stairs, minecraft:dark_oak_stairs, minecraft:dark_prismarine_stairs, minecraft:jungle_stairs, minecraft:nether_brick_stairs, minecraft:oak_stairs, minecraft:prismarine_brick_stairs, minecraft:prismarine_stairs, minecraft:purpur_stairs, minecraft:quartz_stairs, minecraft:red_sandstone_stairs, minecraft:sandstone_stairs, minecraft:spruce_stairs, minecraft:stone_brick_stairs]
+mechanics.Chairs.face-correct-direction When the player sits, automatically face them the direction of the chair. (If possible) true
+mechanics.Chairs.require-sign           Require a sign to be attached to the chair in order to work!                            false
+mechanics.Chairs.max-distance           The maximum distance between the click point and the sign. (When require sign is on)    3
+mechanics.Chairs.max-click-radius       The maximum distance the player can be from the sign.                                   5
+======================================= ======================================================================================= =======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 Permissions
 ===========
 
-==================== ================================= ============
-Node                 Description                       Default Role 
-==================== ================================= ============
-craftbook.chairs.use Allows the user to sit in chairs. user         
-==================== ================================= ============
+======================== =================================
+Node                     Description
+======================== =================================
+craftbook.mech.chair.use Allows the user to sit in chairs.
+======================== =================================
 
+Troubleshooting
+===============
+
++-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+|  Issue                                        |  Solution                                                                                                 |
++===============================================+===========================================================================================================+
+|  The sitting animation doesn't appear on 1.6! |  Update to the latest versions of CraftBook, a major change occurred with the sitting animation!          |
++-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+|  Players are kicked when sitting!             |  You are using a version of bukkit with a bug in it relating to vehicles! Please use Bukkit Build #2812.  |
++-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+|  Players are kicked for Nope!                 |  Make sure to use the LATEST version of ProtocolLib alongside CraftBook.                                  |
++-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+|  Players bob up and down on chairs.           |  Make sure you don't have a plugin that erases arrows (Or a spigot setting).                              |
++-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+

@@ -12,7 +12,6 @@ Elevators are just wall signs that are above or below each other. However, there
 * Using [Lift Up] on the second line of a sign allows players to right click the sign to go upwards toward any other elevator sign.
 * Using [Lift Down] on the second line of on a sign allows players to right click the sign to go downwards toward any other elevator sign.
 * Using [Lift] on the second line of a sign prevents anyone from right clicking the sign, but you can use it tandem with the other two signs types.
-* Using [Lift UpDown] on the second line of a sign allows it to be used by either clicking the top or bottom half of the sign, or used by jumping or crouching.
 
 The first line of a sign can be used to tell players who arrive at a level the name of the level.
 
@@ -30,29 +29,28 @@ Button Lifts
 
 If button lifts are enabled, elevators can be activated by using buttons on the opposite side of the block containing the elevator sign.
 
-Lift UpDown
------------
-
-These signs allow for both up and down movements from a single sign. They can either be used by right clicking the top or bottom half of the sign, or by jumping or crouching. When jumping/crouching is used, it needs to be attached to the block that is being jumped or crouched on top of.
-
 Configuration
 =============
 
-================== ============================================================== ======= =======
-Node               Comment                                                        Type    Default 
-================== ============================================================== ======= =======
-allow-jump-lifts   Allow lifts that the user can control by jumping, or sneaking. Boolean true    
-allow-button-lifts Allow lifts to be controlled by buttons opposite the sign.     Boolean true    
-================== ============================================================== ======= =======
+================================================ =================================================================================================================================== =======
+Node                                             Comment                                                                                                                             Default
+================================================ =================================================================================================================================== =======
+mechanics.Elevator.allow-redstone                Allows elevators to be triggered by redstone, which will move all players in a radius.                                              false
+mechanics.Elevator.redstone-player-search-radius The radius that elevators will look for players in when triggered by redstone.                                                      3
+mechanics.Elevator.enable-buttons                Allow elevators to be used by a button on the other side of the block.                                                              true
+mechanics.Elevator.allow-looping                 Allows elevators to loop the world height. The heighest lift up will go to the next lift on the bottom of the world and vice versa. false
+mechanics.Elevator.smooth-movement               Causes the elevator to slowly move the player between floors instead of instantly.                                                  false
+mechanics.Elevator.smooth-movement-speed         The speed at which players move from floor to floor when smooth movement is enabled.                                                0.5
+================================================ =================================================================================================================================== =======
 
 
 Permissions
 ===========
 
-====================== =================================== ============
-Node                   Description                         Default Role 
-====================== =================================== ============
-craftbook.elevator     Allows the user to create Elevators user         
-craftbook.elevator.use Allows the user to use Elevators    user         
-====================== =================================== ============
-
++------------------------------+--------------------------------+
+|  Permission Node             |  Effect                        |
++==============================+================================+
+|  craftbook.mech.elevator     |  Allows creation of elevators. |
++------------------------------+--------------------------------+
+|  craftbook.mech.elevator.use |  Allows usage of elevators.    |
++------------------------------+--------------------------------+

@@ -7,7 +7,7 @@ Teleporter
 Construction
 ============
 
-Using [Teleporter] on the second line of a sign, with the X, Y and Z coordinates on the third (Seperated by a : ), will construct a teleporter.
+Using [Teleporter] on the second line of a sign, with the X, Y and Z coordinates on the third (Seperated by a colon, ":"), will construct a teleporter.
 
 The coordinates are absolute - not relative offsets. So typing in 0:0:0 will actually take you to 0:0:0, not where the sign is.
 
@@ -18,22 +18,21 @@ If ARRIVAL is entered on the third line, the player can only arrive at the telep
 Configuration
 =============
 
-============= ================================================================ ======= =======
-Node          Comment                                                          Type    Default 
-============= ================================================================ ======= =======
-allow-buttons Allow teleporters to be controlled by buttons opposite the sign. Boolean true    
-require-sign  Require a teleport sign at the destination.                      Boolean true    
-max-range     The max range of the teleport, or -1 for infinite.               Double  -1.0    
-============= ================================================================ ======= =======
+================================= ====================================================================================== =======
+Node                              Comment                                                                                Default
+================================= ====================================================================================== =======
+mechanics.Teleporter.require-sign Require a sign to be at the destination of the teleportation.                          false
+mechanics.Teleporter.max-range    The maximum distance between the start and end of a teleporter. Set to 0 for infinite. 0
+================================= ====================================================================================== =======
 
 
 Permissions
 ===========
 
-======================== ===================================== ============
-Node                     Description                           Default Role 
-======================== ===================================== ============
-craftbook.teleporter     Allows the user to create Teleporters staff        
-craftbook.teleporter.use Allows the user to use Teleporters    user         
-======================== ===================================== ============
-
++--------------------------------+----------------------------------+
+|  Permission Node               |  Effect                          |
++================================+==================================+
+|  craftbook.mech.teleporter     |  Allows creation of Teleporters. |
++--------------------------------+----------------------------------+
+|  craftbook.mech.teleporter.use |  Allows usage of Teleporters.    |
++--------------------------------+----------------------------------+

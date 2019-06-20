@@ -59,16 +59,14 @@ The **XP Shooter** recipe shoots experience bottles out of the dispenser.
 Configuration
 =============
 
-============ ============================================ ======= =======
-Node         Comment                                      Type    Default 
-============ ============================================ ======= =======
-cannon       Enables the 'Cannon' dispenser recipe.       Boolean true    
-fan          Enables the 'Fan' dispenser recipe.          Boolean true    
-vacuum       Enables the 'Vacuum' dispenser recipe.       Boolean true    
-fire-arrows  Enables the 'Fire Arrows' dispenser recipe.  Boolean true    
-snow-shooter Enables the 'Snow Shooter' dispenser recipe. Boolean true    
-xp-shooter   Enables the 'XP Shooter' dispenser recipe.   Boolean true    
-============ ============================================ ======= =======
-
+============================================== ====================================== =======
+Node                                           Comment                                Default
+============================================== ====================================== =======
+mechanics.DispenserRecipes.cannon-enable       Enables Cannon Dispenser Recipe.       true
+mechanics.DispenserRecipes.fan-enable          Enables Fan Dispenser Recipe.          true
+mechanics.DispenserRecipes.fire-arrows-enable  Enables Fire Arrows Dispenser Recipe.  true
+mechanics.DispenserRecipes.snow-shooter-enable Enables Snow Shooter Dispenser Recipe. true
+mechanics.DispenserRecipes.xp-shooter-enable   Enables XP Shooter Dispenser Recipe.   true
+============================================== ====================================== =======
 
 

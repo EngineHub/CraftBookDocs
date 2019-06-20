@@ -14,25 +14,25 @@ Editing Text
 
 To edit text, you can use the `/sign edit` commands. The syntax is `/sign edit <line> <text>`. This edits the currently copied sign, allowing you to make a copy and edit it, just before pasting it on multiple signs!
 
-In order to edit text with spaces, just enter it in as you normally would. Eg, `/sign edit 1 This is a sign`.
+In order to edit text with spaces, just surround it with quotes (""). Eg, `/sign edit 1 "This is a sign"`.
 
 Configuration
 =============
 
-=============== ================================================ ========= ===================================================================
-Node            Comment                                          Type      Default                                                             
-=============== ================================================ ========= ===================================================================
-signcopier-item The item that triggers the Sign Copier mechanic. ItemStack {ContentVersion=1, ItemType=minecraft:dye, Count=1, UnsafeDamage=0} 
-=============== ================================================ ========= ===================================================================
+========================= ===================================== =================
+Node                      Comment                               Default
+========================= ===================================== =================
+mechanics.SignCopier.item The item the Sign Copy mechanic uses. minecraft:ink_sac
+========================= ===================================== =================
 
 
 Permissions
 ===========
 
-========================= ============================================= ============
-Node                      Description                                   Default Role 
-========================= ============================================= ============
-craftbook.signcopier.use  Allows the user to copy and paste signs.      user         
-craftbook.signcopier.edit Allows the user to use the sign edit command. user         
-========================= ============================================= ============
-
++-------------------------------+---------------------------------------------------+
+|  Permission Node              |  Effect                                           |
++===============================+===================================================+
+|  craftbook.mech.signcopy.use  |  Allows use of the Sign Copier tool.              |
++-------------------------------+---------------------------------------------------+
+|  craftbook.mech.signcopy.edit |  Allows the user to use the text editing feature. |
++-------------------------------+---------------------------------------------------+

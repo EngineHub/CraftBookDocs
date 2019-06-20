@@ -1,1 +1,0 @@
-**MC3032** is an IC that implements a JK flip flop that updates its output based on the states of inputs J and K when the clock falls.

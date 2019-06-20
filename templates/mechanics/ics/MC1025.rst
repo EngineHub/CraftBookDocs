@@ -1,2 +1,0 @@
-**MC1025** is an IC that outputs whether the world time is either odd or even based on the application of the modulus of two on the server time. If
-the server time is even, a low will be outputted. If the server time is odd, a high will be outputted.

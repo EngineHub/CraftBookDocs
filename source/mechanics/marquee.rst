@@ -18,10 +18,10 @@ If you are using a namespace other than the default for the variable, you must a
 Permissions
 ===========
 
-===================== =================================== ============
-Node                  Description                         Default Role 
-===================== =================================== ============
-craftbook.marquee     Allows for creation of the marquee. staff        
-craftbook.marquee.use Allows for usage of the marquee.    user         
-===================== =================================== ============
-
++-----------------------------+------------------------------------+
+|  Permission Node            |  Effect                            |
++=============================+====================================+
+|  craftbook.mech.marquee     |  Allows creation of Marquee signs. |
++-----------------------------+------------------------------------+
+|  craftbook.mech.marquee.use |  Allows usage of Marquee signs.    |
++-----------------------------+------------------------------------+

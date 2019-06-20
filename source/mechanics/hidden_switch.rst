@@ -21,26 +21,31 @@ Access Restrictions
 Keys
 ~~~~
 
-In order to lock Hidden Switches with keys, write `locked` on the 3rd line of the sign. A prompt will show up where you can enter in the chosen key.
-Once this is done, only the given item will allow the Hidden Switch to be used.
+In order to lock Hidden Switches with keys, write an item on the 3rd line of the sign. If the user does not hold this item, they will read that their key did not fit.
+
+Groups
+~~~~~~
+
+Also since Version 3.3, usage of hidden switches could be restricted by entering a group name in the third line of the sign (case-sensitive). Users not in the listed group get an error message.
+
 
 Configuration
 =============
 
-============== ======================================================== ======= =======
-Node           Comment                                                  Type    Default 
-============== ======================================================== ======= =======
-allow-any-side Allows the user to click any side of the attached block. Boolean false   
-============== ======================================================== ======= =======
+=============================== ==================================================================== =======
+Node                            Comment                                                              Default
+=============================== ==================================================================== =======
+mechanics.HiddenSwitch.any-side Allows the Hidden Switch to be activated from any side of the block. true
+=============================== ==================================================================== =======
 
 
 Permissions
 ===========
 
-=========================== ========================================= ============
-Node                        Description                               Default Role 
-=========================== ========================================= ============
-craftbook.hidden-switch     Allows the user to create Hidden Switches user         
-craftbook.hidden-switch.use Allows the user to use Hidden Switches    user         
-=========================== ========================================= ============
-
++----------------------------------+--------------------------------------+
+|  Permission Node                 |  Effect                              |
++==================================+======================================+
+|  craftbook.mech.hiddenswitch     |  Allows creation of hidden switches. |
++----------------------------------+--------------------------------------+
+|  craftbook.mech.hiddenswitch.use |  Allows usage of hidden switches.    |
++----------------------------------+--------------------------------------+

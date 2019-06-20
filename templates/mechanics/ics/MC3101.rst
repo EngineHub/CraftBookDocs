@@ -1,2 +1,0 @@
-**MC3101** is an IC that decrementally counts down from X to 0 each time received input goes from low to high. When the counter reaches 0, it
-outputs high.

@@ -16,11 +16,8 @@ Then when they reach the bottom, he/she can break the ladders and have them fall
 Configuration
 =============
 
-=============== =============================================== ======= =======
-Node            Comment                                         Type    Default 
-=============== =============================================== ======= =======
-falling-ladders Enables the 'falling ladders' physics mechanic. Boolean true    
-=============== =============================================== ======= =======
-
-
-
+======================================= ====================================== =======
+Node                                    Comment                                Default
+======================================= ====================================== =======
+mechanics.BetterPhysics.falling-ladders Enables BetterPhysics Falling Ladders. true
+======================================= ====================================== =======

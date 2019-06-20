@@ -24,20 +24,20 @@ Expansion signs can be used infinitely (Until you hit the bottom of the world) a
 Configuration
 =============
 
-============== ======================================= ======= =======
-Node           Comment                                 Type    Default 
-============== ======================================= ======= =======
-allow-redstone Allow redstone to trigger the commands. Boolean true    
-============== ======================================= ======= =======
+===================================== ================================= =======
+Node                                  Comment                           Default
+===================================== ================================= =======
+mechanics.CommandSigns.allow-redstone Enable CommandSigns via redstone. true
+===================================== ================================= =======
 
 
 Permissions
 ===========
 
-========================== ================================ ============
-Node                       Description                      Default Role 
-========================== ================================ ============
-craftbook.commandsigns     Allows creation of Command Signs admin        
-craftbook.commandsigns.use Allows usage of Command Signs    user         
-========================== ================================ ============
+========================== ================================
+Node                       Description
+========================== ================================
+craftbook.mech.command     Allows creation of Command Signs
+craftbook.mech.command.use Allows usage of Command Signs
+========================== ================================
 

@@ -25,27 +25,23 @@ If the XP Storer requires bottles, they can be placed in a chest on top of the b
 Configuration
 =============
 
-==================== ========================================================================== ============ =====================
-Node                 Comment                                                                    Type         Default               
-==================== ========================================================================== ============ =====================
-require-bottle       Requires the player to be holding a glass bottle to use.                   Boolean      false                 
-block                The block that is an XP Storer.                                            BlockState   minecraft:mob_spawner 
-sneak-state          Sets how the player must be sneaking in order to use the XP Storer.        TernaryState FALSE                 
-xp-per-bottle        Sets the amount of XP points required per each bottle.                     Integer      16                    
-require-sign         Require sign always, not just for automatic mode.                          Boolean      false                 
-allow-automatic-mode Allows the mechanic to be built with a sign and collect XP within a range. Boolean      false                 
-maximum-range        Maximum allowed range for ranged mode.                                     Integer      15                    
-==================== ========================================================================== ============ =====================
+========================================= ==================================================================== =================
+Node                                      Comment                                                              Default
+========================================= ==================================================================== =================
+mechanics.XPStorer.require-bottle         Requires the player to be holding a glass bottle to use.             false
+mechanics.XPStorer.xp-per-bottle          Sets the amount of XP points required per each bottle.               16
+mechanics.XPStorer.block                  The block that is an XP Storer.                                      minecraft:spawner
+mechanics.XPStorer.require-sneaking-state Sets how the player must be sneaking in order to use the XP Storer.  no
+mechanics.XPStorer.radius-mode            Allows XP Storer mechanics with a sign attached to work in a radius. false
+mechanics.XPStorer.radius                 The radius for radius-mode.                                          5
+========================================= ==================================================================== =================
 
 
 Permissions
 ===========
 
-========================== ======================================================= ============
-Node                       Description                                             Default Role 
-========================== ======================================================= ============
-craftbook.xp-storer.use    Allows the user to use the XPStorer mechanic.           user         
-craftbook.xp-storer        Allows the user to create the XPStorer mechanic.        staff        
-craftbook.xp-storer.ranged Allows the user to create the ranged XPStorer mechanic. staff        
-========================== ======================================================= ============
-
++-----------------------------+-------------------------------+
+|  Permission Node            |  Effect                       |
++=============================+===============================+
+|  craftbook.mech.xpstore.use |  Allows use of the XP-Storer. |
++-----------------------------+-------------------------------+

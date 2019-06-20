@@ -15,6 +15,24 @@ Pipes consist of numerous parts:
 #. A piston pointed at the destination.
 #. An item destination. This can be an inventory, a supported CraftBook mechanic, or another supporting plugin or mod.
 
+Filtering
+---------
+
+To filter pipes, just place a sign on the either sticky or normal piston, with the following text on it:
+
+# Blank
+# [Pipe]
+# ID's to include, seperated by commas. Eg, "1,4,5:2" to only pipe stone, cobble and birch wood.
+# ID's to exclude, seperated by commas. Eg, "1,4,5:2" will pipe everything BUT stone, cobble and birch wood.
+
+If the configuration option 'pipes require signs' is enabled, these signs are required on pipes for them to function. This is useful for making pipes require permissions to be created.
+
+Insulation
+----------
+
+If pipes are allowed to connect diagonally (Configurable in config), they have the ability to be insulated. Insulation means that if the designated insulator block is between every possible diagonal connection of 2 tube blocks, they will not connect. By default, the insulation block is wool.
+
+
 Tube Types
 ----------
 
@@ -42,14 +60,26 @@ Stained Intersection Tubes
 
 Stained glass panes act similarly to intersection tubes, however they only work with other pipes of the same colour.
 
+Permissions
+===========
+
++---------------------------+-----------------------------------------+
+|  Permission Node          |  Effect                                 |
++===========================+=========================================+
+|  craftbook.circuits.pipes |  Allows for the creation of pipe signs. |
++---------------------------+-----------------------------------------+
+
 Configuration
 =============
 
-============== =================================================== ======= =======
-Node           Comment                                             Type    Default 
-============== =================================================== ======= =======
-stack-per-pull Only pull a single stack from the source per usage. Boolean true    
-============== =================================================== ======= =======
-
+=================================== ================================================================================================================== ====================
+Node                                Comment                                                                                                            Default
+=================================== ================================================================================================================== ====================
+mechanics.Pipes.allow-diagonal      Allow pipes to work diagonally. Required for insulators to work.                                                   false
+mechanics.Pipes.insulator-block     When pipes work diagonally, this block allows the pipe to be insulated to not work diagonally.                     minecraft:white_wool
+mechanics.Pipes.stack-per-move      This option stops the pipes taking the entire chest on power, and makes it just take a single stack.               true
+mechanics.Pipes.require-sign        Requires pipes to have a [Pipe] sign connected to them. This is the only way to require permissions to make pipes. false
+mechanics.Pipes.warn-when-too-large Prints a warning in the console when a pipe that's too large is found.                                             false
+=================================== ================================================================================================================== ====================
 
 

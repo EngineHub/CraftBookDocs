@@ -10,27 +10,26 @@ Readable bookshelves make bookshelves "readable" on right click. Lines of text r
 Customizing the lines
 =====================
 
-A default collection of quotations is provided in the books.txt file that comes with the CraftBook download. It is found in config/craftbook/
+A default collection of quotations is provided in the books.txt file that comes with the CraftBook download. It is found in plugins/craftbook/
 
 You can add new lines, remove lines, or replace the entire file altogether. Each line of text is one "book". The file can be as big or as small as you want it to be.
 
 Configuration
 =============
 
-=============== ================================================================= ============ =======
-Node            Comment                                                           Type         Default 
-=============== ================================================================= ============ =======
-read-with-block Whether to allow the player to read a book whilst holding a block Boolean      false   
-sneak-state     Sets how the player must be sneaking in order to use a bookshelf. TernaryState FALSE   
-=============== ================================================================= ============ =======
+========================================== ============================================================= =======
+Node                                       Comment                                                       Default
+========================================== ============================================================= =======
+mechanics.Bookcase.read-when-sneaking      Enable reading while sneaking.                                no
+mechanics.Bookcase.read-when-holding-block Allow bookshelves to work when the player is holding a block. false
+========================================== ============================================================= =======
 
 
 Permissions
 ===========
 
-======================= ============================================== ============
-Node                    Description                                    Default Role 
-======================= ============================================== ============
-craftbook.bookshelf.use Allows the user to use the Bookshelf mechanic. user         
-======================= ============================================== ============
-
++-------------------------------+--------------------------------------+
+|  Permission Node              |  Effect                              |
++===============================+======================================+
+|  craftbook.mech.bookshelf.use |  Allows use of Readable Bookshelves. |
++-------------------------------+--------------------------------------+

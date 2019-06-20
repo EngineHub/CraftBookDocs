@@ -1,1 +1,0 @@
-**MC4100** is an IC that implements a full subtractor.

@@ -1,4 +1,0 @@
-**MC3300** is an IC that sets memory that can be read by the `MC3300 <MC3300.html>`_ IC.
-
-This IC reads from a file in the filesystem stored in /config/CraftBook/rom/fileName.dat. This file can be accessed by other services to allow for
-external programs to interact with redstone.

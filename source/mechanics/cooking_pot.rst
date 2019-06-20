@@ -36,23 +36,27 @@ If enabled in the configuration, it is possible fuel the cooking pot with a puls
 Configuration
 =============
 
-============= =============================================================================================== ======= =======
-Node          Comment                                                                                         Type    Default 
-============= =============================================================================================== ======= =======
-require-fuel  Causes the cooking pot to require fuel to cook. Otherwise fuel speeds up cooking.               Boolean true    
-redstone-fuel Allows for a pulsing redstone signal to be used as a fuel source.                               Boolean false   
-super-fast    Removes the cap for 5 fuel to be used per tick, making the cooking pot faster.                  Boolean false   
-food-only     Caused the cooking pot to only cook food. Food is defined as anything that gives hunger points. Boolean true    
-============= =============================================================================================== ======= =======
+======================================= =================================================================================================== =======
+Node                                    Comment                                                                                             Default
+======================================= =================================================================================================== =======
+mechanics.CookingPot.allow-redstone     Allows for redstone to be used as a fuel source.                                                    true
+mechanics.CookingPot.require-fuel       Require fuel to cook.                                                                               true
+mechanics.CookingPot.cook-ores          Allows the cooking pot to cook ores and other smeltable items.                                      false
+mechanics.CookingPot.sign-click-open    When enabled, right clicking the [Cook] sign will open the cooking pot.                             true
+mechanics.CookingPot.take-buckets       When enabled, lava buckets being used as fuel will consume the bucket.                              false
+mechanics.CookingPot.super-fast-cooking When enabled, cooking pots cook at incredibly fast speeds. Useful for semi-instant cooking systems. false
+mechanics.CookingPot.heating                                                                                                                false
+mechanics.CookingPot.chunk-limit                                                                                                            false
+======================================= =================================================================================================== =======
 
 
 Permissions
 ===========
 
-=========================== ====================================== ============
-Node                        Description                            Default Role 
-=========================== ====================================== ============
-craftbook.cookingpot        Allows the user to create Cooking Pots user         
-craftbook.cookingpot.refuel Allows the user to refuel Cooking Pots user         
-=========================== ====================================== ============
+=========================== ======================================
+Node                        Description
+=========================== ======================================
+craftbook.mech.cook         Allows the user to create Cooking Pots
+craftbook.mech.cook.refuel  Allows the user to refuel Cooking Pots
+=========================== ======================================
 
