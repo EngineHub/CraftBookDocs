@@ -7,11 +7,8 @@ Exit Remover removes the minecart when you exit it. If configured to, it will al
 Configuration
 =============
 
-========= ========================================== ======= =======
-Node      Comment                                    Type    Default 
-========= ========================================== ======= =======
-give-item Provide the player with the minecart item. Boolean true    
-========= ========================================== ======= =======
-
-
-
+======================================= ===================================================== =======
+Node                                    Comment                                               Default
+======================================= ===================================================== =======
+mechanics.MinecartExitRemover.give-item Sets whether to give the player the item back or not. false
+======================================= ===================================================== =======

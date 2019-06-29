@@ -8,12 +8,10 @@ mob wanders onto it. It can be configured to just damage and propel the entities
 Configuration
 =============
 
-================== ======================================== ======= =======
-Node               Comment                                  Type    Default 
-================== ======================================== ======= =======
-damage-only        Only damage entities, don't remove them. Boolean false   
-damage-other-carts Allow carts to damage each other.        Boolean false   
-================== ======================================== ======= =======
-
-
-
+======================================================= ============================================================== =======
+Node                                                    Comment                                                        Default
+======================================================= ============================================================== =======
+mechanics.MinecartRemoveEntities.remove-other-minecarts Allows the remove entities mechanic to remove other minecarts. false
+mechanics.MinecartRemoveEntities.allow-empty-carts      Allows the cart to be empty.                                   false
+mechanics.MinecartRemoveEntities.damage-players         Allows the cart to damage and kill players.                    true
+======================================================= ============================================================== =======

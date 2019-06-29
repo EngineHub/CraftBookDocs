@@ -8,12 +8,8 @@ world. This is mostly useful for preventing lag from boat spam.
 Configuration
 =============
 
-============ =============================================================================== ======= =======
-Node         Comment                                                                         Type    Default 
-============ =============================================================================== ======= =======
-empty-ticks  The amount of time that the boat must be empty before it decays, in ticks.      Long    40      
-only-on-exit Only start the decay timer on exit, preventing boats being incorrectly removed. Boolean true    
-============ =============================================================================== ======= =======
-
-
-
+================================= ========================================================== =======
+Node                              Comment                                                    Default
+================================= ========================================================== =======
+mechanics.BoatDecay.time-in-ticks The time in ticks that the boat will wait before decaying. 20
+================================= ========================================================== =======

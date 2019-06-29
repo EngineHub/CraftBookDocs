@@ -7,12 +7,9 @@ No Collide
 Configuration
 =============
 
-=========== ================================================================= ======= =======
-Node        Comment                                                           Type    Default 
-=========== ================================================================= ======= =======
-empty-carts Removes collision with empty minecarts.                           Boolean true    
-full-carts  Removes collision with occupied (Or chest/powered/tnt) minecarts. Boolean false   
-=========== ================================================================= ======= =======
-
-
-
+======================================= ===================================== =======
+Node                                    Comment                               Default
+======================================= ===================================== =======
+mechanics.MinecartNoCollide.empty-carts Enable No Collide for empty carts.    true
+mechanics.MinecartNoCollide.full-carts  Enable No Collide for occupied carts. false
+======================================= ===================================== =======

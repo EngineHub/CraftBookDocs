@@ -19,13 +19,10 @@ The minecart is given forward momentum in the direction the ladder is facing, to
 Configuration
 =============
 
-================== ======================================================== ======= =======
-Node               Comment                                                  Type    Default 
-================== ======================================================== ======= =======
-vertical-rails     Allow ladders and vines to be used for vertical rails.   Boolean true    
-vertical-velocity  Velocity that vertical rails adds to the cart.           Double  0.15    
-intersection-rails Allow pressure plates to be used as 4 way intersections. Boolean true    
-================== ======================================================== ======= =======
-
-
-
+========================================================= ============================================================ =======
+Node                                                      Comment                                                      Default
+========================================================= ============================================================ =======
+mechanics.MinecartMoreRails.pressure-plate-intersection   Enables the pressure plate as an intersection.               false
+mechanics.MinecartMoreRails.ladder-vertical-rail          Enables the ladder as a vertical rail.                       false
+mechanics.MinecartMoreRails.ladder-vertical-rail-velocity Sets the velocity applied to the minecart on vertical rails. 0.5
+========================================================= ============================================================ =======

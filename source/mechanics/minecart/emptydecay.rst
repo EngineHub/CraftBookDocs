@@ -7,12 +7,8 @@ This mechanic allows for minecarts to be given a time to live whilst unoccupied.
 Configuration
 =============
 
-============ =============================================================================== ======= =======
-Node         Comment                                                                         Type    Default 
-============ =============================================================================== ======= =======
-empty-ticks  The amount of time that the cart must be empty before it decays, in ticks.      Long    40      
-only-on-exit Only start the decay timer on exit, preventing carts being incorrectly removed. Boolean true    
-============ =============================================================================== ======= =======
-
-
-
+===================================== ========================================================== =======
+Node                                  Comment                                                    Default
+===================================== ========================================================== =======
+mechanics.MinecartDecay.time-in-ticks The time in ticks that the cart will wait before decaying. 20
+===================================== ========================================================== =======

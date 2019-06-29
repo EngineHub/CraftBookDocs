@@ -7,12 +7,8 @@ Remove Entities removes or damages entities which are hit by the boat. This is m
 Configuration
 =============
 
-================== ======================================== ======= =======
-Node               Comment                                  Type    Default 
-================== ======================================== ======= =======
-damage-only        Only damage entities, don't remove them. Boolean false   
-damage-other-boats Allow boats to damage eachother.         Boolean false   
-================== ======================================== ======= =======
-
-
-
+=============================================== ======================================================= =======
+Node                                            Comment                                                 Default
+=============================================== ======================================================= =======
+mechanics.BoatRemoveEntities.remove-other-boats Allows the remove entities boats to remove other boats. false
+=============================================== ======================================================= =======

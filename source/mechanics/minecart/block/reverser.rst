@@ -7,6 +7,8 @@ default.
 
 You can, for example, put reverse blocks on two sides of a track to have minecarts alternate directions between the two blocks.
 
+View the `tutorial video <http://www.youtube.com/watch?v=vKurxtsYdW4>`_ to learn how to use reverse and directed reverse blocks.
+
 Directed Reverser
 =================
 
@@ -21,19 +23,18 @@ you want carts to go and place the sign), and can be either two or three blocks 
 Configuration
 =============
 
-======== ====================================== ================= ==============
-Node     Comment                                Type              Default        
-======== ====================================== ================= ==============
-material The block that this mechanic requires. SpongeBlockFilter minecraft:wool 
-======== ====================================== ================= ==============
+================================ ======================================================== ====================
+Node                             Comment                                                  Default
+================================ ======================================================== ====================
+mechanics.MinecartReverser.block Sets the block that is the base of the reverse mechanic. minecraft:white_wool
+================================ ======================================================== ====================
 
 
 Permissions
 ===========
 
-====================== ==================================================== ============
-Node                   Description                                          Default Role 
-====================== ==================================================== ============
-craftbook.cartreverser Allows the user to create the CartReverser mechanic. user         
-====================== ==================================================== ============
-
++----------------------------------------+---------------------------------------+
+|  Permission Node                       |  Effect                               |
++========================================+=======================================+
+|  craftbook.vehicles.reverser           |  Allows for creation of Reversers.    |
++----------------------------------------+---------------------------------------+
