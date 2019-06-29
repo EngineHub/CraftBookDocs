@@ -1,0 +1,29 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. DEMULTIPLEXER
+#. [MC4040]
+#. Blank
+#. Blank
+
+Pins
+====
+
+Input
+-----
+
+#. Swaps between Output 2 and 3
+#. Value to carry
+#. Nothing
+
+Output
+------
+
+#. Nothing
+#. Output if Input 1 Low
+#. Output if Input 1 High
+

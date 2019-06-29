@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. ARROW BARRAGE
+#. [MC1241]
+#. speed:spread
+#. vertical gain
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

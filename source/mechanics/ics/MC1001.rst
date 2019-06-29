@@ -1,44 +1,30 @@
-======
-MC1001
-======
+:doc:`index`
 
-**MC1001** is an IC that inverts the input state.
+The '''MC1001''' inverts the input state.
 
-Equivalent Perlstone script: ``A!r``
+Equivalent [[../Perlstone/]] script: <code>A!r</code>
 
+== Uses ==
+* Inverting a signal state.
 
-Sign Lines
-==========
+Sign parameters
+===============
 
-1. INVERTER
-2. [MC1001]
-3. Blank
-4. Blank
+#. INVERTER
+#. [MC1001]
+#. Blank
+#. Blank
 
+Pins
+====
 
-IC Pins
-=======
+Input
+-----
 
+#. Trigger IC
 
-Inputs
+Output
 ------
 
-- NOT Operand
-
-Outputs
--------
-
-- Opposite of input
-
-
-Permissions
-===========
-
-======================== ============================================ ============
-Node                     Description                                  Default Role 
-======================== ============================================ ============
-craftbook.ic.safe.mc1001 Allows creation of the Inverter (MC1001) IC. user         
-======================== ============================================ ============
-
-
+#. Opposite of Input
 

@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. FLEX SET
+#. [MC1207]
+#. axis''<span style='color:#808080'>+/-</span>''distance:blockTypeId''<span style='color:#808080'>:blockData</span>''
+#. H to clear on low.
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

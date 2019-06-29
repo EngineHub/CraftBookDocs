@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. PLANTER
+#. [MC1234]
+#. +oItem to plant id''<span style='color:#808080'>:data</span>''
+#. :doc:`../../search_area`
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

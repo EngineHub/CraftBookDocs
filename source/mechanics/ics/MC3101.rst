@@ -1,45 +1,27 @@
-======
-MC3101
-======
+:doc:`index`
 
-**MC3101** is an IC that decrementally counts down from X to 0 each time received input goes from low to high. When the counter reaches 0, it
-outputs high.
+Missing Description
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. DOWN COUNTER
+#. [MC3101]
+#. start ticks:(Optional)INF
+#. current ticks
 
-1. DOWN COUNTER
-2. [MC3101]
-3. Start Value{:INF}
-4. Current Value
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Trigger IC
+#. Reset Counter
+#. Nothing
 
-
-Inputs
+Output
 ------
 
-- Decrement Counter
-- Reset Counter
-- Nothing
-
-Outputs
--------
-
-- High on Counter Complete
-
-
-Permissions
-===========
-
-======================== ================================================ ============
-Node                     Description                                      Default Role 
-======================== ================================================ ============
-craftbook.ic.safe.mc3101 Allows creation of the Down Counter (MC3101) IC. user         
-======================== ================================================ ============
-
-
+#. High on Counter Complete
 

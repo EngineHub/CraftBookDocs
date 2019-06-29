@@ -1,50 +1,63 @@
-======
-MC1110
-======
+:doc:`index`
 
-**MC1110** allows transmitting redstone signal over long distances. The equivalent IC to receive the signals is `MC1111 <MC1111.html>`_
+The '''MC1110''' transmits the input value to a particular named ''band'' or ''network''.
+To receive the value of the transmitter, use [[../MC1111/]].
 
-How-To
-======
+If there are multiple transmitters for the same band, the last one to transmit to a particular band will have its state apply until the next transmission.
 
-Once this IC is setup, create a `Receiver <MC1111.html>`_ with the same `narrowband` and `wideband`.
+Sign parameters
+===============
 
-.. image:: /images/ics/mc1110/transmitter.png
-   :align: center
+#. TRANSMITTER
+#. [MC1110]
+#. Wireless Band
+#. Player's CBID (Automatic)
 
+Pins
+====
 
-Sign Lines
-==========
+Input
+-----
 
-1. TRANSMITTER
-2. [MC1110]
-3. The channel name (narrowband)
-4. Optional wideband. Defaults to UUID if blank
+#. Trigger IC
 
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Wireless Input
+#. Same as Input
 
-Outputs
--------
+Configuration
+=============
 
-- None
+{| class="wiki-table sortable"
+|-
+! Configuration Node and Path
+! Default Value
+! Effect
+|-
+| ics.MC1110.per-player
+| false
+| Require a name to be entered on the sign. This allows for 'per-player' wireless bands. This is done automatically.
+|}
 
+Commands
+========
 
-Permissions
-===========
-
-======================== ======================================================== ============
-Node                     Description                                              Default Role 
-======================== ======================================================== ============
-craftbook.ic.safe.mc1110 Allows creation of the Wireless Transmitter (MC1110) IC. user         
-======================== ======================================================== ============
-
-
+{| class="wiki-table"
+! Command
+! Permission
+! Description
+|-
+| /ic ic mc1110 get <band>
+| none
+| Gets the value of the wireless band.
+|-
+| /ic ic mc1110 set <band> <value>
+| none
+| Sets the value of the wireless band.
+|-
+| /ic ic mc1110 toggle <band>
+| none
+| Toggles the value of the wireless band.
+|}
 

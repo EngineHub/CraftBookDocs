@@ -1,60 +1,50 @@
-======
-MC3002
-======
+:doc:`index`
 
-**MC3002** outputs high if and only if all connected inputs are high.
+{| class='wiki-table' style='float: right; clear: both'
+! A !! B !! C !! Output
+|-
+| 0 || 0 || 0 || 0
+|-
+| 0 || 0 || 1 || 0
+|-
+| 0 || 1 || 1 || 0
+|-
+| 0 || 1 || 0 || 0
+|-
+| 1 || 1 || 0 || 0
+|-
+| 1 || 0 || 0 || 0
+|-
+| 1 || 0 || 1 || 0
+|-
+| 1 || 1 || 1 || 1
+|}
 
-Equivalent Perlstone script: ``ABC&&r``
+The '''MC3002''' outputs a high if and only if all three inputs are high.
+As of Craftbook alpha 3 or equivalent, any combination of inputs is valid and all 3 are not needed.
 
-Truth Table
-===========
+Equivalent [[../Perlstone/]] script: <code>ABC&&r</code>
 
-=  =  =  ======
-A  B  C  Output
-=  =  =  ======
-0  0  0  0
-0  0  1  0
-0  1  1  0
-0  1  0  0
-1  1  0  0
-1  0  0  0
-1  0  1  0
-1  1  1  1
-=  =  =  ======
+Sign parameters
+===============
 
+#. AND
+#. [MC3002]
+#. Blank
+#. Blank
 
-Sign Lines
-==========
+Pins
+====
 
-1. AND
-2. [MC3002]
-3. Blank
-4. Blank
+Input
+-----
 
+#. Input
+#. Input
+#. Input
 
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- AND operand
-
-Outputs
--------
-
-- Outputs high if all inputs are high
-
-
-Permissions
-===========
-
-======================== ============================================ ============
-Node                     Description                                  Default Role 
-======================== ============================================ ============
-craftbook.ic.safe.mc3002 Allows creation of the And Gate (MC3002) IC. user         
-======================== ============================================ ============
-
-
+#. High if all inputs are high, and there is atleast 1 input
 

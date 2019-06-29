@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. FIRE SHOOTER
+#. [MC1250]
+#. speed:spread
+#. vertical gain
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

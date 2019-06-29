@@ -1,0 +1,39 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. SET BLOCK ADMIN
+#. [MC1205]
+#. id''<span style='color:#808080'>:data</span>''
+#. +oFORCE if should force setting the block
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+
+Configuration
+=============
+
+{| class="wiki-table sortable"
+|-
+! Configuration Node and Path
+! Default Value
+! Effect
+|-
+| ics.MC1205.blacklist
+| [BEDROCK:-1, BEDROCK:-1]
+| Stops the IC from placing the listed blocks.
+|}
+

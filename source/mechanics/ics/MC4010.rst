@@ -1,46 +1,29 @@
-======
-MC4010
-======
+:doc:`index`
 
-**MC4010** is an IC that implements a half adder. It takes two one-bit inputs, adds them, and returns the sum and the carry.
+Missing Description
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. HALF ADDER
+#. [MC4010]
+#. Blank
+#. Blank
 
-1. HALF ADDER
-2. [MC4010]
-3. Blank
-4. Blank
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Nothing
+#. First bit to add
+#. Second bit to add
 
-
-Inputs
+Output
 ------
 
-- Ignored
-- First Operand
-- Second Operand
-
-Outputs
--------
-
-- Sum
-- Carry Out
-- Carry Out (Same as Output 2)
-
-
-Permissions
-===========
-
-======================== ============================================== ============
-Node                     Description                                    Default Role 
-======================== ============================================== ============
-craftbook.ic.safe.mc4010 Allows creation of the Half Adder (MC4010) IC. user         
-======================== ============================================== ============
-
-
+#. Sum
+#. Carry
+#. Carry (Same as Output 2)
 

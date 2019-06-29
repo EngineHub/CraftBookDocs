@@ -1,57 +1,27 @@
-======
-MC3021
-======
+:doc:`index`
 
-**MC3021** is an IC that outputs a high if and only if the first two inputs are the same. As of alpha 3: any two inputs are accepted. If three are
-given, the last (input 3) is ignored. If only one is given, IC retains state.
+Missing Description
 
-Equivalent Perlstone script: ``AB^!r``
+Sign parameters
+===============
 
-Truth Table
-===========
+#. XNOR
+#. [MC3021]
+#. Blank
+#. Blank
 
-=  =  ======
-A  B  Output
-=  =  ======
-0  0  1
-1  0  0
-0  1  0
-1  1  1
-=  =  ======
+Pins
+====
 
+Input
+-----
 
-Sign Lines
-==========
+#. Input
+#. Input
+#. Input
 
-1. XNOR
-2. [MC3021]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- The XNOR Operand
-
-Outputs
--------
-
-- Outputs high if all or no inputs are high
-
-
-Permissions
-===========
-
-======================== ============================================= ============
-Node                     Description                                   Default Role 
-======================== ============================================= ============
-craftbook.ic.safe.mc3021 Allows creation of the Xnor Gate (MC3021) IC. user         
-======================== ============================================= ============
-
-
+#. High if two inputs are equal
 

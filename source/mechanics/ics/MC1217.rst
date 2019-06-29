@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. POTION INDUCER
+#. [MC1217]
+#. id:level:time=entitytypes
+#. range=offset
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

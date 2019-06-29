@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. ADV ENT SPAWNER
+#. [MC1227]
+#. +ox:y:z
+#. entitytype''<span style='color:#808080'>*amount</span>''
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

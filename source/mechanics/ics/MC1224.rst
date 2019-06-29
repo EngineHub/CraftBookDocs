@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. TIME BOMB
+#. [MC1224]
+#. time in ticks:radius (ending with ! makes fire)
+#. x:y:z offset
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

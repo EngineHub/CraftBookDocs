@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. PARTICLE EFFECT
+#. [MC1210]
+#. effectID:effectData=xOff:yOff:zOff
+#. amount of particles=offset
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

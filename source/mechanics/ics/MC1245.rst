@@ -1,0 +1,39 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. CONTAINER STACKER
+#. [MC1245]
+#. Blank
+#. Blank
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+
+Configuration
+=============
+
+{| class="wiki-table sortable"
+|-
+! Configuration Node and Path
+! Default Value
+! Effect
+|-
+| ics.MC1245.blacklist
+| []
+| 
+|}
+

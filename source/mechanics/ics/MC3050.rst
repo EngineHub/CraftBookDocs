@@ -1,47 +1,27 @@
-======
-MC3050
-======
+:doc:`index`
 
-**MC3050** is an IC which outputs high when the correct combination is inputed.
+Missing Description
 
-Combinations are defined on the third line of the sign, by entering a string of characters. X refers to on, and O refers to off.
-For example, XOX requires the left and right input to be high.
+Sign parameters
+===============
 
+#. COMBINATION LOCK
+#. [MC3050]
+#. Combination. X = On, O = Off (XOX)
+#. Blank
 
-Sign Lines
-==========
+Pins
+====
 
-1. COMBO
-2. [MC3050]
-3. The Combination in X's and O's. X being on and O being off.
-4. Blank
+Input
+-----
 
+#. Combination Bit 1
+#. Combination Bit 2
+#. Combination Bit 3
 
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- First Input
-- Second Input
-- Third Input
-
-Outputs
--------
-
-- High if combination correct
-
-
-Permissions
-===========
-
-======================== ==================================================== ============
-Node                     Description                                          Default Role 
-======================== ==================================================== ============
-craftbook.ic.safe.mc3050 Allows creation of the Combination Lock (MC3050) IC. user         
-======================== ==================================================== ============
-
-
+#. High on Correct Combination
 

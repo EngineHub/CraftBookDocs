@@ -1,0 +1,27 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. MARQUEE
+#. [MC2999]
+#. next pin to set
+#. Blank
+
+Pins
+====
+
+Input
+-----
+
+#. Trigger IC
+
+Output
+------
+
+#. Output 1
+#. Output 2
+#. Output 3
+

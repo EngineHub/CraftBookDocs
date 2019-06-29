@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. NOT_DELAYER
+#. [MC2101]
+#. Blank
+#. Blank
+
+Pins
+====
+
+Input
+-----
+
+#. Trigger IC
+
+Output
+------
+
+#. Delayed Output
+

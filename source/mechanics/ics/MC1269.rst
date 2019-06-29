@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. PLAYER INV SENSOR
+#. [MC1269]
+#. +o:doc:`../../search_area`
+#. item=minPlayers:inHand:slot
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

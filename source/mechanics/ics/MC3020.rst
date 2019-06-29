@@ -1,58 +1,27 @@
-======
-MC3020
-======
+:doc:`index`
 
-**MC3020** is an IC that outputs a high if and only if the first two inputs are not the same. As of alpha 3: any two inputs are accepted. If three
-are given, the last (input 3) is ignored. If only one is given, IC retains state.
+Missing Description
 
-Equivalent Perlstone script: ``AB^r``
+Sign parameters
+===============
 
+#. XOR
+#. [MC3020]
+#. Blank
+#. Blank
 
-Truth Table
-===========
+Pins
+====
 
-=  =  ======
-A  B  Output
-=  =  ======
-0  0  0
-1  0  1
-0  1  1
-1  1  0
-=  =  ======
+Input
+-----
 
+#. Input
+#. Input
+#. Input
 
-Sign Lines
-==========
-
-1. XOR
-2. [MC3020]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- The XOR Operand
-
-Outputs
--------
-
-- Outputs high if the inputs are not equal
-
-
-Permissions
-===========
-
-======================== ============================================ ============
-Node                     Description                                  Default Role 
-======================== ============================================ ============
-craftbook.ic.safe.mc3020 Allows creation of the Xor Gate (MC3020) IC. user         
-======================== ============================================ ============
-
-
+#. High if two inputs are not equal
 

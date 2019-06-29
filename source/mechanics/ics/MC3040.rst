@@ -1,0 +1,27 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. MULTIPLEXER
+#. [MC3040]
+#. Blank
+#. Blank
+
+Pins
+====
+
+Input
+-----
+
+#. Value to Carry if Input 3 High
+#. Value to Carry if Input 3 Low
+#. Swaps between Input 1 and 2
+
+Output
+------
+
+#. Carried Value
+

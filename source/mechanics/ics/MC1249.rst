@@ -1,53 +1,25 @@
-======
-MC1249
-======
+:doc:`index`
 
-.. note::
+Missing Description
 
-   This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
+Sign parameters
+===============
 
+#. BLOCK REPLACER
+#. [MC1249]
+#. onID''<span style='color:#808080'>:onData</span>''-offID''<span style='color:#808080'>:offData</span>''</span>''
+#. delay''<span style='color:#808080'>:mode:physics</span>''
 
-**MC1249** is an IC that replaces connected blocks of one type to another depending on on/off state. A configurable delay is waited between changes,
-and physics is configurable.
+Pins
+====
 
-Setting the Blocks
-==================
+Input
+-----
 
-When you first create the IC, two menus will pop up that allow you to enter the 'On State' block, and the 'Off State' block.
+#. Nothing
 
-
-Sign Lines
-==========
-
-1. BLOCK REPLACER
-2. [MC1249]
-3. Blank
-4. delay:mode:physics
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Clock
-
-Outputs
--------
-
-- None
-
-
-Permissions
-===========
-
-============================== ================================================== ============
-Node                           Description                                        Default Role 
-============================== ================================================== ============
-craftbook.ic.restricted.mc1249 Allows creation of the Block Replacer (MC1249) IC. staff        
-============================== ================================================== ============
-
-
+#. Nothing
 

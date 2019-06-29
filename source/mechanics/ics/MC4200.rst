@@ -1,49 +1,29 @@
-======
-MC4200
-======
+:doc:`index`
 
-**MC4200** is an IC that implements a dispatcher that works similar to two `MC3036 <MC3036.html>`_ level-triggered D flip flops sharing the same
-input and having no reset input.
+Missing Description
 
-Equivalent Perlstone script: ``:B[AdSp0r]Lp0r:C[AdSp1r]Lp1r``
+Sign parameters
+===============
 
+#. DISPATCHER
+#. [MC4200]
+#. Blank
+#. Blank
 
-Sign Lines
-==========
+Pins
+====
 
-1. DISPATCH
-2. [MC4200]
-3. Blank
-4. Blank
+Input
+-----
 
+#. Output Value
+#. Output Left
+#. Output Right
 
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Value
-- Left Open
-- Right Open
-
-Outputs
--------
-
-- Nothing
-- Left Output
-- Right Output
-
-
-Permissions
-===========
-
-======================== ============================================== ============
-Node                     Description                                    Default Role 
-======================== ============================================== ============
-craftbook.ic.safe.mc4200 Allows creation of the Dispatcher (MC4200) IC. user         
-======================== ============================================== ============
-
-
+#. Nothing
+#. Value if should output Left
+#. Value if should output Right
 

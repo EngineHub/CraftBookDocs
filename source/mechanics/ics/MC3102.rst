@@ -1,45 +1,27 @@
-======
-MC3102
-======
+:doc:`index`
 
-**MC3102** is an IC that incrementally counts up to X each time received input goes from low to high. When the counter reaches the specified value,
- it outputs high.
+Missing Description
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. COUNTER
+#. [MC3102]
+#. reset ticks:(Optional)INF
+#. current ticks
 
-1. COUNTER
-2. [MC3102]
-3. Reset Value{:INF}
-4. Current Value
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Trigger IC
+#. Reset Counter
+#. Nothing
 
-
-Inputs
+Output
 ------
 
-- Increment Counter
-- Reset Counter
-- Nothing
-
-Outputs
--------
-
-- High on Counter Complete
-
-
-Permissions
-===========
-
-======================== =========================================== ============
-Node                     Description                                 Default Role 
-======================== =========================================== ============
-craftbook.ic.safe.mc3102 Allows creation of the Counter (MC3102) IC. user         
-======================== =========================================== ============
-
-
+#. High on Counter Complete
 

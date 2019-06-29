@@ -1,44 +1,30 @@
-======
-MC1000
-======
+:doc:`index`
 
-**MC1000** is an IC that repeats a state from input to output terminals.
+The '''MC1000''' repeats a state from input to output terminals.
 
-Equivalent Perlstone script: ``Ar``
+Equivalent [[../Perlstone/]] script: <code>Ar</code>
 
+== Uses ==
+* Prolonging a redstone circuit over more than 15 fields.
 
-Sign Lines
-==========
+Sign parameters
+===============
 
-1. REPEATER
-2. [MC1000]
-3. Blank
-4. Blank
+#. REPEATER
+#. [MC1000]
+#. Blank
+#. Blank
 
+Pins
+====
 
-IC Pins
-=======
+Input
+-----
 
+#. Trigger IC
 
-Inputs
+Output
 ------
 
-- Input
-
-Outputs
--------
-
-- Outputs input
-
-
-Permissions
-===========
-
-======================== ============================================ ============
-Node                     Description                                  Default Role 
-======================== ============================================ ============
-craftbook.ic.safe.mc1000 Allows creation of the Repeater (MC1000) IC. user         
-======================== ============================================ ============
-
-
+#. Same as Input
 

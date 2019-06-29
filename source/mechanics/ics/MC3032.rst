@@ -1,44 +1,27 @@
-======
-MC3032
-======
+:doc:`index`
 
-**MC3032** is an IC that implements a JK flip flop that updates its output based on the states of inputs J and K when the clock falls.
+Missing Description
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. JK EDGE FLIP FLOP
+#. [MC3032]
+#. Blank
+#. Blank
 
-1. JK FLIP
-2. [MC3032]
-3. Blank
-4. Blank
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Trigger IC
+#. Set
+#. Reset
 
-
-Inputs
+Output
 ------
 
-- Trigger
-- Set
-- Reset
-
-Outputs
--------
-
-- Output
-
-
-Permissions
-===========
-
-======================== ================================================ ============
-Node                     Description                                      Default Role 
-======================== ================================================ ============
-craftbook.ic.safe.mc3032 Allows creation of the JK Flip Flip (MC3032) IC. user         
-======================== ================================================ ============
-
-
+#. Output = Same if J and K = 0, 1 if J = 1, 0 if K = 1, and continuously toggling states if J and K = 1
 

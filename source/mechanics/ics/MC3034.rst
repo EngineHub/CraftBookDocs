@@ -1,50 +1,27 @@
-======
-MC3034
-======
+:doc:`index`
 
-**MC3034** is an IC that implements a flip flop that sets its output to the state of the D ("data") input whenever the clock input goes from low to
-high.
+Missing Description
 
-If the D input changes state without the clock going from low to high, the output will not change. If the D input changes while the clock is high,
-the output will not change. Also, while the reset input is high the output state is forced to low.
+Sign parameters
+===============
 
-Equivalent Perlstone script: ``C[-dSp0r]Lp1AdSp1.0100[BdSp0r]Lp0r``
+#. EDGE-D
+#. [MC3034]
+#. Blank
+#. Blank
 
+Pins
+====
 
-Sign Lines
-==========
+Input
+-----
 
-1. EDGE-D
-2. [MC3034]
-3. Blank
-4. Blank
+#. Carries over to Output 1
+#. Sets Output 1 to Input 1
+#. Sets Output 1 to Low.
 
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Value to Carry
-- Trigger Value Carry
-- Reset
-
-Outputs
--------
-
-- Carried Value
-
-
-Permissions
-===========
-
-======================== ============================================================ ============
-Node                     Description                                                  Default Role 
-======================== ============================================================ ============
-craftbook.ic.safe.mc3034 Allows creation of the Edge-Trigger D Flip Flop (MC3034) IC. user         
-======================== ============================================================ ============
-
-
+#. Carried Value
 

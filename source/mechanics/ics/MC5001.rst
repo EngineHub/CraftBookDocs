@@ -1,0 +1,29 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. PERLSTONE-1.1
+#. [MC5001]
+#. PLC ID
+#. Shared Access ID
+
+Pins
+====
+
+Input
+-----
+
+#. Programmable Pin
+#. Programmable Pin
+#. Programmable Pin
+
+Output
+------
+
+#. Programmable Pin
+#. Programmable Pin
+#. Programmable Pin
+

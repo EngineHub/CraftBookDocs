@@ -1,47 +1,30 @@
-======
-MC3300
-======
+:doc:`index`
 
-**MC3300** is an IC that sets memory that can be read by the `MC3300 <MC3300.html>`_ IC.
+The '''MC3300''' sets memory that can be read by the ([[../MC3301/]]) set to access the same file.
 
-This IC reads from a file in the filesystem stored in /config/CraftBook/rom/fileName.dat. This file can be accessed by other services to allow for
-external programs to interact with redstone.
+This IC writes to a file in the filesystem stored in /plugins/CraftBook/rom/fileName.dat.
+This file can be accessed by other services to allow for external programs to interact with redstone.
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. MEMORY SET
+#. [MC3300]
+#. Blank
+#. Blank
 
-1. ROM SET
-2. [MC3300]
-3. Accessed Filename
-4. Blank
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Bit to set 1
+#. Bit to set 2
+#. Bit to set 3
 
-
-Inputs
+Output
 ------
 
-- First digit of file
-- Second digit of file
-- Third digit of file
-
-Outputs
--------
-
-- None
-
-
-Permissions
-===========
-
-======================== =========================================== ============
-Node                     Description                                 Default Role 
-======================== =========================================== ============
-craftbook.ic.safe.mc3300 Allows creation of the ROM Set (MC3300) IC. user         
-======================== =========================================== ============
-
-
+#. Nothing
 

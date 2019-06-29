@@ -1,45 +1,25 @@
-======
-MC1230
-======
+:doc:`index`
 
-**MC1230** outputs high if it is day when the input (the "clock") goes from low to high. Precisely it is high when the server time is less than 13000
-ticks. Essentially this means that a low is outputted when it starts getting dark and it goes high after it has been bright for some time.
+Missing Description
 
-The start and end time for day are configurable, making this IC capable of detecting any span of time.
+Sign parameters
+===============
 
+#. DAY SENSOR
+#. [MC1230]
+#. custom day start
+#. custom night start (day end)
 
-Sign Lines
-==========
+Pins
+====
 
-1. SENSE DAY
-2. [MC1230]
-3. Start Time
-4. End Time
+Input
+-----
 
+#. Nothing
 
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Clock
-
-Outputs
--------
-
-- If day (Or within time bounds)
-
-
-Permissions
-===========
-
-======================== =================================================== ============
-Node                     Description                                         Default Role 
-======================== =================================================== ============
-craftbook.ic.safe.mc1230 Allows creation of the Daylight Sensor (MC1230) IC. user         
-======================== =================================================== ============
-
-
+#. Nothing
 

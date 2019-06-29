@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. SET P-DOOR
+#. [MC1212]
+#. onID''<span style='color:#808080'>:onData-offID:offData</span>''
+#. offset x,y,z:width,height
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

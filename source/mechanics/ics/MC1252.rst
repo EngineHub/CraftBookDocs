@@ -1,0 +1,39 @@
+:doc:`index`
+
+The '''MC1252''' sets a certain length of blocks in fron of the IC block on fire (putting fire Block on top of them).
+
+Sign parameters
+===============
+
+#. FLAME THROWER
+#. [MC1252]
+#. distance
+#. delay
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+
+Configuration
+=============
+
+{| class="wiki-table sortable"
+|-
+! Configuration Node and Path
+! Default Value
+! Effect
+|-
+| ics.MC1252.max-fire-range
+| 20
+| The maximum range the Flamethrower IC can be set to.
+|}
+

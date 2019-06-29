@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. ENTITY SENSOR
+#. [MC1271]
+#. :doc:`../../search_area`
+#. Entity Types''<span style='color:#808080'>(>=|==|>)minimum</span>''
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

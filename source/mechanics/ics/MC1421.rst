@@ -1,49 +1,39 @@
-======
-MC1421
-======
+:doc:`index`
 
-**MC1421** is an IC that allows for a precisely timed redstone signal.
-The IC toggles between rising and falling states every X amount of ticks.
+Missing Description
 
-.. image:: /images/ics/mc1421/clock_on.png
-    :align: center
-    
-.. image:: /images/ics/mc1421/clock_off.png
-    :align: center
+Sign parameters
+===============
 
+#. CLOCK
+#. [MC1421]
+#. ticks required
+#. current ticks
 
-Sign Lines
-==========
+Pins
+====
 
-1. CLOCK
-2. [MC1421]
-3. Ticks per cycle
-4. Blank
+Input
+-----
 
+#. Nothing
 
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- High to disable the clock
+#. Nothing
 
-Outputs
--------
+Configuration
+=============
 
-- Toggles every X ticks
-
-
-Permissions
-===========
-
-======================== ========================================= ============
-Node                     Description                               Default Role 
-======================== ========================================= ============
-craftbook.ic.safe.mc1421 Allows creation of the Clock (MC1421) IC. user         
-======================== ========================================= ============
-
-
+{| class="wiki-table sortable"
+|-
+! Configuration Node and Path
+! Default Value
+! Effect
+|-
+| ics.MC1421.inverted
+| false
+| 
+|}
 

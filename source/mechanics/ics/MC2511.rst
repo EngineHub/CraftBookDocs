@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. LOW NOT PULSER
+#. [MC2511]
+#. [pulselength[:startdelay]]
+#. [pulsecount[:pauselength in serverticks]]
+
+Pins
+====
+
+Input
+-----
+
+#. Trigger IC
+
+Output
+------
+
+#. Pulse Output
+

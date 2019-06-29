@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. WEATHER CONTROL
+#. [MCX233]
+#. rain duration
+#. thunder duration
+
+Pins
+====
+
+Input
+-----
+
+#. Set weather state
+
+Output
+------
+
+#. Input 1
+

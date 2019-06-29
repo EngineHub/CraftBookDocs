@@ -1,64 +1,27 @@
-======
-MC3033
-======
+:doc:`index`
 
-**MC3033** is an IC that implements an RS-Nand latch (Commonly called an SR-Nand Latch). Only the Q output is available.
+Missing Description
 
-When the |S| (inverse "set") input exclusively goes high, the output (Q) goes high and stays high even if |S| goes low again. When the |R|
-(inverse "reset") input exclusively goes high, the output (Q) goes low and stays low even if |R| goes low again. If both go low at the same time,
-the output goes high.
+Sign parameters
+===============
 
-If both go high at the same time, the output does not change.
+#. RS NAND LATCH
+#. [MC3033]
+#. Blank
+#. Blank
 
-Logic Table
-===========
+Pins
+====
 
-===  === ==========
-|S|  |R|     Q
-===  === ==========
-0    0   1
-1    0   1
-0    1   0
-1    1   Keep State
-===  === ==========
+Input
+-----
 
-.. |S| unicode:: U+0053 U+0305 .. Combining Overline S
-.. |R| unicode:: U+0052 U+0305 .. Combining Overline R
+#. Set
+#. Reset
+#. Nothing
 
-
-Sign Lines
-==========
-
-1. RS-NAND
-2. [MC3033]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Set
-- Reset
-
-Outputs
--------
-
-- Q
-
-
-Permissions
-===========
-
-======================== ================================================= ============
-Node                     Description                                       Default Role 
-======================== ================================================= ============
-craftbook.ic.safe.mc3033 Allows creation of the RS-Nand Latch (MC3033) IC. user         
-======================== ================================================= ============
-
-
+#. Output
 

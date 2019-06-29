@@ -1,0 +1,25 @@
+:doc:`index`
+
+The '''MC1113''' will teleport a player from a corresponding [[../MC1112/]] IC on a redstone signal.
+
+Sign parameters
+===============
+
+#. TELEPORT IN
+#. [MC1113]
+#. Frequency
+#. +oWelcome Text
+
+Pins
+====
+
+Input
+-----
+
+#. Trigger IC (When ST, disables IC when high)
+
+Output
+------
+
+#. High on successful teleport
+

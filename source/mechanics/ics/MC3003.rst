@@ -1,60 +1,27 @@
-======
-MC3003
-======
+:doc:`index`
 
-**MC3003** is an IC that outputs high if and only if all connected inputs are not all high.
+Missing Description
 
-Equivalent Perlstone script: ``ABC&&!r``
+Sign parameters
+===============
 
-Truth Table
-===========
+#. NAND
+#. [MC3003]
+#. Blank
+#. Blank
 
-=  =  =  ======
-A  B  C  Output
-=  =  =  ======
-0  0  0  1
-0  0  1  1
-0  1  1  1
-0  1  0  1
-1  1  0  1
-1  0  0  1
-1  0  1  1
-1  1  1  0
-=  =  =  ======
+Pins
+====
 
+Input
+-----
 
-Sign Lines
-==========
+#. Input
+#. Input
+#. Input
 
-1. NAND
-2. [MC3003]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- The NAND Operand
-
-Outputs
--------
-
-- Outputs high if not all inputs are high
-
-
-Permissions
-===========
-
-======================== ============================================= ============
-Node                     Description                                   Default Role 
-======================== ============================================= ============
-craftbook.ic.safe.mc3003 Allows creation of the Nand Gate (MC3003) IC. user         
-======================== ============================================= ============
-
-
+#. High if one or more inputs are high, but not all are high
 

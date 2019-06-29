@@ -1,42 +1,29 @@
-======
-MC6020
-======
+:doc:`index`
 
-**MC6020** is an IC that generates 5 random bits whenever the input (the "clock") goes from low to high.
+The '''MC6020''' generates 5 random bits whenever the input (the "clock") goes from low to high.
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. 5-BIT RANDOM
+#. [MC6020]
+#. Min Outputs:Max Outputs
+#. Blank
 
-1. RANDOM 5
-2. [MC6020]
-3. Min On:Max On
-4. Blank
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Trigger IC
 
-
-Inputs
+Output
 ------
 
-- High to output random state
-
-Outputs
--------
-
-- Outputs random state
-
-
-Permissions
-===========
-
-======================== ================================================ ============
-Node                     Description                                      Default Role 
-======================== ================================================ ============
-craftbook.ic.safe.mc6020 Allows creation of the Random 5-Bit (MC6020) IC. user         
-======================== ================================================ ============
-
-
+#. Random Output
+#. Random Output
+#. Random Output
+#. Random Output
+#. Random Output
 

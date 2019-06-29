@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. DELAYER
+#. [MC2100]
+#. seconds
+#. true to use ticks:true to continue on low
+
+Pins
+====
+
+Input
+-----
+
+#. Trigger IC
+
+Output
+------
+
+#. Delayed Output
+

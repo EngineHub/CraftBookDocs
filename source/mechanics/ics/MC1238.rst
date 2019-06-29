@@ -1,0 +1,26 @@
+:doc:`index`
+
+The '''MC1238''' irrigates soil in the selected search area with water found in the chest above the IC.
+This IC is part of the Farming IC family, and can be used to make a fully automated farm.
+
+Sign parameters
+===============
+
+#. IRRIGATOR
+#. [MC1238]
+#. +o:doc:`../../search_area`
+#. Blank
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

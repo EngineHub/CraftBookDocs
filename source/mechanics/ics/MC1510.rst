@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. MESSAGE SENDER
+#. [MC1510]
+#. :doc:`../../player_type`, :doc:`../../search_area`, or BROADCAST for whole server
+#. Message to send.
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

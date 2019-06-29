@@ -1,0 +1,25 @@
+:doc:`index`
+
+Missing Description
+
+Sign parameters
+===============
+
+#. MULTI-SET BLOCK
+#. [MC1208]
+#. x:y:z:onid:ondata-offid:offdata
+#. width:height:depth
+
+Pins
+====
+
+Input
+-----
+
+#. Nothing
+
+Output
+------
+
+#. Nothing
+

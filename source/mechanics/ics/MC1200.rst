@@ -1,56 +1,25 @@
-======
-MC1200
-======
+:doc:`index`
 
-.. note::
+Missing Description
 
-   This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
+Sign parameters
+===============
 
+#. CREATURE SPAWNER
+#. [MC1200]
+#. entitytype
+#. +odata*amount
 
-The **MC1200** spawns an entity in the first free space above the block behind the IC sign when the input (the "clock") goes from low to high.
+Pins
+====
 
-Setting The Entity
-==================
+Input
+-----
 
-The entity to spawn can be set in a few different ways. If you want to simply just spawn a pig, just write the ID of that entity on the 3rd line.
-So for a pig you'd write pig (Or minecraft:pig).
+#. Nothing
 
-If you want to spawn multiple different entities, or entities with more custom data, just leave the 3rd line blank. Once the IC is created it'll
-open a menu where you can provide Spawn Eggs of what you want spawned.
-
-
-Sign Lines
-==========
-
-1. SPAWNER
-2. [MC1200]
-3. entity type, or blank to set later
-4. amount
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Clock
-
-Outputs
--------
-
-- None
-
-
-Permissions
-===========
-
-============================== ================================================== ============
-Node                           Description                                        Default Role 
-============================== ================================================== ============
-craftbook.ic.restricted.mc1200 Allows creation of the Entity Spawner (MC1200) IC. staff        
-============================== ================================================== ============
-
-
+#. Nothing
 

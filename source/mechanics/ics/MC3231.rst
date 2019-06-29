@@ -1,52 +1,27 @@
-======
-MC3231
-======
+:doc:`index`
 
-.. note::
+Missing Description
 
-   This IC is marked as `Restricted`. This means it's not necessarily suitable for normal players.
+Sign parameters
+===============
 
+#. ADV TIME CONTROL
+#. [MC3231]
+#. Blank
+#. Blank
 
-**MC3231** changes the time of day when the clock input goes from low to high. The time of day is changed to day if the D input is high and to night
-if the D input is low.
+Pins
+====
 
-The date will always change to the next night/day, meaning time will never go backwards. This allows the server's local difficulty to be kept.
+Input
+-----
 
+#. Trigger IC
+#. Day on Low, Night on High
+#. Nothing
 
-Sign Lines
-==========
-
-1. T CONTROL ADV
-2. [MC3231]
-3. Blank
-4. Blank
-
-
-IC Pins
-=======
-
-
-Inputs
+Output
 ------
 
-- Set Time
-- Day on High, Night on Low
-- Nothing
-
-Outputs
--------
-
-- Nothing
-
-
-Permissions
-===========
-
-============================== ========================================================= ============
-Node                           Description                                               Default Role 
-============================== ========================================================= ============
-craftbook.ic.restricted.mc3231 Allows creation of the Time Control Advanced (MC3231) IC. staff        
-============================== ========================================================= ============
-
-
+#. Nothing
 

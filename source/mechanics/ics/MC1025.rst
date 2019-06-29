@@ -1,43 +1,26 @@
-======
-MC1025
-======
+:doc:`index`
 
-**MC1025** is an IC that outputs whether the world time is either odd or even based on the application of the modulus of two on the server time. If
-the server time is even, a low will be outputted. If the server time is odd, a high will be outputted.
+The '''MC1025''' outputs whether the world time is either odd or even based on the application of the modulus of two on the server time.
+If the server time is even, a low will be outputted. If the server time is odd, a high will be outputted.
 
+Sign parameters
+===============
 
-Sign Lines
-==========
+#. SERVER TIME MOD
+#. [MC1025]
+#. Blank
+#. Blank
 
-1. TIME MODULUS
-2. [MC1025]
-3. Blank
-4. Blank
+Pins
+====
 
+Input
+-----
 
-IC Pins
-=======
+#. Trigger IC
 
-
-Inputs
+Output
 ------
 
-- Input
-
-Outputs
--------
-
-- Outputs high if world time is odd
-
-
-Permissions
-===========
-
-======================== ====================================================== ============
-Node                     Description                                            Default Role 
-======================== ====================================================== ============
-craftbook.ic.safe.mc1025 Allows creation of the World Time Modulus (MC1025) IC. user         
-======================== ====================================================== ============
-
-
+#. Output is world time is odd
 
