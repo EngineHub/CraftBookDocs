@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC3301
+======
+
 The '''MC3301''' gets memory that can be set by the ([[../MC3301/]]) set to access the same file.
 
 This IC reads from a file in the filesystem stored in /plugins/CraftBook/rom/fileName.dat.

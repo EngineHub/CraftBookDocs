@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+VAR200
+======
+
 The '''VAR200''' IC searches a chest and counts the amounts of all items that match the last line of the sign. 
 The counted amount is then added to the variable listed on the 3rd line.
 

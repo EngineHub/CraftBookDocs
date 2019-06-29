@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC1110
+======
+
 The '''MC1110''' transmits the input value to a particular named ''band'' or ''network''.
 To receive the value of the transmitter, use [[../MC1111/]].
 

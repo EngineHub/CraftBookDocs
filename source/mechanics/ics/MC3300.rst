@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC3300
+======
+
 The '''MC3300''' sets memory that can be read by the ([[../MC3301/]]) set to access the same file.
 
 This IC writes to a file in the filesystem stored in /plugins/CraftBook/rom/fileName.dat.

@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+VAR170
+======
+
 The '''VAR170''' IC checks a numerical variable against an amount listed on the sign.
 If the variable on the sign has a value greater than that listed on the sign, the IC will output high.
 

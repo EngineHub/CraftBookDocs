@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC1113
+======
+
 The '''MC1113''' will teleport a player from a corresponding [[../MC1112/]] IC on a redstone signal.
 
 Sign parameters

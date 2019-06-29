@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC1000
+======
+
 The '''MC1000''' repeats a state from input to output terminals.
 
 Equivalent [[../Perlstone/]] script: <code>Ar</code>

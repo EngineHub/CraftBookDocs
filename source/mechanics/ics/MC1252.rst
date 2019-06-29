@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC1252
+======
+
 The '''MC1252''' sets a certain length of blocks in fron of the IC block on fire (putting fire Block on top of them).
 
 Sign parameters

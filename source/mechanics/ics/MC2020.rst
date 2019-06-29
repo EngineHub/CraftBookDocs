@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC2020
+======
+
 The '''MC2020''' generates 3 random bits whenever the input (the "clock") goes from low to high.
 
 Sign parameters

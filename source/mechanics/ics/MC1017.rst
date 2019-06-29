@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC1017
+======
+
 The '''MC1017''' is a toggle flip flop that toggles its output state between low and high whenever the input (the "clock") changes from low to high.
 
 Equivalent [[../Perlstone/]] script: <code>Lp1AdSp1.0100[Lp0!dSp0r]Lp0r</code>

@@ -1,5 +1,9 @@
 :doc:`index`
 
+======
+MC1112
+======
+
 The '''MC1112''' teleports a player located within IC's radius to a receiver ([[../MC1113/]]) tuned to the same ''frequency''.
 This IC requires the recieving chunk to be loaded for the initial teleport, future teleports should not require the chunk to be loaded.
 
