@@ -11,15 +11,16 @@ Integrated Circuits
 
 Integrated circuits (also known as ICs) are compact components that perform the task of complicated circuits or do things otherwise impossible with Redstone. Building them and connecting them is simple. The ICs in CraftBook currently come in families that correspond with their number of inputs and outputs:
 
-* ZISO - Single output, no input
-* SISO - Single input, single output
-* SI3O - Single input, three outputs
-* SI5O - Single input, five outputs
-* 3ISO - Three inputs, single output
-* 3I3O - Three inputs, three outputs
-* VIVO - Variable number of inputs and outputs
+* :ref:`ziso` - Single output, no input
+* :ref:`asio`  - Single output, input can be anywhere
+* :ref:`siso` - Single input, single output
+* :ref:`si3o` - Single input, three outputs
+* :ref:`si5o` - Single input, five outputs
+* :ref:`3iso` - Three inputs, single output
+* :ref:`3i3o` - Three inputs, three outputs
+* :ref:`vivo` - Variable number of inputs and outputs
 
-Construction of ICs vary by family, so check out the links for the family in order to find out how to construct an IC.
+Construction of ICs vary by family, so check out the links for the :doc:`icfamilies` in order to find out how to construct an IC.
 
 Commands and In-Game Information
 ================================
@@ -327,14 +328,13 @@ PLCs, or programmable logic controllers, are a special type of IC that can be ei
 
 Types
 -----
-
-+---------+---------+------------+--------+----------+
-|  IC ID  |  Family |  Language  |  Since |  Instant |
-+=========+=========+============+========+==========+
-|  :doc:`MC5000` |  VIVO   |  Perlstone |  1.4   |  No      |
-+---------+---------+------------+--------+----------+
-|  :doc:`MC5001` |  3I3O   |  Perlstone |  3.3   |  No      |
-+---------+---------+------------+--------+----------+
++---------------+------------+-------------+--------+----------+
+|  IC ID        |  Family     |  Language  |  Since |  Instant |
++===============+=============+============+========+==========+
+| :doc:`MC5000` | VIVO        |  Perlstone | 1.4    |  No      |
++---------------+------------+-------------+--------+----------+
+| :doc:`MC5001` | 3I3O        |  Perlstone | 3.3    |  No      |
++---------------+------------+-------------+--------+----------+
 
 Configuration
 =============
