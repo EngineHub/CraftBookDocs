@@ -154,3 +154,6 @@ target/
 
 *.DS_Store
 src/
+# For easier use of Visual Studio Code:
+_build/
+.vscode/settings.json

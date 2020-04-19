@@ -4,7 +4,7 @@
 MC1270
 ======
 
-The '''MC1270''' will play a MIDI file listed on the IC in a specified area, or globally. It can be set to loop, or for the input to only play the MIDI file and not turn it off.
+The MC1270 will play a MIDI file listed on the IC in a specified area, or globally. It can be set to loop, or for the input to only play the MIDI file and not turn it off.
 
 This IC is one of the MIDI playing ICs, and can only play a single MIDI file, if you would like to play a playlist see [[../MC1273|The Jukebox IC]]
 
@@ -17,7 +17,7 @@ Sign parameters
 #. MELODY
 #. [MC1270]
 #. MIDI name
-#. :doc:`../../search_area`;LOOP;START
+#. :doc:`search_area`;LOOP;START
 
 Pins
 ====
@@ -32,17 +32,20 @@ Output
 
 #. High if currently playing
 
+Categories
+==========
+:ref:`siso`
+
+
 Configuration
 =============
 
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1270.show-playing-message
-| true
-| 
-|}
++---------------------------------+---------------+----------------------------------------------------+
+| Configuration Node and Path     | Default Value | Effect                                             |
++=================================+===============+====================================================+
+| ics.MC1270.show-playing-message |  true         |                                                    |
++---------------------------------+---------------+----------------------------------------------------+
 
+IC Families
+===========
+:ref:`siso`

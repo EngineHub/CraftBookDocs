@@ -33,35 +33,30 @@ Output
 Configuration
 =============
 
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1110.per-player
-| false
-| Require a name to be entered on the sign. This allows for 'per-player' wireless bands. This is done automatically.
-|}
++---------------------------------+---------------+----------------------------------------------------+
+| Configuration Node and Path     | Default Value | Effect                                             |
++=================================+===============+====================================================+
+| ics.MC1110.per-player           |  false        | Require a name to be entered on the sign. This     |
+|                                 |               | allows for 'per-player' wireless bands. This is    |
+|                                 |               | done automatically.                                |
++---------------------------------+---------------+----------------------------------------------------+
+
+
+wireless bands. This is done automatically.
 
 Commands
 ========
 
-{| class="wiki-table"
-! Command
-! Permission
-! Description
-|-
-| /ic ic mc1110 get <band>
-| none
-| Gets the value of the wireless band.
-|-
-| /ic ic mc1110 set <band> <value>
-| none
-| Sets the value of the wireless band.
-|-
-| /ic ic mc1110 toggle <band>
-| none
-| Toggles the value of the wireless band.
-|}
++---------------------------------+---------------+----------------------------------------------------+
+| Command                         | Permission    | Description                                        |
++=================================+===============+====================================================+
+| /ic ic mc1110 get <band>        |  none         | Gets the value of the wireless band.               |
++---------------------------------+---------------+----------------------------------------------------+
+|/ic ic mc1110 set <band> <value> | none          | Sets the value of the wireless band.               |
++---------------------------------+---------------+----------------------------------------------------+
+| /ic ic mc1110 toggle <band>     | none          | Toggles the value of the wireless band.            |
++---------------------------------+---------------+----------------------------------------------------+
 
+IC Families
+===========
+:ref:`siso`
