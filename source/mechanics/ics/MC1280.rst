@@ -11,7 +11,7 @@ Sign parameters
 
 #. ANIMAL BREEDER
 #. [MC1280]
-#. +o:doc:`../../search_area`
+#. :doc:`../search_area`
 #. Blank
 
 Pins
