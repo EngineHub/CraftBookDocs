@@ -11,7 +11,7 @@ Sign parameters
 
 #. MESSAGE SENDER
 #. [MC1510]
-#. :doc:`../../player_type`, :doc:`../../search_area`, or BROADCAST for whole server
+#. :doc:`../../player_type` , :doc:`../../search_area`, or BROADCAST for whole server
 #. Message to send.
 
 Pins

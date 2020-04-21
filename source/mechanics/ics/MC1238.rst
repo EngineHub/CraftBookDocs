@@ -12,7 +12,7 @@ Sign parameters
 
 #. IRRIGATOR
 #. [MC1238]
-#. +o:doc:`../../search_area`
+#. :doc:`../../search_area`
 #. Blank
 
 Pins
