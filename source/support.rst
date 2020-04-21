@@ -2,11 +2,10 @@
 Getting Help
 ============
 
-If you have a question,
+If you have a question or have errors,
 
-* `Ask on our Discord Guild <https://discord.gg/enginehub>`_
-* `Contact @the_me4502 on Twitter <http://twitter.com/the_me4502>`_
+* `Join our Discord <https://discord.gg/enginehub>`_ (preferred)
 
 If you have a feature request or bug report,
 
-* `Submit it to our issue tracker <http://dev.enginehub.org/youtrack/issues/CRAFTBOOK>`_
+* `Submit it to our issue tracker <https://github.com/EngineHub/CraftBook/issues>`_
