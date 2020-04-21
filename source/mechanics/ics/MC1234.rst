@@ -12,7 +12,7 @@ Sign parameters
 #. PLANTER
 #. [MC1234]
 #. +oItem to plant id''<span style='color:#808080'>:data</span>''
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 
 Pins
 ====

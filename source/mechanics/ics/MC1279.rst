@@ -11,7 +11,7 @@ Sign parameters
 
 #. PLAYER TRAP
 #. [MC1279]
-#. :doc:`../search_area`=damage
+#. :doc:`../../search_area` =damage
 #. :doc:`../../player_type`
 
 Pins

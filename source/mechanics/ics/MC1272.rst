@@ -11,7 +11,7 @@ Sign parameters
 
 #. P-DETECTION
 #. [MC1272]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. :doc:`../../player_type`
 
 Pins

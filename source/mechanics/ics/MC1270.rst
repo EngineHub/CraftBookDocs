@@ -17,7 +17,7 @@ Sign parameters
 #. MELODY
 #. [MC1270]
 #. MIDI name
-#. :doc:`../search_area`;LOOP;START
+#. :doc:`../../search_area`;LOOP;START
 
 Pins
 ====

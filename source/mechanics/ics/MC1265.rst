@@ -11,7 +11,7 @@ Sign parameters
 
 #. ITEM NOT SENSOR
 #. [MC1265]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. id:data
 
 Pins

@@ -11,7 +11,7 @@ Sign parameters
 
 #. ENTITY SENSOR
 #. [MC1271]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. Entity Types (>=|==|>)minimum
 
 Entity Flags

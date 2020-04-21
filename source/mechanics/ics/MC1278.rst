@@ -12,7 +12,7 @@ Sign parameters
 #. SENTRY GUN
 #. [MC1278]
 #. Mob Type''<span style='color:#808080'>:power:MAN</span>''
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 
 Pins
 ====

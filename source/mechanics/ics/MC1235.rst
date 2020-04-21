@@ -16,7 +16,7 @@ Sign parameters
 
 #. CULTIVATOR
 #. [MC1235]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. Blank
 
 Pins

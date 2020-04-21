@@ -11,7 +11,7 @@ Sign parameters
 
 #. ANIMAL HARVEST
 #. [MC1244]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. Blank
 
 Pins

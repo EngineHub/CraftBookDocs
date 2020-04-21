@@ -12,8 +12,8 @@ Sign parameters
 
 #. TELEPORT OUT
 #. [MC1112]
-#. Frequency|:doc:`../../player_type`
-#. :doc:`../search_area`
+#. Frequency| :doc:`../../player_type`
+#. :doc:`../../search_area`
 
 Pins
 ====

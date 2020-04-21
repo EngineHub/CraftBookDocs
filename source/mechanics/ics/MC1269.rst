@@ -11,7 +11,7 @@ Sign parameters
 
 #. PLAYER INV SENSOR
 #. [MC1269]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. item=minPlayers:inHand:slot
 
 Pins

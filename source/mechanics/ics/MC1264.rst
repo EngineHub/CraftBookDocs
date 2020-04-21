@@ -11,7 +11,7 @@ Sign parameters
 
 #. ITEM DETECTION
 #. [MC1264]
-#. :doc:`../search_area`
+#. :doc:`../../search_area`
 #. id:data
 
 Pins
