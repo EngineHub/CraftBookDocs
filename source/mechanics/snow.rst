@@ -51,12 +51,16 @@ The snowball placement feature allows snowballs to create snow where they land.
 Melt
 ----
 
-The melt feature causes snow to melt in warmer areas when it's not snowing. This does not cause naturally snowy areas to lose their snow.
+The melt feature causes snow to melt in warmer areas when it's not snowing.
 
 Partial Melt
 ~~~~~~~~~~~~
 
 Partial melt adds a further restriction to what snow can melt, similar to Partial Trampling. This prevents the bottom layer of the snow from melting, allowing piled snow to slowly disappear after snowfall has ended.
+
+.. note::
+
+    This is most similar to vanilla Minecraft behaviour, and retains a layer of snow on mountains and snowy terrain. All snow will still melt in hot climates such as deserts or jungles.
 
 Dispersion
 ----------
@@ -76,21 +80,21 @@ Snow with dispersion enabled allows for events such as:
 Configuration
 =============
 
-===================== ======================================================================= ======================================================================
-Node                  Comment                                                                 Default
-===================== ======================================================================= ======================================================================
-piling                Enables the piling feature of the Snow mechanic.                        false
-trample               Enables the trampling feature of the Snow mechanic.                     false
-partial-trample-only  If trampling is enabled, only trample it down to the smallest snow.     false
-jump-trample          Require jumping to trample snow.                                        false
-place-snowball        Allow snowballs to create snow when they land.                          false
-slowdown              Slows down entities as they walk through thick snow.                    false
-dispersion            Enable realistic snow dispersion.                                       false
-high-piling           Allow piling above the 1 block height.                                  false
-max-pile-height       The maximum piling height of high piling snow.                          3
-replaceable-blocks    A list of blocks that can be replaced by snow dispersion.               [minecraft:dead_bush, minecraft:grass, minecraft:fire, minecraft:fern]
-dispersion-tick-speed The speed at which dispersion actions are run                           20
-freeze-water          Should snow freeze water?                                               false
-melt-in-sunlight      Enables snow to melt in sunlight.                                       false
-partial-melt-only     If melt in sunlight is enabled, only melt it down to the smallest snow. false
-===================== ======================================================================= ======================================================================
+===================== ============================================================================================= ======================================================================
+Node                  Comment                                                                                       Default
+===================== ============================================================================================= ======================================================================
+piling                Enables the piling feature of the Snow mechanic.                                              false
+trample               Enables the trampling feature of the Snow mechanic.                                           false
+partial-trample-only  If trampling is enabled, only trample it down to the smallest snow.                           false
+jump-trample          Require jumping to trample snow.                                                              false
+place-snowball        Allow snowballs to create snow when they land.                                                false
+slowdown              Slows down entities as they walk through thick snow.                                          false
+dispersion            Enable realistic snow dispersion.                                                             false
+high-piling           Allow piling above the 1 block height.                                                        false
+max-pile-height       The maximum piling height of high piling snow.                                                3
+replaceable-blocks    A list of blocks that can be replaced by snow dispersion.                                     [minecraft:dead_bush, minecraft:grass, minecraft:fire, minecraft:fern]
+dispersion-tick-speed The speed at which dispersion actions are run                                                 20
+freeze-water          Should snow freeze water?                                                                     false
+melt-in-sunlight      Enables snow to melt in sunlight.                                                             false
+partial-melt-only     If melt in sunlight is enabled, only melt it down to the smallest snow similar to vanilla MC. true
+===================== ============================================================================================= ======================================================================
