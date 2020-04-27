@@ -77,6 +77,11 @@ Snow with dispersion enabled allows for events such as:
 
     Due to the large number of block changes this produces, it's not recommended for use on high-traffic servers. This feature may also cause performance issues when the duration of snowfall has been modified beyond vanilla values.
 
+.. image:: /images/snow/dispersion.png
+    :width: 600
+    :alt: Dispersion mode of the snow mechanic
+    :align: center
+
 Configuration
 =============
 
