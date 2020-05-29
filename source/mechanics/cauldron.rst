@@ -16,8 +16,6 @@ Drop the exact amount of needed items into the cauldron. It is important that yo
 
 Upon success, the cauldron will explode (No blocks will break, and the cauldron will still be usable) and drop the cooked items. The ingredients will be removed.
 
-Video guide: https://www.youtube.com/watch?v=7ZfOgaAkApA
-
 Spoons
 ------
 
