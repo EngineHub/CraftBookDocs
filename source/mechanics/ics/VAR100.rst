@@ -7,21 +7,20 @@ VAR100
 The '''VAR100''' IC allows for the modification of numerical variables using common binary operations (Known an Functions).
 
 == Functions ==
-{| class="wiki-table sortable"
-! Name
-! Symbol
-! Function
-|-
-| Add || + || Adds the inputted value to the variable.
-|-
-| Subtract || - || Subtracts the inputted value from the variable.
-|-
-| Multiply || * OR x || Multiplies the inputted value by the variable.
-|-
-| Divide || / || Divides the inputted value by the variable.
-|-
-| Mod || % || Performs modulo by the inputted value on the variable.
-|}
+
++------------+-----------+----------------------------------------------------------+
+| Name       | Symbol    | Function                                                 |
++============+===========+==========================================================+
+| Add        | +         | Adds the inputted value to the variable.                 |
++------------+-----------+----------------------------------------------------------+
+| Subtract   | -         | Subtracts the inputted value from the variable.          |
++------------+-----------+----------------------------------------------------------+
+| Multiply   | \* OR x   | Multiplies the inputted value by the variable.           |
++------------+-----------+----------------------------------------------------------+
+| Divide     | /         | Divides the inputted value by the variable.              |
++------------+-----------+----------------------------------------------------------+
+| Mod        | %         | Performs modulo by the inputted value on the variable.   |
++------------+-----------+----------------------------------------------------------+
 
 Sign parameters
 ===============

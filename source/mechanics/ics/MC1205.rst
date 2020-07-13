@@ -28,16 +28,8 @@ Output
 #. Nothing
 
 Configuration
-=============
-
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1205.blacklist
-| [BEDROCK:-1, BEDROCK:-1]
-| Stops the IC from placing the listed blocks.
-|}
-
+=============+-------------------------------+----------------------------+------------------------------------------------+
+| Configuration Node and Path   | Default Value              | Effect                                         |
++===============================+============================+================================================+
+| ics.MC1205.blacklist          | [BEDROCK:-1, BEDROCK:-1]   | Stops the IC from placing the listed blocks.   |
++-------------------------------+----------------------------+------------------------------------------------+

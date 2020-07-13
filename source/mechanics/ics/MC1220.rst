@@ -30,14 +30,8 @@ Output
 Configuration
 =============
 
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1220.blacklist
-| [BEDROCK:-1, BEDROCK:-1]
-| Stops the IC from breaking the listed blocks.
-|}
-
++-------------------------------+----------------------------+-------------------------------------------------+
+| Configuration Node and Path   | Default Value              | Effect                                          |
++===============================+============================+=================================================+
+| ics.MC1220.blacklist          | [BEDROCK:-1, BEDROCK:-1]   | Stops the IC from breaking the listed blocks.   |
++-------------------------------+----------------------------+-------------------------------------------------+

@@ -9,9 +9,9 @@ Construction
 
 Hidden switches consist of three parts:
 
-# A block to put the sign on.
-# Either a sign post or a wall sign with **[X]** as the second line.
-# A lever or button one block away from the sign in any right angle direction.
+- A block to put the sign on.
+- Either a sign post or a wall sign with **[X]** as the second line.
+- A lever or button one block away from the sign in any right angle direction.
 
 Right clicking a block next to the sign will toggle the switch(es) or button(s) adjacent to the sign.
 

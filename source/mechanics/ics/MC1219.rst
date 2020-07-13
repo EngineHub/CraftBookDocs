@@ -4,7 +4,11 @@
 MC1219
 ======
 
-Missing Description
+The MC1219 crafts the recipe laid out in the above dispenser/dropper on powered, then spits it out of the dispenser/dropper (Note: Dropper is recommended, as not all items can be dispensed from a dispenser, eg bonemeal).
+
+It only crafts when there is more than 1 in each slot, so it will always have the template to go by. It also will automatically put stacks into the dispenser that are touching the sign on input going high.
+
+Note: Recipes need to be docked against top left corner. 
 
 Sign parameters
 ===============
@@ -27,3 +31,6 @@ Output
 
 #. Nothing
 
+IC Families
+===========
+:ref:`siso`

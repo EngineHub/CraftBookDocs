@@ -23,4 +23,6 @@ CraftBook can be `downloaded from the EngineHub site <http://builds.enginehub.or
 
 Note: CraftBook requires that WorldEdit is installed.
 
+When using mechanics Chairs or Variables the latest version of `ProtocolLib <https://www.spigotmc.org/resources/protocollib.1997/>`_ is needed alongside CraftBook.
+
 Check your server log for errors. If you encounter errors, see the :doc:`support` page.

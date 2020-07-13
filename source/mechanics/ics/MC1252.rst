@@ -29,15 +29,8 @@ Output
 
 Configuration
 =============
-
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1252.max-fire-range
-| 20
-| The maximum range the Flamethrower IC can be set to.
-|}
-
++-------------------------------+-----------------+--------------------------------------------------------+
+| Configuration Node and Path   | Default Value   | Effect                                                 |
++===============================+=================+========================================================+
+| ics.MC1252.max-fire-range     | 20              | The maximum range the Flamethrower IC can be set to.   |
++-------------------------------+-----------------+--------------------------------------------------------+

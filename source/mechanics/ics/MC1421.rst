@@ -30,14 +30,8 @@ Output
 Configuration
 =============
 
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1421.inverted
-| false
-| 
-|}
-
++-------------------------------+-----------------+----------+
+| Configuration Node and Path   | Default Value   | Effect   |
++===============================+=================+==========+
+| ics.MC1421.inverted           | false           |          |
++-------------------------------+-----------------+----------+

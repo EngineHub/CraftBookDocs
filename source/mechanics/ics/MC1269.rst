@@ -4,7 +4,7 @@
 MC1269
 ======
 
-Missing Description
+The MC1269 is a inventory sensor. Its output goes high if a player or players inventory matches (line 4) enters its range (line 3). 
 
 Sign parameters
 ===============
@@ -27,3 +27,6 @@ Output
 
 #. Nothing
 
+IC Families
+===========
+:ref:`siso`
