@@ -57,6 +57,8 @@ Troubleshooting
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 |  Issue                                        |  Solution                                                                                                 |
 +===============================================+===========================================================================================================+
+|  Nothing happens when trying to sit           |  ProtocolLib is needed, please make sure you have the LATEST version of ProtocolLib alongside CraftBook.  |
++-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 |  The sitting animation doesn't appear on 1.6! |  Update to the latest versions of CraftBook, a major change occurred with the sitting animation!          |
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 |  Players are kicked when sitting!             |  You are using a version of bukkit with a bug in it relating to vehicles! Please use Bukkit Build #2812.  |

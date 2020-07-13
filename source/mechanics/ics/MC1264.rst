@@ -4,7 +4,7 @@
 MC1264
 ======
 
-Missing Description
+The MC1264 checks if an item lying on the ground in a certain radius is existant. 
 
 Sign parameters
 ===============

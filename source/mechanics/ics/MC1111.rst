@@ -32,15 +32,8 @@ Output
 
 Configuration
 =============
-
-{| class="wiki-table sortable"
-|-
-! Configuration Node and Path
-! Default Value
-! Effect
-|-
-| ics.MC1111.per-player
-| false
-| Require a name to be entered on the sign. This allows for 'per-player' wireless bands. This is done automatically.
-|}
-
++----------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------+
+| Configuration Node and Path      | Default Value| Effect                                                                                                               |
++==================================+==============+======================================================================================================================+
+| ics.MC1111.per-player            | false        | Require a name to be entered on the sign. This allows for 'per-player' wireless bands. This is done automatically.   |
++----------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------+
