@@ -1,15 +1,15 @@
 ===================
-Boosters and Breaks
+Boosters and Brakes
 ===================
 
-Minecart Speed Modifier Blocks are a minecart mechanic that change a minecarts speed when they are driven over.
+Minecart Speed Modifier Blocks are a minecart mechanic that change a minecart's speed when they are driven over.
 
 Boosters
 ========
 
 Boosters increase the speed of minecarts that pass over them. They activate when the minecart enters the track above the booster block. There are two usable boosters:
 
-* Gold ore: 25% boost (125% resulting speed)
+* Gold ore: 25% boost (125% resultant speed)
 * Gold block: maximum speed boost
 
 In the lack of redstone power to a booster block, boosters will be enabled. If there is a nearby source of redstone power (it would power the block), the booster block will only function if the redstone input is active. For redstone wires, be sure that they are directed at the block.
