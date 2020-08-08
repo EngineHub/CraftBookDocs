@@ -2,133 +2,154 @@
 Variables
 =========
 
-'Variables' is a mechanic that allows for full dynamic circuits and mechanics. Variables are at the core of CraftBook, and are considered one of the
-most powerful features that allow for incredible things to be done.
+The **Variables** mechanic allows for highly dynamic behaviour amongst CraftBook mechanisms. Variables are a core feature of
+CraftBook, and are incredibly powerful in that they can be used to make almost anything happen.
+
+Variables allow text substitutions to be set and read from signs, commands, or even chat. Change a variable, and you can
+dynamically change how a mechanic behaves without remaking the sign.
 
 Usage
 =====
 
-A variable is basically a key->value type store that allows for a value to be assigned to a line of text.
-This allows for mechanics and other systems to reference a dynamic value that can be changed without recreating the mechanic.
+A variable is basically a 'key-value store' that allows for a value to be assigned to a piece of text, or key.
 
-Creating Variables
-------------------
-
-To create variables, use the commands mentioned later on in the page. Before a variable can be set, or modified in any way, it first must be defined. The define command is used to define variables.
-
-Syntax
-------
-
-The basic syntax to access a variable is %NAMESPACE|VAR_NAME%, or if you are using the global namespace, Just %VAR_NAME% can be used.
-
-For example, if you define a variable called MOB to Cow, then on a [MC1200] put %MOB% on the 3rd line, it would spawn cows, and you could change what it spawns with CommandBlocks, Commands or CommandSigns. There are also ICs that can modify variables.
+The key can then be referenced on signs, in chat, or in commands, and will be swapped out for the value of the variable.
 
 Namespaces
 ----------
 
-Variables can be either public (GLOBAL namespace) or private. Depending on configuration values set, the default namespace can be either the players private namespace, or the global namespace.
+The variable key is made up of two segments. The namespace, and the key. The namespace is basically a "grouping",
+and allows variables to be sectioned off from each other for ease of use.
+
+When no namespace is provided, the default will be used. This can be changed in the configuration, but will either be
+the ``global`` namespace, or one tied to the player's UUID. If the global namespace is used, player's can all see each
+other's variables.
+
+Aside from making the variable listing neater, namespaces also allow fine-grained permission management of different
+sets of variables. For example, you could allow the people working on a single project access to the variable namespace
+related to that project.
+
+Creating Variables
+------------------
+
+Variables are initially created using the ``/var define`` command, noted in the commands section of this page.
+
+Variables must first be defined before they can be used.
+
+Syntax
+------
+
+The basic syntax to access a variable is ``%NAMESPACE|KEY%``, or if you are using the default namespace, Just
+``%KEY%`` can be used.
+
+Any CraftBook mechanic that reads the sign, or any other plugin that uses the CraftBook API, will see the value of the
+variable rather than the text. If you had a variable called ``cakeType`` set to ``chocolate``, and a sign had
+``Cake: %cakeType%`` written on it, it would be read as ``Cake: chocolate``.
 
 Variables in Chat and Commands
 ------------------------------
 
-Variables can work in a players chat. If a player says a message containing a variable they have permission to use, and it's allowed in the configuration, CraftBook will replace that variable with the value of the variable. This can allow for more dynamic chat, or to say a variable.
+When configured in the configuration, variables can be used in player chat, player commands, and even console commands.
 
-Variables can also be configured to work in commands from other plugins, and can be configured to be enabled separately in both the Console and Players. This allows you to have the Console parsing CraftBook variables, for a command from another plugin. If this syntax breaks a command of another plugin, it is possible to cancel out the variable syntax by adding \ before each % sign of the variable.
+This allows for variables to be used in vanilla Minecraft commands, or even commands of other plugins. On top of this,
+when allowed to be used in console commands, variables work inside Command Blocks. Variables can significantly enhance
+the capabilities of various command block contraptions.
 
-Video guide `here. <https://www.youtube.com/watch?v=nXKTN2mc9gE>`_
+.. warning::
+    This may interfere with some commands that make use of the % character. To get around this, you can use \\% in
+    place of any % character to prevent it being parsed as a variable.
+
+Examples
+========
+
+Mob Spawner
+-----------
+
+If you define a variable called ``MOB`` with the value ``cow``, then on a ``[MC1200]`` IC have ``%MOB%`` on the 3rd
+line, it would spawn cows. You could then have something modify the variable to be ``pig``, and it would switch to
+spawning pigs.
+
+Expanding Trap
+--------------
+
+Using the ``Entity Trap`` IC, you could create an expanding trap area by increasing a variable that controls the radius.
 
 Commands
 ========
 
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| Command                                    | Flags          | Permission                                       | Description                                                               |
-+============================================+================+==================================================+===========================================================================+
-| /craftbook var define <Variable> <Value>   | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Defines the variable with the specified value in the specified namespace. |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var set <Variable> <Value>      | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Sets the variable to the specified value in the specified namespace.      |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var get <Variable>              | -n <namespace> | craftbook.variables.get[.self]/[.<namespace>]    | Gets the value of the variable in the specified namespace.                |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var delete <Variable>           | -n <namespace> | craftbook.variables.erase[.self]/[.<namespace>]  | Removes the variable in the specified namespace.                          |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var append <Variable> <Text>    | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Adds more text to the end of the variable.                                |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var prepend <Variable> <Text>   | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Adds more text to the beginning of the variable.                          |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var toggle <Variable>           | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Toggles a boolean variable. Eg, 1 <-> 0, true <-> false, yes <-> no       |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var add <Variable> <Value>      | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Adds the value to a numeric variable. This is basically +                 |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var subtract <Variable> <Value> | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Subtracts the value from a numeric variable. This is basically -          |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var multiply <Variable> <Value> | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Multiplies the value by a numeric variable. This is basically *           |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
-| /craftbook var divide <Variable> <Value>   | -n <namespace> | craftbook.variables.modify[.self]/[.<namespace>] | Divides the value by a numeric variable. This is basically /              |
-+--------------------------------------------+----------------+--------------------------------------------------+---------------------------------------------------------------------------+
+.. note::
+   These commands also require the player to have permission to interact with the variable they enter.
+
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| Command                              | Flags          | Permission                  | Description                                                               |
++======================================+================+=============================+===========================================================================+
+| /var define <Variable> <Value>       | -n <namespace> | craftbook.variables.define  | Defines the variable with the specified value in the specified namespace. |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var set <Variable> <Value>          | -n <namespace> | craftbook.variables.set     | Sets the variable to the specified value in the specified namespace.      |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var get <Variable>                  | -n <namespace> | craftbook.variables.get     | Gets the value of the variable in the specified namespace.                |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var remove <Variable>               | -n <namespace> | craftbook.variables.remove  | Removes the variable in the specified namespace.                          |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var append <Variable> <Text>        | -n <namespace> | craftbook.variables.append  | Adds more text to the end of the variable.                                |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var prepend <Variable> <Text>       | -n <namespace> | craftbook.variables.prepend | Adds more text to the beginning of the variable.                          |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var toggle <Variable>               | -n <namespace> | craftbook.variables.toggle  | Toggles a boolean variable. Eg, 1 <-> 0, true <-> false, yes <-> no       |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
+| /var setexpr <Variable> <Expression> | -n <namespace> | craftbook.variables.setexpr | Adds the value to a numeric variable. This is basically +                 |
++--------------------------------------+----------------+-----------------------------+---------------------------------------------------------------------------+
 
 Configuration
 =============
 
-============================================= ================================================================================================================================================== =======
-Node                                          Comment                                                                                                                                            Default
-============================================= ================================================================================================================================================== =======
-mechanics.Variables.default-to-global         When a variable is accessed via command, if no namespace is provided... It will default to global. If this is false, it will use the players name. false
-mechanics.Variables.enable-in-console         Allows variables to work on the Console.                                                                                                           false
-mechanics.Variables.enable-in-player-commands Allows variables to work in any command a player performs.                                                                                         false
-mechanics.Variables.enable-in-player-chat     Allow variables to work in player chat.                                                                                                            false
-mechanics.Variables.override-all-text         Modify outgoing packets to replace variables in all text. (Requires ProtocolLib)                                                                   false
-============================================= ================================================================================================================================================== =======
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
+  ``default-to-global``,"Whether to default to global or the player's namespace when no namespace is provided","false"
+  ``enable-in-console``,"Allows variables to work when used in console commands","false"
+  ``enable-in-player-commands``,"Allows variables to work when used in player commands","false"
+  ``enable-in-player-chat``,"Allows variables to work when used in chat","false"
 
 Permissions
 ===========
 
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  Permission Node                               |  Effect                                                                      |
-+================================================+==============================================================================+
-|  craftbook.variables.define                    |  Gives access to the variable define command in any namespace.               |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.define.self               |  Gives access to the variable define command within their own namespace.     |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.define.namespace          |  Gives access to the variable define command in the specified namespace.     |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.get                       |  Gives access to the variable access command.                                |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.get.self                  |  Gives access to the variable access command within their own namespace.     |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.get.namespace             |  Gives access to the variable access command in the specified namespace.     |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.erase                     |  Gives access to the variable erase command.                                 |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.erase.self                |  Gives access to the variable erase command within their own namespace.      |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.erase.namespace           |  Gives access to the variable erase command in the specified namespace.      |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.modify                    |  Allows the player to modify any variable.                                   |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.modify.self               |  Allows the player to modify any variable within their own namespace.        |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.modify.namespace          |  Allows the player to modify any variable in the specified namespace.        |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.modify.variable           |  Allows the player to modify the variable listed.                            |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.modify.self.variable      |  Allows the player to modify the variable listed within their own namespace. |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.modify.namespace.variable |  Allows the player to modify the variable listed in the specified namespace. |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.use                       |  Allows the player to use any variable.                                      |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.use.self                  |  Allows the player to use any variable within their own namespace.           |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.use.namespace             |  Allows the player to use any variable in the specified namespace.           |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.use.variable              |  Allows the player to use the variable listed.                               |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.use.self.variable         |  Allows the player to use the variable listed within their own namespace.    |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.use.namespace.variable    |  Allows the player to use the variable listed in the specified namespace.    |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.chat                      |  Allows the player's chat to have variables parsed to their values.          |
-+------------------------------------------------+------------------------------------------------------------------------------+
-|  craftbook.variables.commands                  |  Allows the player's commands to have variables parsed to their values.      |
-+------------------------------------------------+------------------------------------------------------------------------------+
+Variable Specific
+-----------------
+
+The following permission nodes allow you to specify how the player can use various variables.
+
+These permission nodes can be narrowed down by adding ``.[namespace]`` on the end (where ``[namespace]`` is the namespace,
+eg ``.global`` for the global namespace), or by adding ``.self`` for their own personal UUID namespace.
+
+To further narrow down beyond the namespace, ``.[key]`` can be added after the namespace to specify permissions on a
+per-variable level.
+
+For example, to give a player the ability to only modify the variable ``test`` on the ``global`` namespace, provide them the
+permission ``craftbook.variables.modify.global.test``
+
++------------------------------+-----------------------------------------------------------+
+|  Permission Node             |  Effect                                                   |
++==============================+===========================================================+
+|  craftbook.variables.define  |  Allows the player to define variables.                   |
++------------------------------+-----------------------------------------------------------+
+|  craftbook.variables.get     |  Allows the player to access the value of a variable.     |
++------------------------------+-----------------------------------------------------------+
+|  craftbook.variables.remove  |  Allows the player to remove a variable.                  |
++------------------------------+-----------------------------------------------------------+
+|  craftbook.variables.modify  |  Allows the player to modify a variable.                  |
++------------------------------+-----------------------------------------------------------+
+|  craftbook.variables.use     |  Allows the player to use a variable.                     |
++------------------------------+-----------------------------------------------------------+
+
+General Usage
+-------------
+
++--------------------------------+------------------------------------------------------------------------------+
+|  Permission Node               |  Effect                                                                      |
++================================+==============================================================================+
+|  craftbook.variables.chat      |  Allows the player to use variables in chat (when enabled in config).        |
++--------------------------------+------------------------------------------------------------------------------+
+|  craftbook.variables.commands  |  Allows the player to use variables in commands (when enabled in config).    |
++--------------------------------+------------------------------------------------------------------------------+

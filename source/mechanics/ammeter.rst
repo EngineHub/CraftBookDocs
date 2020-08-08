@@ -2,7 +2,7 @@
 Ammeter
 =======
 
-The ammeter allows you to get the current level (or amperage) in wires and redstone devices.
+The **Ammeter** mechanic allows you to get the current level (or amperage) in wires and redstone devices.
 
 Right click any redstone device while holding coal (or another configured item) to see the meter's output. This can be useful when debugging analogue redstone circuits, such as those that use comparators.
 
@@ -28,8 +28,8 @@ use-action-bar Whether to use the action bar or the player's chat. true
 Permissions
 ===========
 
-========================== ===============================
-Permission Node            Effect
-========================== ===============================
-craftbook.mech.ammeter.use Allows use of the Ammeter tool.
-========================== ===============================
+===================== ===============================
+Permission Node       Effect
+===================== ===============================
+craftbook.ammeter.use Allows use of the Ammeter tool.
+===================== ===============================

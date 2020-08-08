@@ -2,7 +2,7 @@
 LightStone
 ==========
 
-The LightStone mechanic allows you to get the current light level for a block.
+The **LightStone** mechanic allows you to get the current light level for a block.
 
 Right click any block while holding GlowStone Dust to see the light level. If the light level is high enough that
 monsters won't spawn, the bar is shown as green. If they are able to spawn at the clicked location, it will be shown
@@ -30,8 +30,8 @@ use-action-bar Whether to use the action bar or the player's chat. true
 Permissions
 ===========
 
-+--------------------------------+-------------------------------------+
-|  Permission Node               |  Effect                             |
-+================================+=====================================+
-|  craftbook.mech.lightstone.use |  Allows use of the Lightstone tool. |
-+--------------------------------+-------------------------------------+
++---------------------------+-------------------------------------+
+|  Permission Node          |  Effect                             |
++===========================+=====================================+
+|  craftbook.lightstone.use |  Allows use of the Lightstone tool. |
++---------------------------+-------------------------------------+

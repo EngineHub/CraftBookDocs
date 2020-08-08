@@ -20,9 +20,9 @@ This mechanic can be used in a fair few situations, such as:
 Configuration
 =============
 
-================= ============================================== =======
-Node              Comment                                        Default
-================= ============================================== =======
-enable-netherrack Whether the mechanic should affect Netherrack. true
-enable-soul-soil  Whether the mechanic should affect Soul Soil.  true
-================= ============================================== =======
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
+
+  ``enable-netherrack``,"Whether the mechanic should affect Netherrack.","true"
+  ``enable-soul-soil``,"Whether the mechanic should affect Soul Soil.","true"

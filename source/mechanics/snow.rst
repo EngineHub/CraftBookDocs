@@ -103,3 +103,13 @@ freeze-water          Should snow freeze water?                                 
 melt-in-sunlight      Enables snow to melt in sunlight.                                                             false
 partial-melt-only     If melt in sunlight is enabled, only melt it down to the smallest snow similar to vanilla MC. true
 ===================== ============================================================================================= ======================================================================
+
+Permissions
+===========
+
+====================== ==============================================
+Permission Node        Effect
+====================== ==============================================
+craftbook.snow.place   Allows the player to place snow with snowballs
+craftbook.snow.trample Allows the player to trample snow
+====================== ==============================================

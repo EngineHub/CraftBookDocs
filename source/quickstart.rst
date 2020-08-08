@@ -7,9 +7,9 @@ Enabling Mechanics
 
 All of CraftBook's features are disabled by default. This is to allow server owners the ability to customise CraftBook to do exactly what they want it to do.
 
-CraftBook's features are broken up into sections called **Mechanics**.
+CraftBook's features are broken up into modules called **Mechanics**.
 
-You can enable or disable mechanics in the ``config.yml`` file (see :doc:`config`).
+You can enable or disable mechanics in the ``config.yml`` file (see :doc:`config`), or via in-game commands.
 
 * Decide what you want to enable. Check out :doc:`mechanics/index` for information on each Mechanic.
 * Set anything you want to enable to ``true``, under the ``mechanics`` section of the config.
