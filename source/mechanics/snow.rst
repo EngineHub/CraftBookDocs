@@ -85,24 +85,24 @@ Snow with dispersion enabled allows for events such as:
 Configuration
 =============
 
-===================== ============================================================================================= ======================================================================
-Node                  Comment                                                                                       Default
-===================== ============================================================================================= ======================================================================
-piling                Enables the piling feature of the Snow mechanic.                                              false
-trample               Enables the trampling feature of the Snow mechanic.                                           false
-partial-trample-only  If trampling is enabled, only trample it down to the smallest snow.                           false
-jump-trample          Require jumping to trample snow.                                                              false
-place-snowball        Allow snowballs to create snow when they land.                                                false
-slowdown              Slows down entities as they walk through thick snow.                                          false
-dispersion            Enable realistic snow dispersion.                                                             false
-high-piling           Allow piling above the 1 block height.                                                        false
-max-pile-height       The maximum piling height of high piling snow.                                                3
-replaceable-blocks    A list of blocks that can be replaced by snow dispersion.                                     [minecraft:dead_bush, minecraft:grass, minecraft:fire, minecraft:fern]
-dispersion-tick-speed The speed at which dispersion actions are run                                                 20
-freeze-water          Should snow freeze water?                                                                     false
-melt-in-sunlight      Enables snow to melt in sunlight.                                                             false
-partial-melt-only     If melt in sunlight is enabled, only melt it down to the smallest snow similar to vanilla MC. true
-===================== ============================================================================================= ======================================================================
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
+
+  ``piling``,"Enables the piling feature of the Snow mechanic.","false"
+  ``trample``,"Enables the trampling feature of the Snow mechanic.","false"
+  ``partial-trample-only``,"If trampling is enabled, only trample it down to the smallest snow.","false"
+  ``jump-trample``,"Require jumping to trample snow.","false"
+  ``place-snowball``,"Allow snowballs to create snow when they land.","false"
+  ``slowdown``,"Slows down entities as they walk through thick snow.","false"
+  ``dispersion``,"Enable realistic snow dispersion.","false"
+  ``high-piling``,"Allow piling above the 1 block height.","false"
+  ``max-pile-height``,"The maximum piling height of high piling snow.","3"
+  ``replaceable-blocks``,"A list of blocks that can be replaced by snow dispersion.","[minecraft:dead_bush, minecraft:grass, minecraft:fire, minecraft:fern]"
+  ``dispersion-tick-speed``,"The speed at which dispersion actions are run","20"
+  ``freeze-water``,"Should snow freeze water?","false"
+  ``melt-in-sunlight``,"Enables snow to melt in sunlight.","false"
+  ``partial-melt-only``,"If melt in sunlight is enabled, only melt it down to the smallest snow similar to vanilla MC.","true"
 
 Permissions
 ===========

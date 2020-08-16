@@ -2,12 +2,16 @@
 Jack O Lantern
 ==============
 
-The *Jack O Lantern* mechanic allows switching the lit status of pumpkins with redstone. Put a ton together and you can control your home's lighting
-with a regular Redstone switch.
+The **Jack O Lantern** mechanic allows turning jack o lanterns on and off with redstone.
 
 .. image:: /images/redstone_pumpkin/redstone_pumpkin.png
     :align: center
 
+Configuration
+=============
 
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
-
+  ``prevent-breaking``,"Whether powered Jack O Lanterns should be unbreakable.","false"
