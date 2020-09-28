@@ -2,28 +2,32 @@
 Painting Switcher
 =================
 
-The Painting Switch mechanic allows a player to switch between paintings using the scroll wheel of their mouse.
+The **Painting Switcher** mechanic allows a player to switch between paintings using the scroll wheel of their mouse.
 
 Usage
 =====
 
-Right click on a painting in a region you are allowed to build in. Use the scroll wheel to find a painting, and then once you've got the right
-painting right click again.
+Right click on a painting to start editing. You're then able to use the scroll wheel to scroll between paintings that
+fit in the given space.
 
 Scrolling forward will switch to the next painting, whilst scrolling backwards will scroll to the prior painting.
 
-Mod Paintings
+Once you're happy with the painting, right click it again to stop editing.
+
+Configuration
 =============
 
-To use paintings added by mods, the mod needs to register the painting with the Registry. If this is done, the painting will work just like a
-vanilla painting.
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
+  ``modify-range``,"The maximum distance from which you can modify paintings.","5"
 
 Permissions
 ===========
 
-+------------------------------------+---------------------------------------+
-|  Permission Node                   |  Effect                               |
-+====================================+=======================================+
-|  craftbook.mech.paintingswitch.use |  Allows use of the Painting Switcher. |
-+------------------------------------+---------------------------------------+
++---------------------------------+---------------------------------------+
+|  Permission Node                |  Effect                               |
++=================================+=======================================+
+|  craftbook.paintingswitcher.use |  Allows use of the Painting Switcher. |
++---------------------------------+---------------------------------------+
