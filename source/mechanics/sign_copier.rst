@@ -2,7 +2,7 @@
 Sign Copier
 ===========
 
-The Sign Copier mechanic can be used to copy the text from one sign to another sign, and edit the text on the signs if needed.
+The **Sign Copier** mechanic allows you to copy and paste signs, as well as modify them.
 
 Usage
 =====
@@ -12,19 +12,23 @@ To use the sign copier, right click the sign you want to copy with an ink sac, t
 Editing Text
 ------------
 
-To edit text, you can use the `/sign edit` commands. The syntax is `/sign edit <line> <text>`. This edits the currently copied sign, allowing you to make a copy and edit it, just before pasting it on multiple signs!
+To edit text, you can use the `/signcopy edit` commands. The syntax is `/signcopy edit <line> <text>`. This edits the currently copied sign.
 
-In order to edit text with spaces, just surround it with quotes (""). Eg, `/sign edit 1 "This is a sign"`.
+In order to edit text with spaces, just surround it with quotes (""). Eg, `/signcopy edit 1 "This is a sign"`.
+
+Remove the copied sign
+----------------------
+
+To get rid of any currently copied signs, you can use the `/signcopy clear` command.
 
 Configuration
 =============
 
-========================= ===================================== =================
-Node                      Comment                               Default
-========================= ===================================== =================
-mechanics.SignCopier.item The item the Sign Copy mechanic uses. minecraft:ink_sac
-========================= ===================================== =================
-
+============== =================================================== =================
+Node           Comment                                             Default
+============== =================================================== =================
+item           The item for the sign copier tool.                  minecraft:ink_sac
+============== =================================================== =================
 
 Permissions
 ===========
@@ -32,7 +36,9 @@ Permissions
 +-------------------------------+---------------------------------------------------+
 |  Permission Node              |  Effect                                           |
 +===============================+===================================================+
-|  craftbook.mech.signcopy.use  |  Allows use of the Sign Copier tool.              |
+|  craftbook.signcopier.use     |  Allows use of the Sign Copier tool.              |
 +-------------------------------+---------------------------------------------------+
-|  craftbook.mech.signcopy.edit |  Allows the user to use the text editing feature. |
+|  craftbook.signcopier.edit    |  Allows the user to use the text editing feature. |
++-------------------------------+---------------------------------------------------+
+|  craftbook.signcopier.clear   |  Allows the user to clear their selected sign.    |
 +-------------------------------+---------------------------------------------------+

@@ -35,4 +35,3 @@ Settings
   ``debug-mode-file-logging``,"Causes all debug mode output to be logged into a file. This file is reset every startup (And every /cb reload).","false"
   ``debug-flags``,"Enable certain debug types when debug mode is enabled.","[]"
   ``show-permission-messages``,"Show messages when a player does not have permission to do something.","true"
-  ``persistent-storage-type``,"PersistentStorage stores data that can be accessed across server restart. Method of PersistentStorage storage (Note: DUMMY is practically off, and may cause issues). Can currently be any of the following: YAML, DUMMY, SQLite","YAML"
