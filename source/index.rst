@@ -11,11 +11,11 @@ CraftBook is an easy-to-use plugin that adds hundreds of optional and customisab
 * Redstone-controlled schematics, bridges, gates, and doors.
 * Hidden switches to create hidden passageways.
 * Working pipes that can transfer items from place to place.
-* Working cauldron brewing with a custom recipe system for a custom experience.
+* Working cauldron brewing with a custom recipe creator.
 * Create your own crafting and smelting recipes.
 * Head drops for players and almost every mob.
-* Bind commands to items, with cooldowns, permissions and timers.
-* Redstone ICs (Logic gates, Sensors, :doc:`And many more <mechanics/ics/index>`)
+* Bind commands to items, with cooldowns, permissions and timers to create custom items.
+* Advanced Redstone ICs (Logic gates, Sensors, :doc:`And many more <mechanics/ics/index>`)
 * Realistic snow dispersion and enhanced snow mechanics.
 * Overhauled minecart systems.
 * Many features that inspired mods in FeedTheBeast, all without needing a client mod.

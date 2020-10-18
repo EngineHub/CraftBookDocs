@@ -11,8 +11,25 @@ CraftBook's features are broken up into modules called **Mechanics**.
 
 You can enable or disable mechanics in the ``config.yml`` file (see :doc:`config`), or via in-game commands.
 
-* Decide what you want to enable. Check out :doc:`mechanics/index` for information on each Mechanic.
+First, you should decide which mechanics you actually wish to enable. Check out :doc:`mechanics/index` for information on each Mechanic.
+
+Via the config
+--------------
+
+* Open the ``plugins/CraftBook/config.yml`` file with your choice of text editor.
 * Set anything you want to enable to ``true``, under the ``mechanics`` section of the config.
+* Restart the server or run ``/cb reload``. (**DO NOT** use the ``/reload`` command. `Click here to see why. <https://matthewmiller.dev/blog/problem-with-reload/>`_)
+
+Via commands
+------------
+
+* Run ``/cb mech list`` to bring up a list of available mechanics.
+* Click the ``[Enable]`` or ``[Disable]`` buttons to enable or disable the mechanic.
+* You can also enable or disable mechanics directly with ``/cb mech enable mechanic_name`` or ``/cb mech disable mechanic_name``
+
+.. note::
+
+  Due to limitations in the Spigot/Paper platform, mechanics that have commands won't properly show completions until restarted if enabled while the server is running.
 
 Configuring Mechanics
 =====================
