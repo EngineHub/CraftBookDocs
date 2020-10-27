@@ -27,7 +27,6 @@ Settings
   ``safe-destruction``,"Causes many mechanics to require sufficient blocks to function, for example gates, bridges and doors.","true"
   ``no-op-permissions``,"If on, OP's will not default to have access to everything.","false"
   ``indirect-redstone``,"Allows redstone not directly facing a mechanism to trigger said mechanism.","false"
-  ``use-block-distance``,"Rounds all distance equations to the block grid.","false"
   ``obey-worldguard-flags``,"Whether WorldGuard flags should be checked when performing CraftBook actions.","true"
   ``obey-plugin-protections``,"Whether to obey other plugins attempts to cancel CraftBook actions.","true"
   ``sign-click-timeout``,"How often in milliseconds players can interact with CraftBook signs.","500"
