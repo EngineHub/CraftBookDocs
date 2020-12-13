@@ -2,36 +2,37 @@
 Chunk Anchor
 ============
 
-Chunk Anchors allow you to keep a chunk loaded.
+The **Chunk Anchor** mechanic allows forcing a Chunk to remain loaded. Chunk Anchors will not automatically load chunks
+on server startup, but instead prevent them from unloading once loaded initially.
+
+.. note::
+  Some plugins incorrectly force chunks to unload, preventing Chunk Anchors from working correctly.
 
 Construction
 ============
 
-Place a sign on the ground with the word '[Chunk]' on the second line. This chunk will no longer unload naturally.
+Place a sign with `[Chunk]` on the second line. This chunk will no longer unload naturally.
 
-Warning: Some plugins improperly force a chunk unload on some chunks, and are therefore not possible to block or even notice.
+Redstone Toggle
+---------------
 
-Redstone
---------
-
-If configured to allow so, chunk anchor can be toggled on/off with redstone. The current on/off state can be viewed on the 3rd line of the sign.
+If configured to allow this, chunk anchor can be toggled on or off with redstone. When the chunk anchor is off, `OFF`
+will be visible on the last line of the sign. In an `OFF` state, chunks will continue to unload as normal.
 
 Configuration
 =============
 
-===================================== ================================================================ =======
-Node                                  Comment                                                          Default
-===================================== ================================================================ =======
-mechanics.ChunkAnchor.enable-redstone Enable toggling with redstone.                                   true
-mechanics.ChunkAnchor.check-chunks    On creation, check the chunk for already existing chunk anchors. true
-===================================== ================================================================ =======
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
+  ``redstone-toggle``,"Allow Chunk Anchors to be turned on and off with redstone.","true"
 
 Permissions
 ===========
 
-==================== ===================================
-Node                 Description
-==================== ===================================
-craftbook.mech.chunk Allows creation of the Chunk Anchor
-==================== ===================================
+============================ ===================================
+Node                         Description
+============================ ===================================
+craftbook.chunkanchor.create Allows creation of the Chunk Anchor
+============================ ===================================
