@@ -2,27 +2,25 @@
 More Rails
 ==========
 
-**More Rails** is a minecart mechanic that adds new rail types through the use of other blocks.
+The **More Rails** mechanic adds new rail types through the use of other blocks.
 
 4-Way Intersections
 ===================
 
-When minecarts pass over pressure plates, they will be given a continual speed boost so as they don't come to a complete stop.
-This can be used to create 4-way intersections, with the pressure plate being in the centre and the rails all facing it.
+The 4-Way Intersection feature allows creating minecart intersections using pressure plates. When a minecart runs over a pressure plate, it will be given a continuous speed boost so that they don't come to a stop.
 
 Vertical Rails
 ==============
 
-When a minecart runs into ladders or vines the block acts as a vertical minecart rail and propels the minecart upwards by about 1 block.
-The minecart is given forward momentum in the direction the ladder is facing, to make it easier to create continuing rail systems.
+The Vertical Rails feature allows creating minecart tracks that travel upwards using ladders or vines. When a minecart runs into these blocks, it will be propelled upwards.
 
 Configuration
 =============
 
-========================================================= ============================================================ =======
-Node                                                      Comment                                                      Default
-========================================================= ============================================================ =======
-mechanics.MinecartMoreRails.pressure-plate-intersection   Enables the pressure plate as an intersection.               false
-mechanics.MinecartMoreRails.ladder-vertical-rail          Enables the ladder as a vertical rail.                       false
-mechanics.MinecartMoreRails.ladder-vertical-rail-velocity Sets the velocity applied to the minecart on vertical rails. 0.5
-========================================================= ============================================================ =======
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
+
+  ``pressure-plate-intersection``,"Allows use of pressure plates as rail intersections.","true"
+  ``ladder-vertical-rail``,"Allows use of ladders and vines as a vertical rail.","true"
+  ``ladder-vertical-rail-velocity``,"Sets the velocity applied to the minecart on vertical rails.","0.1"
