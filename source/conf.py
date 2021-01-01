@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CraftBook'
-copyright = u'2010-2020, CraftBook Team'
+copyright = u'2010-2021, CraftBook Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -295,7 +295,7 @@ texinfo_documents = [
 epub_title = u'CraftBook Documentation'
 epub_author = u'CraftBook Team'
 epub_publisher = u'CraftBook Team'
-epub_copyright = u'2020, CraftBook Team'
+epub_copyright = u'2021, CraftBook Team'
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'CraftBook Documentation'
