@@ -45,9 +45,9 @@ heal-amount            Amount to heal the player by.                            
 Permissions
 ===========
 
-==================== ================================= ============
-Node                 Description                       Default Role 
-==================== ================================= ============
-craftbook.chairs.use Allows the user to sit in chairs. user         
-==================== ================================= ============
+======================== ================================= ============
+Node                     Description                       Default Role 
+======================== ================================= ============
+craftbook.mech.chair.use Allows the user to sit in chairs. user         
+======================== ================================= ============
 
