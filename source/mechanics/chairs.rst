@@ -21,7 +21,7 @@ some regard. If this is a chair made up of multiple blocks, only a single sign i
 
 .. note::
 
-    For performance reasons, a `max-sign-distance` configuration limit is in place to prevent players from creating lag with giant chairs.
+    For performance reasons, a ``max-sign-distance`` configuration limit is in place to prevent players from creating lag with giant chairs.
 
 Usage
 =====

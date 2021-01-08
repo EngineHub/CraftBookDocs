@@ -13,7 +13,7 @@ On the 3rd line of the sign you must enter the name of the variable you wish to 
 
 If you wish to use a namespace other than the default, you must also put the namespace on the 4th line.
 
-For example, if you wished to display the variable `carpet` in the `carrot` namespace, You'd enter `carpet` on the 3rd line, and `carrot` on the 4th.
+For example, if you wished to display the variable ``carpet`` in the ``carrot`` namespace, You'd enter ``carpet`` on the 3rd line, and ``carrot`` on the 4th.
 
 Permissions
 ===========

@@ -12,14 +12,14 @@ To use the sign copier, right click the sign you want to copy with an ink sac, t
 Editing Text
 ------------
 
-To edit text, you can use the `/signcopy edit` commands. The syntax is `/signcopy edit <line> <text>`. This edits the currently copied sign.
+To edit text, you can use the ``/signcopy edit`` commands. The syntax is ``/signcopy edit <line> <text>``. This edits the currently copied sign.
 
-In order to edit text with spaces, just surround it with quotes (""). Eg, `/signcopy edit 1 "This is a sign"`.
+In order to edit text with spaces, just surround it with quotes (""). Eg, ``/signcopy edit 1 "This is a sign"``.
 
 Remove the copied sign
 ----------------------
 
-To get rid of any currently copied signs, you can use the `/signcopy clear` command.
+To get rid of any currently copied signs, you can use the ``/signcopy clear`` command.
 
 Configuration
 =============

@@ -16,7 +16,7 @@ It is possible to set the required sneaking state in the configuration, so that 
 Ranged Mode
 ~~~~~~~~~~~
 
-Ranged Mode allows the XP Storer to collect nearby Experience Orbs automatically. This mode requires a sign attached to the block, with `[XP]` on
+Ranged Mode allows the XP Storer to collect nearby Experience Orbs automatically. This mode requires a sign attached to the block, with ``[XP]`` on
 the second line. On the third line, the range must be supplied. This range is spherical, and limited by an option in the configuration.
 
 If the XP Storer requires bottles, they can be placed in a chest on top of the block. The resulting XP Bottles will end up in the chest as well, if

@@ -7,27 +7,27 @@ The **Minecart Physics Control** mechanic allows you to control various fine-gra
 Empty Slowdown
 ==============
 
-By default in Minecraft, empty minecarts slow faster than occupied minecarts. This can be disabled with the `slow-when-empty` configuration option.
+By default in Minecraft, empty minecarts slow faster than occupied minecarts. This can be disabled with the ``slow-when-empty`` configuration option.
 
 Fall Speed
 ==========
 
-The `vertical-fall-speed` and `horizontal-fall-speed` options allow configuring the vertical and horizontal velocities applied to falling minecarts.
+The ``vertical-fall-speed`` and ``horizontal-fall-speed`` options allow configuring the vertical and horizontal velocities applied to falling minecarts.
 
 This can be used to create carts that fall much quicker downwards than forwards, or minecarts that fall slower for more airtime. A common usecase is to create minecart rollercoasters.
 
-This can be disabled and set to the Minecraft default by using `-1` as the speed.
+This can be disabled and set to the Minecraft default by using ``-1`` as the speed.
 
 .. note::
 
-  Both the vertical and horizontal speeds must be set (not `-1`) for this to take affect.
+  Both the vertical and horizontal speeds must be set (not ``-1``) for this to take affect.
 
 Max Speed
 =========
 
-The `max-speed` option allows configuring the maximum speed that a Minecart can reach.
+The ``max-speed`` option allows configuring the maximum speed that a Minecart can reach.
 
-This can be disabled and set to the Minecraft default of 0.4 by using `-1` as the speed.
+This can be disabled and set to the Minecraft default of 0.4 by using ``-1`` as the speed.
 
 .. note::
 
@@ -36,9 +36,9 @@ This can be disabled and set to the Minecraft default of 0.4 by using `-1` as th
 Off Rail Speed
 ==============
 
-The `off-rail-speed` option allows tweaking the speed at which minecarts travel when moving along blocks that aren't rails.
+The ``off-rail-speed`` option allows tweaking the speed at which minecarts travel when moving along blocks that aren't rails.
 
-This can be disabled and set to the Minecart default by using `-1` as the speed.
+This can be disabled and set to the Minecart default by using ``-1`` as the speed.
 
 Configuration
 =============

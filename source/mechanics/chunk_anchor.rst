@@ -11,13 +11,13 @@ on server startup, but instead prevent them from unloading once loaded initially
 Construction
 ============
 
-Place a sign with `[Chunk]` on the second line. This chunk will no longer unload naturally.
+Place a sign with ``[Chunk]`` on the second line. This chunk will no longer unload naturally.
 
 Redstone Toggle
 ---------------
 
-If configured to allow this, chunk anchor can be toggled on or off with redstone. When the chunk anchor is off, `OFF`
-will be visible on the last line of the sign. In an `OFF` state, chunks will continue to unload as normal.
+If configured to allow this, chunk anchor can be toggled on or off with redstone. When the chunk anchor is off, ``OFF``
+will be visible on the last line of the sign. In an ``OFF`` state, chunks will continue to unload as normal.
 
 Configuration
 =============

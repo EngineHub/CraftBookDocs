@@ -2,47 +2,54 @@
 Elevator
 ========
 
-Elevators allow you to move between floors easily. Signs must be created in the same location but above or below in order to link floors to each other.
+The **Elevator** mechanic allow you to move between floors easily by using lift signs. Signs must be created in the same location but above or below in order to link floors to each other.
 
 Construction
 ============
 
-Elevators are just wall signs that are above or below each other. However, there are three different types of wall signs that determine what you can do on a certain level.
+Elevators are just wall signs that are above or below each other. However, there are different types of wall signs that determine what you can do on a certain level.
 
-* Using [Lift Up] on the second line of a sign allows players to right click the sign to go upwards toward any other elevator sign.
-* Using [Lift Down] on the second line of on a sign allows players to right click the sign to go downwards toward any other elevator sign.
-* Using [Lift] on the second line of a sign prevents anyone from right clicking the sign, but you can use it tandem with the other two signs types.
+The following are entered on the second line of a sign,
 
-The first line of a sign can be used to tell players who arrive at a level the name of the level.
+* ``[Lift Up]``: Allows players to travel upwards towards the next elevator sign.
+* ``[Lift Down]``: Allows players to travel downwards towards the next elevator sign.
+* ``[Lift UpDown]``: Allows players to travel either upwards or downwards towards an elevator based on whether they click the top or bottom half of the sign.
+* ``[Lift]``: Does not allow players to travel from this floor, but allows them to arrive there.
+
+All lift types allow the player to arrive, the type only denotes how they can travel.
 
 If the elevator looping setting is enabled, lifts can loop from the top of the world to the bottom, and vice versa. This means lifts going up on the top floor will go to the bottom.
 
-Elevators, as of version 2.0, will no longer put players in blocks and suffocate them if a teleportation would put a player in such a position. Elevators will also now check to see if there is flooring below the player at the destination. Be aware that elevators teleport the player directly upwards or downwards. Also when constructing an elevator, be sure to have enough room height-wise or else you'll get the message "Your destination is obstructed."
-
-Multiple Floors
+Welcome Message
 ---------------
 
-You can't have one elevator system for multiple floors, unless [Lift UpDown] is used. An elevator goes always from the sign to the sign above or below it (defined by the sign text). If you want a multiple-floor elevator you simply need multiple elevators.
+You can give floors names by using the first line of the sign. When a player arrives at a named floor, the message shown in chat will show the name of the floor.
 
 Button Lifts
 ------------
 
 If button lifts are enabled, elevators can be activated by using buttons on the opposite side of the block containing the elevator sign.
 
+.. note::
+
+  When using buttons, the elevator will search from the location of the button when finding other elevator stops. This means all floors must use buttons in order to work correctly.
+
+Obstruction
+-----------
+
+To prevent players from suffocating, CraftBook checks the area to make sure there is enough space and a floor to place them on. If there isn't, you'll get a message about the destination being obstructed.
+
 Configuration
 =============
 
-================================================ =================================================================================================================================== =======
-Node                                             Comment                                                                                                                             Default
-================================================ =================================================================================================================================== =======
-mechanics.Elevator.allow-redstone                Allows elevators to be triggered by redstone, which will move all players in a radius.                                              false
-mechanics.Elevator.redstone-player-search-radius The radius that elevators will look for players in when triggered by redstone.                                                      3
-mechanics.Elevator.enable-buttons                Allow elevators to be used by a button on the other side of the block.                                                              true
-mechanics.Elevator.allow-looping                 Allows elevators to loop the world height. The heighest lift up will go to the next lift on the bottom of the world and vice versa. false
-mechanics.Elevator.smooth-movement               Causes the elevator to slowly move the player between floors instead of instantly.                                                  false
-mechanics.Elevator.smooth-movement-speed         The speed at which players move from floor to floor when smooth movement is enabled.                                                0.5
-================================================ =================================================================================================================================== =======
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
+  ``allow-redstone``,"Allows elevators to be triggered by redstone, which will move all players in a radius.","false"
+  ``redstone-player-search-radius``,"The radius that elevators will look for players in when triggered by redstone.","3"
+  ``enable-buttons``,"Allow elevators to be used by a button on the other side of the block.","true"
+  ``allow-looping``,"Allows elevators to loop the world height. The heighest lift up will go to the next lift on the bottom of the world and vice versa.","false"
 
 Permissions
 ===========
@@ -50,7 +57,7 @@ Permissions
 +------------------------------+--------------------------------+
 |  Permission Node             |  Effect                        |
 +==============================+================================+
-|  craftbook.mech.elevator     |  Allows creation of elevators. |
+|  craftbook.elevator.create   |  Allows creation of elevators. |
 +------------------------------+--------------------------------+
-|  craftbook.mech.elevator.use |  Allows usage of elevators.    |
+|  craftbook.elevator.use      |  Allows usage of elevators.    |
 +------------------------------+--------------------------------+
