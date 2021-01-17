@@ -2,7 +2,7 @@
 Dispenser Recipes
 =================
 
-**Dispenser Recipes** are recipes placed inside a dispenser, that perform a task on dispense.
+The **Dispenser Recipes** mechanic adds recipes placed inside a dispenser, that perform a task on dispense.
 
 Recipes
 =======
@@ -18,7 +18,7 @@ The **Cannon** recipe shoots a lit block of TNT out of the dispenser, with consi
 Fan
 ---
 
-The **Fan** pushes away any entity 5 blocks in front of the dispenser.
+The **Fan** recipe pushes away any entity 5 blocks in front of the dispenser.
 
 .. image:: /images/dispenser/fan_recipe.png
     :align: center
@@ -26,7 +26,7 @@ The **Fan** pushes away any entity 5 blocks in front of the dispenser.
 Vacuum
 ------
 
-The **Vacuum** pulls in any entity 5 blocks in front of the dispenser.
+The **Vacuum** recipe pulls in any entity 5 blocks in front of the dispenser.
 
 .. image:: /images/dispenser/vacuum_recipe.png
     :align: center
@@ -55,18 +55,16 @@ The **XP Shooter** recipe shoots experience bottles out of the dispenser.
 .. image:: /images/dispenser/xp_shooter_recipe.png
     :align: center
 
-
 Configuration
 =============
 
-============================================== ====================================== =======
-Node                                           Comment                                Default
-============================================== ====================================== =======
-mechanics.DispenserRecipes.cannon-enable       Enables Cannon Dispenser Recipe.       true
-mechanics.DispenserRecipes.fan-enable          Enables Fan Dispenser Recipe.          true
-mechanics.DispenserRecipes.fire-arrows-enable  Enables Fire Arrows Dispenser Recipe.  true
-mechanics.DispenserRecipes.snow-shooter-enable Enables Snow Shooter Dispenser Recipe. true
-mechanics.DispenserRecipes.xp-shooter-enable   Enables XP Shooter Dispenser Recipe.   true
-============================================== ====================================== =======
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
-
+  ``cannon-enable``,"Enables Cannon Dispenser Recipe.","true"
+  ``fan-enable``,"Enables Fan Dispenser Recipe.","true"
+  ``vacuum-enable``,"Enables Vacuum Dispenser Recipe.","true"
+  ``fire-arrows-enable``,"Enables Fire Arrows Dispenser Recipe.","true"
+  ``snow-shooter-enable``,"Enables Snow Shooter Dispenser Recipe.","true"
+  ``xp-shooter-enable``,"Enables XP Shooter Dispenser Recipe.","true"
