@@ -6,6 +6,7 @@ The **Redstone Glowstone** mechanic allows toggling glowstone on and off with re
 
 .. image:: /images/redstone_glowstone/redstone_glowstone.png
     :align: center
+    :height: 200px
 
 Configuration
 =============

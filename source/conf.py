@@ -31,6 +31,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
+    'sphinxcontrib.yt',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -8,6 +8,7 @@ For extra compact wiring, this mechanic allows the netherrack/soul soil to be to
 
 .. image:: /images/redstone_fire/redstone_fire.png
     :align: center
+    :height: 200px
 
 Uses
 ====
