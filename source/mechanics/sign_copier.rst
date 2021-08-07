@@ -24,12 +24,13 @@ To get rid of any currently copied signs, you can use the ``/signcopy clear`` co
 Configuration
 =============
 
-============== =============================================================== =================
-Node           Comment                                                         Default
-============== =============================================================== =================
-item           The item for the sign copier tool.                              minecraft:ink_sac
-copy-color     If the sign copier should also copy the dyed color of the sign. true
-============== =============================================================== =================
+============== =================================================================== =================
+Node           Comment                                                             Default
+============== =================================================================== =================
+item           The item for the sign copier tool.                                  minecraft:ink_sac
+copy-color     If the sign copier should also copy the dyed color of the sign.     true
+copy-glowing   If the sign copier should also copy the glowing status of the sign. true
+============== =================================================================== =================
 
 Permissions
 ===========
