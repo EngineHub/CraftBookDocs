@@ -1,1 +1,1 @@
-sphinxcontrib.yt
+enginehub.sphinx-youtube
