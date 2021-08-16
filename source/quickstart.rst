@@ -18,7 +18,7 @@ Via the config
 
 * Open the ``plugins/CraftBook/config.yml`` file with your choice of text editor.
 * Set anything you want to enable to ``true``, under the ``mechanics`` section of the config.
-* Restart the server or run ``/cb reload``. (**DO NOT** use the ``/reload`` command. `Click here to see why. <https://matthewmiller.dev/blog/problem-with-reload/>`_)
+* Restart the server or run ``/cb reload``. (**DO NOT** use the ``/reload`` command. `Click here to see why. <https://madelinemiller.dev/blog/problem-with-reload/>`_)
 
 Via commands
 ------------

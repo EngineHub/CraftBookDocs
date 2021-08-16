@@ -11,7 +11,7 @@ CraftBook runs on the Java edition of Minecraft, on a dedicated server.
 
 Before you install CraftBook, you will first have to have a server that supports Bukkit plugins, such as Paper or Spigot.
 
-While you can use either, we strongly recommend using `Paper <https://papermc.io/>`_ as it allows CraftBook to work better and also perform better. See `here <https://matthewmiller.dev/blog/paper-vs-spigot/>`_ for further reasons to use Paper over Spigot.
+While you can use either, we strongly recommend using `Paper <https://papermc.io/>`_ as it allows CraftBook to work better and also perform better. See `here <https://madelinemiller.dev/blog/paper-vs-spigot/>`_ for further reasons to use Paper over Spigot.
 
 .. note::
 

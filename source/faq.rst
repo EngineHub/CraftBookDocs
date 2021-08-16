@@ -34,7 +34,7 @@ How old is CraftBook?
 ~~~~~~~~~~~~~~~~~~~~~
 
 CraftBook began in November 2010 for the "hMod" modding platform by `sk89q <http://www.sk89q.com>`_. Later on, CraftBook was ported to Bukkit, and
-later Sponge. `Me4502 <https://matthewmiller.dev/>`_ has been the lead developer since April 2012.
+later Sponge. `Me4502 <https://madelinemiller.dev/>`_ has been the lead developer since April 2012.
 
 Who works on CraftBook?
 ~~~~~~~~~~~~~~~~~~~~~~~
