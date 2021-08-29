@@ -12,16 +12,16 @@ General
 Why don't any commands work?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If no commands work, it may because CraftBook failed to start:
+If no commands work, it may be because CraftBook failed to start:
 
-* Make sure that you are running Bukkit (or a server software that supports Bukkit). Use the ``version`` command in console or in-game and make sure that the response has "Bukkit" or "CraftBukkit" in it.
-* Make sure that you have `WorldEdit <http://www.enginehub.org/worldedit>`_ installed.
+* Make sure that you are running Paper (or a server software that supports Paper plugins). Use the ``version`` command in console or in-game and make sure that the response has "Paper" in it.
+* Make sure that you have `WorldEdit <https://enginehub.org/worldedit/>`_ installed.
 * Make sure that you have the proper version of CraftBook for your version of Minecraft.
 
 If those solutions do not help you, you will need to look through your startup log:
 
 * If you use a game server host, use its log viewer.
-* You can also open up "latest.log" in the logs folder of your server directory. (On older versions of Minecraft, the log file was "server.log" in the root directory.)
+* You can also open up "latest.log" in the logs folder of your server directory.
 
 If you are unable to discover the problem from reading the server log, you can :doc:`ask for help or submit a bug report <support>`.
 

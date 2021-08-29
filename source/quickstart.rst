@@ -13,8 +13,8 @@ You can enable or disable mechanics in the ``config.yml`` file (see :doc:`config
 
 First, you should decide which mechanics you actually wish to enable. Check out :doc:`mechanics/index` for information on each Mechanic.
 
-Via the config
---------------
+Via the configuration
+---------------------
 
 * Open the ``plugins/CraftBook/config.yml`` file with your choice of text editor.
 * Set anything you want to enable to ``true``, under the ``mechanics`` section of the config.

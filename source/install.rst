@@ -9,9 +9,9 @@ CraftBook runs on the Java edition of Minecraft, on a dedicated server.
 
 **CraftBook can’t be used on Realms, Windows 10, Bedrock, or Pocket Edition versions.** These versions of Minecraft have limited or no mod support. :(
 
-Before you install CraftBook, you will first have to have a server that supports Bukkit plugins, such as Paper or Spigot.
+Before you install CraftBook, you will first have to have a server that supports Paper plugins, such as Paper or one of its forks.
 
-While you can use either, we strongly recommend using `Paper <https://papermc.io/>`_ as it allows CraftBook to work better and also perform better. See `here <https://madelinemiller.dev/blog/paper-vs-spigot/>`_ for further reasons to use Paper over Spigot.
+While you can use forks of Paper, we strongly recommend using `Paper itself <https://papermc.io/>`_ as many forks are known to be unstable and break plugins. See `here <https://madelinemiller.dev/blog/using-paper-forks/>`_ for further reasons to use Paper over its forks.
 
 .. note::
 
@@ -20,7 +20,11 @@ While you can use either, we strongly recommend using `Paper <https://papermc.io
 Installation
 ============
 
-CraftBook can be `downloaded from the BukkitDev site <http://dev.bukkit.org/bukkit-plugins/craftbook/>`_.
+CraftBook 5 can be `downloaded from the EngineHub Builds site <https://builds.enginehub.org/job/craftbook?branch=five>`_.
+
+.. note::
+
+    In the future, CraftBook 5 will be downloadable from Hangar, Paper's in-development plugin repository.
 
 1. In your server folder, create a "plugins" folder if one does not yet exist.
 2. Copy the CraftBook .jar file into the plugins folder. (Make sure you get WorldEdit as well!)

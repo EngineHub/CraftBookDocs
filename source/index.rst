@@ -2,13 +2,13 @@
 CraftBook Documentation
 =======================
 
-CraftBook is an easy-to-use plugin that adds hundreds of optional and customisable gameplay additions to your server. Through a combination of mechanics, you can give your server a unique gameplay style.
+**CraftBook** is an easy-to-use plugin that adds hundreds of optional and customisable gameplay additions to your server. Through a combination of mechanics, you can give your server a unique gameplay style.
 
 * Modular, and extremely light on your server. **Everything is off by default.**
 * Enable features that you need, disable ones that you don't. Even tweak features to your liking.
 * Elevators for your server so people can jump between floors quickly.
 * Chairs you can sit on.
-* Redstone-controlled schematics, bridges, gates, and doors.
+* Toggle schematics, bridges, gates, and doors with redstone!
 * Hidden switches to create hidden passageways.
 * Working pipes that can transfer items from place to place.
 * Working cauldron brewing with a custom recipe creator.
