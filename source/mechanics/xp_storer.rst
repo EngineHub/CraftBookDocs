@@ -2,46 +2,63 @@
 XP Storer
 =========
 
-XP Storer allows a player to convert their XP into bottles of enchanting.
+The **XP Storer** mechanic allows a player to convert their XP into bottles of enchanting.
 
 Construction
 ============
 
-XP Storers are simply a block, defaulting to the mob spawner block.
+The XP Storer mechanic is represented by a block. By default, the spawner block.
+
+Ranged Mode
+-----------
+
+Ranged Mode allows the XP Storer to collect nearby Experience Orbs automatically. This mode requires a sign attached to the block, with ``[XP]`` on
+the second line. On the third line, the range may be supplied. This range is spherical, and limited by an option in the configuration.
+
+If the XP Storer requires bottles, they can be placed in a chest on top of the block. The resulting XP Bottles will end up in the chest as well, if they fit.
+
+Usage
+=====
 
 On right click, the block will drop the players XP in the form of XP Bottles.
 
-It is possible to set the required sneaking state in the configuration, so that it doesn't become annoying.
+It's possible to configure CraftBook to either require sneaking, not allow sneaking, and to allow XP bottles in the offhand.
 
-Ranged Mode
-~~~~~~~~~~~
+Tweaking XP Output
+==================
 
-Ranged Mode allows the XP Storer to collect nearby Experience Orbs automatically. This mode requires a sign attached to the block, with ``[XP]`` on
-the second line. On the third line, the range must be supplied. This range is spherical, and limited by an option in the configuration.
+Using the ``bottle-xp-requirement`` option, it's possible to change how much XP is used up per bottle creation. By
+default, the amount will on average produce roughly equal output.
 
-If the XP Storer requires bottles, they can be placed in a chest on top of the block. The resulting XP Bottles will end up in the chest as well, if
- they fit.
+Overriding output
+-----------------
+
+It's also possible to disable the Minecraft XP algorithm when the XP bottle is broken, and instead output a fixed
+amount of XP. This is useful if you want stored bottles to always output the amount that was put in, or you want to
+define a non-random loss.
 
 Configuration
 =============
 
-========================================= ==================================================================== =================
-Node                                      Comment                                                              Default
-========================================= ==================================================================== =================
-mechanics.XPStorer.require-bottle         Requires the player to be holding a glass bottle to use.             false
-mechanics.XPStorer.xp-per-bottle          Sets the amount of XP points required per each bottle.               16
-mechanics.XPStorer.block                  The block that is an XP Storer.                                      minecraft:spawner
-mechanics.XPStorer.require-sneaking-state Sets how the player must be sneaking in order to use the XP Storer.  no
-mechanics.XPStorer.radius-mode            Allows XP Storer mechanics with a sign attached to work in a radius. false
-mechanics.XPStorer.radius                 The radius for radius-mode.                                          5
-========================================= ==================================================================== =================
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
+  ``require-bottle``,"Requires the player to be holding a glass bottle to use.","true"
+  ``allow-offhand``,"Allows XP bottles in the off hand to work.","true"
+  ``bottle-xp-requirement``,"Sets the amount of XP points required per each bottle.","16"
+  ``bottle-xp-override``,"Set the amount of XP points that each bottle provides on usage (-1 to use MC behaviour).","-1"
+  ``block``,"The block that is an XP Storer.","minecraft:spawner"
+  ``allow-sneaking``,"Sets how the player must be sneaking in order to use the XP Storer.","false"
+  ``radius-mode``,"Allows XP Storer mechanics with a sign attached to work in a radius.","false"
+  ``max-radius``,"The max radius when using radius-mode.","5"
 
 Permissions
 ===========
 
-+-----------------------------+-------------------------------+
-|  Permission Node            |  Effect                       |
-+=============================+===============================+
-|  craftbook.mech.xpstore.use |  Allows use of the XP-Storer. |
-+-----------------------------+-------------------------------+
++-----------------------------+-----------------------------------------+
+|  Permission Node            |  Effect                                 |
++=============================+=========================================+
+|  craftbook.xpstorer.create  |  Allows creation of the XP Storer sign. |
+|  craftbook.xpstorer.use     |  Allows use of the XP Storer.           |
++-----------------------------+-----------------------------------------+
