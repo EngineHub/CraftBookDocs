@@ -7,7 +7,7 @@ The **Sign Copier** mechanic allows you to copy and paste signs, as well as modi
 Usage
 =====
 
-To use the sign copier, right click the sign you want to copy with an ink sac, then punch the sign you want to paste the text onto. You can paste to as many signs as you would like.
+To use the sign copier, right click the sign you want to copy with flint, then punch the sign you want to paste the text onto. You can paste to as many signs as you would like.
 
 Editing Text
 ------------
@@ -27,7 +27,7 @@ Configuration
 ============== =================================================================== =================
 Node           Comment                                                             Default
 ============== =================================================================== =================
-item           The item for the sign copier tool.                                  minecraft:ink_sac
+item           The item for the sign copier tool.                                  minecraft:flint
 copy-color     If the sign copier should also copy the dyed color of the sign.     true
 copy-glowing   If the sign copier should also copy the glowing status of the sign. true
 ============== =================================================================== =================
