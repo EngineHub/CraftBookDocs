@@ -21,7 +21,7 @@ Access Restrictions
 Keys
 ~~~~
 
-In order to lock Hidden Switches with keys, write an item on the 3rd line of the sign. If the user does not hold this item, they will read that their key did not fit.
+In order to lock Hidden Switches with keys, write an item on the 1st line of the sign. If the user does not hold this item, they will read that their key did not fit.
 
 Groups
 ~~~~~~
