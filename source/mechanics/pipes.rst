@@ -79,7 +79,6 @@ mechanics.Pipes.allow-diagonal      Allow pipes to work diagonally. Required for
 mechanics.Pipes.insulator-block     When pipes work diagonally, this block allows the pipe to be insulated to not work diagonally.                     minecraft:white_wool
 mechanics.Pipes.stack-per-move      This option stops the pipes taking the entire chest on power, and makes it just take a single stack.               true
 mechanics.Pipes.require-sign        Requires pipes to have a [Pipe] sign connected to them. This is the only way to require permissions to make pipes. false
-mechanics.Pipes.warn-when-too-large Prints a warning in the console when a pipe that's too large is found.                                             false
 =================================== ================================================================================================================== ====================
 
 
