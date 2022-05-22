@@ -9,6 +9,9 @@ By default, sponges operate in a spherical radius of 5. This can be changed to a
 radius rather than spherical. The better sponge mechanic also only uses dry sponges by default, but can be configured
 to also work with wet sponges.
 
+Some blocks that sponges remove won't re-appear once the sponge is deactivated, such as kelp, seagrass, and other aquatic
+plants that don't have a waterlogged state. Whether these blocks are removed by sponges is configurable, however it is enabled by default.
+
 Require Redstone
 ================
 
@@ -26,3 +29,4 @@ Configuration
   ``sphere-range``,"Whether the active range should be spherical or cuboid.","true"
   ``include-wet-sponges``,"Whether wet sponges also activate the mechanic.","false"
   ``require-redstone``,"Whether to require redstone to suck up water or not.","false"
+  ``destructive``,"Whether to remove blocks that spread water such as kelp. These will not be returned when the sponge is de-activated.","true"
