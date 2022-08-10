@@ -6,6 +6,12 @@ The **Minecart Strong Braker** mechanic causes a minecart to strongly brake when
 
 This mechanic reduces the speed by 50%.
 
+Redstone Activation
+===================
+
+Brakers can be turned on and off with redstone. If no redstone wire is connected, it'll activate.
+However, when redstone is connected to either the rail block, the mechanic block, or the sign, an on signal is required for the braker to activate.
+
 Configuration
 =============
 

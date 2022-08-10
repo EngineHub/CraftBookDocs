@@ -47,5 +47,5 @@ Permissions
 +----------------------------------------+---------------------------------------=+
 |  Permission Node                       |  Effect                                |
 +========================================+========================================+
-|  craftbook.vehicles.minecartreverser   |  Allows for creation of reverser signs.|
+|  craftbook.minecartreverser.create     |  Allows for creation of reverser signs.|
 +----------------------------------------+---------------------------------------=+
