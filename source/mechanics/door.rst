@@ -2,10 +2,11 @@
 Door
 ====
 
-**Doors** are configurable-width vertical sections of the world that you can toggle on and off. The width of the door can be changed.
+The **Door** mechanic allows you to create variable-width vertical sections of the world that you can toggle on and off.
 
 They can be toggled using two different methods:
-* Right clicking a sign
+
+* Right clicking the sign
 * Powering the sign with redstone
 
 Construction
@@ -13,14 +14,23 @@ Construction
 
 Doors consist of three parts:
 
-- The door part made out of one material. By default, you can use stone, dirt, cobblestone, wood, log, glass, wool, double stone slabs, stone slabs, brick, bookshelves, snow blocks, or clay blocks, but this list can be configured.
-- One sign post at the bottom in the middle. The second line of the sign must be [Door Up].
-- A sign post at the top in the middle. The second line of the sign must be [Door Down].
-- If the player is allowed to, they can put infinite on the first line of the signs to not run out of blocks. (If stop-mechanism-dupe is active.)
-- The 3rd and 4th lines of the sign symbolize width. The 3rd line is how wide it is on the left, whilst the 4th is how wide it is on the right.
-- If stop-mechanism-dupe is turned on in the configuration, you must create the entire door or it will not work. You can restock mechanics by right clicking with the required block.
+- The door part made out of one material. The allowed materials are specified in the configuration.
+- One sign post at the bottom. The second line of the sign must be ``[Door Up]`` or ``[Door]``, see ``Sign Types`` below for more information.
+- A sign post at the top in the middle. The second line of the sign must be ``[Door Down]`` or ``[Door]``, see ``Sign Types`` below for more information.
 
 If you want one side to be un-right clickable, use [Door] as the second line
+
+Door Width
+------------
+
+Doors will intelligently determine how wide they are meant to be based on the row of blocks placed at each end. The door will be as wide as the row of blocks, with a minimum of one block. The maximum width is configurable, and is per-side rather than in-total.
+
+Sign Types
+----------
+
+* ``[Door]`` - A door sign that cannot be toggled. Useful for creating doors that can only be opened by one end.
+* ``[Door Up]`` - A door sign placed on the bottom of the door, marking the rest of the door as being above.
+* ``[Door Down]`` - A door sign placed on the top of the door, marking the rest of the door as being below.
 
 Redstone support
 ----------------
@@ -29,6 +39,13 @@ Doors support redstone: just put a redstone current next to the sign.
 
 - An active input creates the door.
 - An inactive input removes the door.
+
+Restocking
+----------
+
+By default CraftBook is designed to prevent duplicating blocks through its mechanisms. This means that if you use a door, the blocks have to come from somewhere. CraftBook stores these blocks within a hidden inventory on the signs themselves. If there aren't enough blocks inside this inventory however, the door will need to be restocked.
+
+To restock a door, simply right click the sign with the blocks you want to restock it with. The door will then be restocked with the blocks you have provided. The inventories are shared between both signs, so it doesn't matter which one you restock.
 
 Uses
 ====
@@ -46,16 +63,14 @@ Aside from the obvious use as a retractable door, some possibilities include:
 Configuration
 =============
 
-============================= ============================================================ =====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-Node                          Comment                                                      Default
-============================= ============================================================ =====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-mechanics.Door.enforce-type   Allow doors to be toggled via redstone.                      true
-mechanics.Door.allow-redstone Allow doors to be toggled via redstone.                      true
-mechanics.Door.max-length     The maximum length(height) of a door.                        30
-mechanics.Door.max-width      Max width either side. 5 = 11, 1 in middle, 5 on either side 5
-mechanics.Door.blocks         A list of blocks that a door can be made out of.             [minecraft:acacia_planks, minecraft:acacia_slab, minecraft:birch_planks, minecraft:birch_slab, minecraft:brick_slab, minecraft:cobblestone, minecraft:cobblestone_slab, minecraft:dark_oak_planks, minecraft:dark_oak_slab, minecraft:dark_prismarine_slab, minecraft:glass, minecraft:jungle_planks, minecraft:jungle_slab, minecraft:nether_brick_slab, minecraft:oak_planks, minecraft:oak_slab, minecraft:petrified_oak_slab, minecraft:prismarine_brick_slab, minecraft:prismarine_slab, minecraft:purpur_slab, minecraft:quartz_slab, minecraft:red_sandstone_slab, minecraft:sandstone_slab, minecraft:spruce_planks, minecraft:spruce_slab, minecraft:stone_brick_slab, minecraft:stone_slab]
-============================= ============================================================ =====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
 
+  ``allow-redstone``,"Allow doors to be toggled via redstone.","true"
+  ``max-height``,"The maximum height of a door.","30"
+  ``max-width``,"Max width either side. 5 = 11, 1 in middle, 5 on either side","5"
+  ``blocks``,"A list of blocks that a door can be made out of.","[minecraft:acacia_planks, minecraft:acacia_slab, minecraft:andesite_slab, minecraft:birch_planks, minecraft:birch_slab, minecraft:blackstone_slab, minecraft:brick_slab, minecraft:cobblestone, minecraft:cobblestone_slab, minecraft:crimson_planks, minecraft:crimson_slab, minecraft:cut_red_sandstone_slab, minecraft:cut_sandstone_slab, minecraft:dark_oak_planks, minecraft:dark_oak_slab, minecraft:dark_prismarine_slab, minecraft:diorite_slab, minecraft:end_stone_brick_slab, minecraft:glass, minecraft:granite_slab, minecraft:jungle_planks, minecraft:jungle_slab, minecraft:mossy_cobblestone_slab, minecraft:mossy_stone_brick_slab, minecraft:nether_brick_slab, minecraft:oak_planks, minecraft:oak_slab, minecraft:petrified_oak_slab, minecraft:polished_andesite_slab, minecraft:polished_blackstone_brick_slab, minecraft:polished_blackstone_slab, minecraft:polished_diorite_slab, minecraft:polished_granite_slab, minecraft:prismarine_brick_slab, minecraft:prismarine_slab, minecraft:purpur_slab, minecraft:quartz_slab, minecraft:red_nether_brick_slab, minecraft:red_sandstone_slab, minecraft:sandstone_slab, minecraft:smooth_quartz_slab, minecraft:smooth_red_sandstone_slab, minecraft:smooth_sandstone_slab, minecraft:smooth_stone_slab, minecraft:spruce_planks, minecraft:spruce_slab, minecraft:stone_brick_slab, minecraft:stone_slab, minecraft:warped_planks, minecraft:warped_slab]"
 
 Permissions
 ===========
@@ -63,11 +78,9 @@ Permissions
 +-------------------------------+--------------------------------------------------------+
 |  Permission Node              |  Effect                                                |
 +===============================+========================================================+
-|  craftbook.mech.door          |  Allows the creation of doors.                         |
+|  craftbook.door.create        |  Allows the creation of doors.                         |
 +-------------------------------+--------------------------------------------------------+
-|  craftbook.mech.door.use      |  Allows the usage of doors.                            |
+|  craftbook.door.use           |  Allows the usage of doors.                            |
 +-------------------------------+--------------------------------------------------------+
-|  craftbook.mech.door.restock  |  Allows the user to restock doors.                     |
-+-------------------------------+--------------------------------------------------------+
-|  craftbook.mech.door.infinite |  Allows the creation of doors with infinite materials. |
+|  craftbook.door.restock       |  Allows the user to restock doors.                     |
 +-------------------------------+--------------------------------------------------------+
