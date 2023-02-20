@@ -2,38 +2,54 @@
 Tree Lopper
 ===========
 
-Tree Lopper is a mechanic that allows you to cut down an entire tree with a single swing of an axe (Similar to the TreeCapitator client mod, but with more features). This feature respects block protection and logging plugins, so you can rest easy knowing your spawn and protected buildings are safe from griefers.
-
-In the configuration, you can choose what items cause this effect to occur, and you can even choose what blocks this effect occurs on. For example, you could just have it use picks.. And use this effect on ore blocks. You can also change if this feature will search diagonals for usable block, instead of just checking direct faces. You can also choose the max size of the tree to break, to combat lag caused by massive tree breakages.
-
+The **Tree Lopper** mechanic allows the player to cut down an entire tree by breaking a single block with an axe.
 
 Usage
 =====
 
-Simply break an allowed block with an allowed item, and it will destroy the whole thing.
+The feature is used by using an item from the ``tool-list`` in the configuration to break one of the ``enabled-blocks`` in the configuration. This will cause all connected blocks of that type to break, up to the max size limit.
+
+Saplings
+--------
+
+This mechanic can optionally be configured to automatically plant saplings at the base of broken trees, as long as there's a valid block to place a sapling on. The intended use-case for this feature is to prevent mass-deforestation by players gathering wood.
+This feature does not ensure a sapling would have dropped otherwise, so it can technically be used to obtain free saplings. Due to this, it's disabled by default.
+
+Leaves
+------
+
+This mechanic can optionally be configured to break leaves of the same wood type alongside logs. While enabling this will allow the leaves to be broken, the mechanic still requires that the log is the initially broken block.
+
+Axe Damage
+----------
+
+By default, this mechanic will cause all broken logs to apply damage to the axe. This can be configured to also include leaves when ``break-leaves`` is enabled.
+
+To only apply a single damage count to the axe regardless of the number of blocks broken, enable ``single-damage-axe`` in the config.
 
 Configuration
 =============
 
-====================================== ================================================================================================================================= ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-Node                                   Comment                                                                                                                           Default
-====================================== ================================================================================================================================= ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-mechanics.TreeLopper.block-list        A list of log blocks. This can be modified to include more logs. (for mod support etc)                                            [minecraft:acacia_log, minecraft:acacia_wood, minecraft:birch_log, minecraft:birch_wood, minecraft:dark_oak_log, minecraft:dark_oak_wood, minecraft:jungle_log, minecraft:jungle_wood, minecraft:oak_log, minecraft:oak_wood, minecraft:spruce_log, minecraft:spruce_wood, minecraft:stripped_acacia_log, minecraft:stripped_acacia_wood, minecraft:stripped_birch_log, minecraft:stripped_birch_wood, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_wood, minecraft:stripped_jungle_log, minecraft:stripped_jungle_wood, minecraft:stripped_oak_log, minecraft:stripped_oak_wood, minecraft:stripped_spruce_log, minecraft:stripped_spruce_wood]
-mechanics.TreeLopper.tool-list         A list of tools that can trigger the TreeLopper mechanic.                                                                         [minecraft:iron_axe, minecraft:wooden_axe, minecraft:stone_axe, minecraft:diamond_axe, minecraft:golden_axe]
-mechanics.TreeLopper.max-size          The maximum amount of blocks the TreeLopper can break.                                                                            30
-mechanics.TreeLopper.allow-diagonals   Allow the TreeLopper to break blocks that are diagonal from each other.                                                           false
-mechanics.TreeLopper.place-saplings    If enabled, TreeLopper will plant a sapling automatically when a tree is broken.                                                  false
-mechanics.TreeLopper.break-leaves      If enabled, TreeLopper will break leaves connected to the tree. (If enforce-data is enabled, will only break leaves of same type) false
-mechanics.TreeLopper.single-damage-axe Only remove one damage from the axe, regardless of the amount of logs removed.                                                    false
-====================================== ================================================================================================================================= ================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+.. csv-table::
+  :header: Node, Comment, Default
+  :widths: 15, 30, 10
+
+  ``enabled-blocks``,"A list of enabled log blocks. This list can only contain logs, but can be modified to include more logs (for mod support).","[minecraft:acacia_log, minecraft:acacia_wood, minecraft:birch_log, minecraft:birch_wood, minecraft:crimson_hyphae, minecraft:crimson_stem, minecraft:dark_oak_log, minecraft:dark_oak_wood, minecraft:jungle_log, minecraft:jungle_wood, minecraft:oak_log, minecraft:oak_wood, minecraft:spruce_log, minecraft:spruce_wood, minecraft:stripped_acacia_log, minecraft:stripped_acacia_wood, minecraft:stripped_birch_log, minecraft:stripped_birch_wood, minecraft:stripped_crimson_hyphae, minecraft:stripped_crimson_stem, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_wood, minecraft:stripped_jungle_log, minecraft:stripped_jungle_wood, minecraft:stripped_oak_log, minecraft:stripped_oak_wood, minecraft:stripped_spruce_log, minecraft:stripped_spruce_wood, minecraft:stripped_warped_hyphae, minecraft:stripped_warped_stem, minecraft:warped_hyphae, minecraft:warped_stem]"
+  ``tool-list``,"A list of tools that can trigger the TreeLopper mechanic.","[minecraft:iron_axe, minecraft:wooden_axe, minecraft:stone_axe, minecraft:diamond_axe, minecraft:golden_axe, minecraft:netherite_axe]"
+  ``max-size``,"The maximum amount of blocks the TreeLopper can break.","30"
+  ``allow-diagonals``,"Allow the TreeLopper to break blocks that are diagonal from each other.","false"
+  ``place-saplings``,"If enabled, TreeLopper will plant a sapling automatically when a tree is broken.","false"
+  ``break-leaves``,"If enabled, TreeLopper will break leaves connected to the tree.","true"
+  ``leaves-damage-axe``,"Whether the leaves will also damage the axe when single-damage-axe is false and break-leaves is true.","false"
+  ``single-damage-axe``,"Only remove one damage from the axe, regardless of the amount of blocks removed.","false"
 
 Permissions
 ===========
 
-+------------------------------------+--------------------------------------------------------+
-|  Permission Node                   |  Effect                                                |
-+====================================+========================================================+
-|  craftbook.mech.treelopper.use     |  Allows use of the TreeLopper.                         |
-+------------------------------------+--------------------------------------------------------+
-|  craftbook.mech.treelopper.sapling |  Allows the TreeLopper to plant saplings (if enabled). |
-+------------------------------------+--------------------------------------------------------+
++-------------------------------+--------------------------------------------------------+
+|  Permission Node              |  Effect                                                |
++===============================+========================================================+
+|  craftbook.treelopper.use     |  Allows use of the TreeLopper.                         |
++-------------------------------+--------------------------------------------------------+
+|  craftbook.treelopper.sapling |  Allows the TreeLopper to plant saplings (if enabled). |
++-------------------------------+--------------------------------------------------------+
