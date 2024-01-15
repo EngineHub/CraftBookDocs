@@ -7,6 +7,11 @@ The **Jack O Lantern** mechanic allows turning jack o lanterns on and off with r
 .. image:: /images/redstone_pumpkin/redstone_pumpkin.png
     :align: center
 
+Video Tutorial
+==============
+
+.. youtube:: aP88GfMMnog
+
 Configuration
 =============
 

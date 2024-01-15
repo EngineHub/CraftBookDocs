@@ -8,6 +8,11 @@ The **Redstone Glowstone** mechanic allows toggling glowstone on and off with re
     :align: center
     :height: 200px
 
+Video Tutorial
+==============
+
+.. youtube:: IwJJ6Sz4eGc
+
 Configuration
 =============
 
