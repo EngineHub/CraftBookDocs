@@ -22,6 +22,11 @@ Attack Passive
 
 The **Attack Passive** feature allows mobs to attack passive entities, like pigs or sheep.
 
+Flee from Weapons
+=================
+
+The **Flee from Weapons** feature causes animals to flee from players who approach them while holding a sword.
+
 Configuration
 =============
 
@@ -29,6 +34,8 @@ Configuration
   :header: Node, Comment, Default
   :widths: 15, 30, 10
 
-  ``enhanced-vision-enabled``,"The list of entities to enable the enhanced vision AI mechanic for.","[minecraft:zombie, minecraft:zombified_piglin]"
+  ``enhanced-vision-enabled``,"The list of entities to enable the enhanced vision AI mechanic for.","[minecraft:zombie, minecraft:drowned, minecraft:husk, minecraft:zombified_piglin]"
   ``critical-bow-enabled``,"The list of entities to enable the critical bow AI mechanic for.","[minecraft:skeleton]"
-  ``attack-passive-enabled``,"The list of entities to enable the attack passive AI mechanic for.","[minecraft:zombie]"
+  ``attack-passive-enabled``,"The list of entities to enable the attack passive AI mechanic for.","[minecraft:zombie, minecraft:drowned, minecraft:husk]"
+  ``flee-from-weapons``,"The list of entities to enable the flee from weapons AI mechanic for.","[minecraft:chicken, minecraft:pig, minecraft:cow, minecraft:mooshroom, minecraft:sheep]"
+  ``attack-passive-ignore-hostile-mounts``,"Whether hostile mobs will ignore passive entities that are mounted by a hostile entity.","true"
