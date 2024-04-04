@@ -111,6 +111,7 @@ Configuration
   ``enable-in-console``,"Allows variables to work when used in console commands","false"
   ``enable-in-player-commands``,"Allows variables to work when used in player commands","false"
   ``enable-in-player-chat``,"Allows variables to work when used in chat","false"
+  ``max-variable-length``,"The maximum length of a value in a variable","256"
 
 Permissions
 ===========

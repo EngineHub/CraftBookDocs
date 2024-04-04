@@ -123,15 +123,20 @@ Permissions
 Commands
 ========
 
+.. contents::
+    :local:
+
+.. note::
+
+    Arguments enclosed in ``[ ]`` are optional, those enclosed in ``< >`` are required.
+
 ToggleArea
 ~~~~~~~~~~
-    ``/area``,""
 .. raw:: html
 
     <span id="command-/area"></span>
 
-.. topic:: ``/area``(or ``/togglearea``)
-
+.. topic:: ``/area`` (or ``/togglearea``)
     :class: command-topic
 
 .. csv-table::

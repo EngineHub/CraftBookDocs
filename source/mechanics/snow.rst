@@ -98,7 +98,7 @@ Configuration
   ``dispersion``,"Enable realistic snow dispersion.","false"
   ``high-piling``,"Allow piling above the 1 block height.","false"
   ``max-pile-height``,"The maximum piling height of high piling snow.","3"
-  ``replaceable-blocks``,"A list of blocks that can be replaced by snow dispersion.","[minecraft:dead_bush, minecraft:grass, minecraft:fire, minecraft:fern]"
+  ``replaceable-blocks``,"A list of blocks that can be replaced by snow dispersion.","[minecraft:dead_bush, minecraft:short_grass, minecraft:fire, minecraft:fern]"
   ``dispersion-tick-speed``,"The speed at which dispersion actions are run","20"
   ``freeze-water``,"Should snow freeze water?","false"
   ``melt-in-sunlight``,"Enables snow to melt in sunlight.","false"

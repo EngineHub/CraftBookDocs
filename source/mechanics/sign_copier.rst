@@ -56,13 +56,11 @@ Commands
 
 SignCopier
 ~~~~~~~~~~
-    ``/signedit``,""
 .. raw:: html
 
     <span id="command-/signedit"></span>
 
 .. topic:: ``/signedit``(or ``/edsign``, ``/signcopy``)
-
     :class: command-topic
 
 .. csv-table::
