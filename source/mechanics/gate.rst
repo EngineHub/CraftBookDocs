@@ -67,7 +67,7 @@ Configuration
 
   ``allow-redstone``,"Allows the gate mechanic to be toggled via redstone.","true"
   ``max-columns``,"The maximum number of columns that a gate can toggle. -1 for no limit.","14"
-  ``blocks``,"The list of blocks that a gate can use.","[minecraft:birch_fence, minecraft:oak_fence, minecraft:jungle_fence, minecraft:nether_brick_fence, minecraft:acacia_fence, minecraft:cherry_fence, minecraft:dark_oak_fence, minecraft:spruce_fence, minecraft:crimson_fence, minecraft:mangrove_fence, minecraft:warped_fence, minecraft:bamboo_fence, minecraft:iron_bars, minecraft:glass_pane]"
+  ``blocks``,"The list of blocks that a gate can use.","[minecraft:acacia_fence, minecraft:bamboo_fence, minecraft:birch_fence, minecraft:cherry_fence, minecraft:crimson_fence, minecraft:dark_oak_fence, minecraft:glass_pane, minecraft:iron_bars, minecraft:jungle_fence, minecraft:mangrove_fence, minecraft:nether_brick_fence, minecraft:oak_fence, minecraft:spruce_fence, minecraft:warped_fence]"
   ``max-column-height``,"The max height of a column.","12"
   ``search-radius``,"The radius around the sign the gate checks for fences in. Note: This is doubled upwards.","3"
 
