@@ -27,6 +27,16 @@ Flee from Weapons
 
 The **Flee from Weapons** feature causes animals to flee from players who approach them while holding a sword.
 
+Size Variance
+=============
+
+The **Size Variance** feature causes animals to spawn with minor variance in their size, with configurable variability. This adds some natural variation into animal spawns, making them all look slightly different in terms of their size, rather than all looking the same.
+
+Breeding Variability
+--------------------
+
+If enabled in the configuration, animals can optionally inherit their size based on their parents' sizes. Their base size will be the average of the size of both parents, with configurable variability added on top to account for mutations. This allows for selectively breeding animals of certain sizes, to create very small or very large animals over time.
+
 Configuration
 =============
 
@@ -37,5 +47,9 @@ Configuration
   ``enhanced-vision-enabled``,"The list of entities to enable the enhanced vision AI mechanic for.","[minecraft:zombie, minecraft:drowned, minecraft:husk, minecraft:zombified_piglin]"
   ``critical-bow-enabled``,"The list of entities to enable the critical bow AI mechanic for.","[minecraft:skeleton]"
   ``attack-passive-enabled``,"The list of entities to enable the attack passive AI mechanic for.","[minecraft:zombie, minecraft:drowned, minecraft:husk]"
-  ``flee-from-weapons``,"The list of entities to enable the flee from weapons AI mechanic for.","[minecraft:chicken, minecraft:pig, minecraft:cow, minecraft:mooshroom, minecraft:sheep]"
   ``attack-passive-ignore-hostile-mounts``,"Whether hostile mobs will ignore passive entities that are mounted by a hostile entity.","true"
+  ``flee-from-weapons``,"The list of entities to enable the flee from weapons AI mechanic for.","[minecraft:chicken, minecraft:pig, minecraft:cow, minecraft:mooshroom, minecraft:sheep]"
+  ``size-variance``,"The list of entities to enable the size variance AI mechanic for.","[minecraft:chicken, minecraft:pig, minecraft:cow, minecraft:mooshroom, minecraft:sheep]"
+  ``size-variance-allow-breeding``,"Whether size variance also applies when breeding entities together.","true"
+  ``size-variance-variability``,"The possible variability from default size to apply to the entities.","0.2"
+  ``size-variance-breeding-variability``,"The possible variability from the bred size to apply while breeding entities.","0.1"
