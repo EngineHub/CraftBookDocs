@@ -15,6 +15,7 @@ Hidden Switches consist of three parts:
 
 .. image:: /images/hidden_switch/hidden_switch.png
     :align: center
+    :height: 300px
 
 Any Face
 --------
