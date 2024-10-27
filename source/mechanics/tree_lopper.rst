@@ -27,6 +27,11 @@ By default, this mechanic will cause all broken logs to apply damage to the axe.
 
 To only apply a single damage count to the axe regardless of the number of blocks broken, enable ``single-damage-axe`` in the config.
 
+Sneaking State
+--------------
+
+You can optionally make the TreeLopper only work when sneaking, or only work when not sneaking, by setting the ``allow-sneaking`` option to ``true`` or ``false`` respectively. By default, the sneaking state of the player is ignored and it will work regardless.
+
 Configuration
 =============
 
@@ -42,6 +47,7 @@ Configuration
   ``break-leaves``,"If enabled, TreeLopper will break leaves connected to the tree.","true"
   ``leaves-damage-axe``,"Whether the leaves will also damage the axe when single-damage-axe is false and break-leaves is true.","false"
   ``single-damage-axe``,"Only remove one damage from the axe, regardless of the amount of blocks removed.","false"
+  ``allow-sneaking``,"Sets how the player must be sneaking in order to use the Tree Lopper.","none"
 
 Permissions
 ===========
