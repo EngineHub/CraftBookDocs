@@ -4,10 +4,6 @@ Chairs
 
 The **Chairs** mechanic allows players to sit on blocks, such as stairs.
 
-.. note::
-
-    Due to Spigot limitations, the Chairs mechanic requires `ProtocolLib <https://www.spigotmc.org/resources/protocollib.1997/>`_ to be installed.
-
 Construction
 ============
 
