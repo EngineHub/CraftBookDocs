@@ -4,11 +4,6 @@ Light Switch
 
 The **Light Switch** mechanic toggle nearby torches between regular torches and redstone torches, in effect changing the amount of the light in the area.
 
-Video Tutorial
-==============
-
-.. youtube:: G-fBpGHGKnU
-
 Construction
 ============
 Light switches consist of two parts:

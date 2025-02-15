@@ -15,6 +15,11 @@ The message can be configured to show in either the chat, or the action bar. The
 .. image:: /images/ammeter/ammeter.png
     :align: center
 
+Video Tutorial
+==============
+
+.. youtube:: G-fBpGHGKnU
+
 Configuration
 =============
 

@@ -21,7 +21,7 @@ This mechanic can be used in a fair few situations, such as:
 Video Tutorial
 ==============
 
-.. youtube:: NLcovo7arKY
+.. youtube:: QKDwL7Z9CGc
 
 
 Configuration
