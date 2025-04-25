@@ -37,11 +37,22 @@ extensions = [
 
 # Inject ReadTheDocs stuff
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+if "html_context" not in globals():
+    html_context = {}
+
 # Tell Jinja2 templates the build is running on Read the Docs
 if os.environ.get("READTHEDOCS", "") == "True":
-    if "html_context" not in globals():
-        html_context = {}
     html_context["READTHEDOCS"] = True
+
+html_context = {
+    **html_context,
+    "source_type": "github",
+    "source_user": "EngineHub", # Username
+    "source_repo": "CraftBookDocs", # Repo name
+    "source_version": "3.x", # Version
+    "source_docs_path": "/source/", # Path in the checkout to the docs roo
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
