@@ -12,7 +12,9 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
+import sys
+import os
+import datetime
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -34,6 +36,14 @@ extensions = [
     'enginehub.sphinx_youtube',
 ]
 
+# Inject ReadTheDocs stuff
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -48,7 +58,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CraftBook'
-copyright = u'2010-2021, CraftBook Team'
+copyright = u'2010-' + str(datetime.date.today().year) + u', CraftBook Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -64,7 +74,7 @@ release = '5.0.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -94,35 +104,58 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+highlight_language = 'text'
+
 # A list of ignored prefixes for module index sorting.
 # modindex_common_prefix = []
 
 # If true, keep warnings as "system message" paragraphs in the built documents.
 # keep_warnings = False
 
+autosectionlabel_prefix_document = True
 
 # -- Options for HTML output ----------------------------------------------
 
-def detect_html_theme():
-    join = os.path.join
-    theme_dir = "_themes"
-    conf_dir = os.path.dirname(os.path.realpath(__file__))
-    themes_dir = join(conf_dir, theme_dir)
-    if os.path.exists(join(themes_dir, "ehsphinx", "ehsphinx", "theme.conf")):
-        return [theme_dir + "/ehsphinx"], "ehsphinx"
-    elif os.path.exists(join(themes_dir, "ehsphinx", "theme.conf")):
-        return [theme_dir], "ehsphinx"
-    else:
-        return [theme_dir], "default"
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme_path, html_theme = detect_html_theme()
+html_theme = 'shibuya'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {}
+html_theme_options = {
+    "discord_url": "https://discord.gg/enginehub",
+    "github_url": "https://github.com/EngineHub/CraftBook",
+    "globaltoc_expand_depth": 2,
+    "nav_links_align": "left",
+    "nav_links": [
+        {
+            "title": "Developed by EngineHub",
+            "url": "https://enginehub.org",
+            "summary": "The EngineHub.org website",
+            "external": True,
+        },
+        {
+            "title": "<iconify-icon icon='simple-icons:githubsponsors' style='color: #db61a2;'></iconify-icon> Sponsored by users like you!",
+            "url": "https://github.com/sponsors/EngineHub?o=esb",
+            "summary": "Our GitHub sponsors page",
+            "external": True,
+        },
+    ],
+}
+
+html_sidebars = {
+  "**": [
+    "sidebars/localtoc.html",
+    "sidebars/edit-this-page.html",
+  ]
+}
+
+templates_path = ["_templates"]
+html_static_path = ['_static']
+html_css_files = [
+  'custom.css',
+]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -296,7 +329,7 @@ texinfo_documents = [
 epub_title = u'CraftBook Documentation'
 epub_author = u'CraftBook Team'
 epub_publisher = u'CraftBook Team'
-epub_copyright = u'2021, CraftBook Team'
+epub_copyright = str(datetime.date.today().year) + u', CraftBook Team'
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'CraftBook Documentation'
