@@ -50,6 +50,7 @@ Configuration
   ``redstone-player-search-radius``,"The radius that elevators will look for players in when triggered by redstone.","3"
   ``enable-buttons``,"Allow elevators to be used by a button on the other side of the block.","true"
   ``allow-looping``,"Allows elevators to loop the world height. The heighest lift up will go to the next lift on the bottom of the world and vice versa.","false"
+  ``use-action-bar``,"Whether to use the action bar or the player's chat for floor messages.","true"
 
 Permissions
 ===========
